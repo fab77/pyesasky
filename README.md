@@ -2,7 +2,7 @@
 
 ESASky Jupyter widget
 
-Installation
+# Installation
 
 For a development installation (requires npm),
 
@@ -32,3 +32,12 @@ esasky = ESASkyWidget()
 esasky
 
 esasky.goTo('M1')
+
+
+# uninstall
+
+$ cd pyesasky
+$ pip uninstall pyesasky
+$ python setup.py clean
+$ npm run clean
+$ jupyter nbextension uninstall pyesasky
