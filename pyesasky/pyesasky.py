@@ -1,6 +1,5 @@
 import ipywidgets as widgets
-from traitlets import Unicode, default
-#from traitlets import HasTraits, observe, validate, TraitError
+from traitlets import Unicode, default, Float
 from docutils.nodes import target
 from statsmodels.tsa.statespace.tests.test_mlemodel import kwargs
 
@@ -28,6 +27,11 @@ class ESASkyWidget(widgets.DOMWidget):
     def _default_layout(self):
         return widgets.Layout(height='400px', align_self='stretch')
 
-    def goTo(self, target):
-        self._target = target 
+    def goToTargetName(self, targetname):
+        self._targetname = targetname 
         
+    def setFoV(self, fovDeg):
+        self._fovDeg = fovDeg
+        
+    def setHiPSColorPalette(self, colorPalette):
+        self._colorPalette = colorPalette    
