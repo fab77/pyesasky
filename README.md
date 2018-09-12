@@ -19,11 +19,16 @@ $ jupyter nbextension install --py --sys-prefix pyesasky
 $ jupyter nbextension enable --py --sys-prefix pyesasky
 
 
+
 Once installed open Jupyter notebook
 
 $ jupyter notebook
 
+
 from pyesasky.pyesasky import ESASkyWidget
+
 esasky = ESASkyWidget()
+
 esasky
+
 esasky.goTo('M1')
