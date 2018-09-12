@@ -6,7 +6,7 @@ Installation
 
 For a development installation (requires npm),
 
-$ git clone https://github.com//pyesasky.git
+$ git clone https://github.com/fab77/pyesasky.git
 
 $ cd pyesasky
 
