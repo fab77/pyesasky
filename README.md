@@ -45,3 +45,7 @@ $ python setup.py clean
 $ npm run clean
 
 $ jupyter nbextension uninstall pyesasky
+
+In case the uninstall will complain about a missing 'rimraf' command, try that first and then rerun the uninstall procedure:
+
+$ npm install webpack-dev-server rimraf webpack -g
