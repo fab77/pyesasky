@@ -37,7 +37,11 @@ esasky.goTo('M1')
 # uninstall
 
 $ cd pyesasky
+
 $ pip uninstall pyesasky
+
 $ python setup.py clean
+
 $ npm run clean
+
 $ jupyter nbextension uninstall pyesasky
