@@ -24,6 +24,7 @@ Once installed open Jupyter notebook
 
 $ jupyter notebook
 
+## first of all instantiate the ESASkyWidget
 
 from pyesasky.pyesasky import ESASkyWidget
 
