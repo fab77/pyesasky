@@ -48,14 +48,33 @@ data_files_spec = [
     ('share/jupyter/nbextensions/pyesasky', nb_path, '*.html'),
     
     ('share/jupyter/nbextensions/pyesasky/js', pjoin(nb_path, 'js'), '*.js*'),
+    
+    ('share/jupyter/nbextensions/pyesasky/js/jquery', pjoin(nb_path, 'js', 'jquery'), '*.js*'),
+    ('share/jupyter/nbextensions/pyesasky/js/highcharts', pjoin(nb_path, 'js', 'highcharts'), '*.js*'),
+    ('share/jupyter/nbextensions/pyesasky/js/resizeEvents', pjoin(nb_path, 'js', 'resizeEvents'), '*.js*'),
+    ('share/jupyter/nbextensions/pyesasky/js/colorpicker', pjoin(nb_path, 'js', 'colorpicker'), '*.js*'),
+    ('share/jupyter/nbextensions/pyesasky/js/sliderSelector', pjoin(nb_path, 'js', 'sliderSelector'), '*.js*'),
+    ('share/jupyter/nbextensions/pyesasky/js/datepicker', pjoin(nb_path, 'js', 'datepicker'), '*.js*'),
+    ('share/jupyter/nbextensions/pyesasky/js/api', pjoin(nb_path, 'js', 'api'), '*.js*'),
+    ('share/jupyter/nbextensions/pyesasky/js/esaskyweb_V2_3_beta_B10', pjoin(nb_path, 'js', 'esaskyweb_V2_3_beta_B10'), '*.js*'),
+    
+    ('share/jupyter/nbextensions/pyesasky/images', pjoin(nb_path, 'images'), '*.gif*'),
+    ('share/jupyter/nbextensions/pyesasky/images', pjoin(nb_path, 'images'), '*.png*'),
+    ('share/jupyter/nbextensions/pyesasky/images', pjoin(nb_path, 'images'), '*.ico*'),
+    
     ('share/jupyter/nbextensions/pyesasky/internationalization', pjoin(nb_path, 'internationalization'), '*.xml*'),
+    
+    ('share/jupyter/nbextensions/pyesasky/css', pjoin(nb_path, 'css'), '*.css*'),
+    ('share/jupyter/nbextensions/pyesasky/js/esaskyweb_V2_3_beta_B10/gwt/aladinlite', pjoin(nb_path, 'js', 'esaskyweb_V2_3_beta_B10','gwt','aladinlite'), '*.css*'),
+    ('share/jupyter/nbextensions/pyesasky/js/esaskyweb_V2_3_beta_B10/gwt/dark', pjoin(nb_path, 'js', 'esaskyweb_V2_3_beta_B10','gwt','dark'), '*.css*'),
+    ('share/jupyter/nbextensions/pyesasky/js/esaskyweb_V2_3_beta_B10/gwt/dark/images', pjoin(nb_path, 'js', 'esaskyweb_V2_3_beta_B10','gwt','dark','images'), '*.gif*'),
+    ('share/jupyter/nbextensions/pyesasky/js/esaskyweb_V2_3_beta_B10/gwt/dark/images', pjoin(nb_path, 'js', 'esaskyweb_V2_3_beta_B10','gwt','dark','images'), '*.png*'),
+    ('share/jupyter/nbextensions/pyesasky/js/esaskyweb_V2_3_beta_B10/gwt/dark/images', pjoin(nb_path, 'js', 'esaskyweb_V2_3_beta_B10','gwt','dark','images'), '*.jpg*'),
     
     
     ('share/jupyter/lab/extensions', lab_path, '*.tgz'),
-    ('etc/jupyter/nbconfig/notebook.d' ,
-     os.path.join(HERE, 'jupyter.d', 'notebook.d'), 'pyesaky.json'),
-    ('etc/jupyter/jupyter_notebook_config.d' ,
-     os.path.join(HERE, 'jupyter.d', 'jupyter_notebook_config.d'), 'pyesaky.json')]
+    ('etc/jupyter/nbconfig/notebook.d' , os.path.join(HERE, 'jupyter.d', 'notebook.d'), 'pyesaky.json'),
+    ('etc/jupyter/jupyter_notebook_config.d' , os.path.join(HERE, 'jupyter.d', 'jupyter_notebook_config.d'), 'pyesaky.json')]
 
 
 cmdclass = create_cmdclass('jsdeps', package_data_spec=package_data_spec,

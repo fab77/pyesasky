@@ -15,17 +15,25 @@ class ESASkyWidget(widgets.DOMWidget):
     _model_module = Unicode('pyesasky').tag(sync=True)
     _view_module_version = Unicode('0.1.0').tag(sync=True)
     _model_module_version = Unicode('0.1.0').tag(sync=True)
-    _test_msg = Unicode('default text').tag(sync=True)
-    _target = Unicode('default text').tag(sync=True)
     
+    _targetname = Unicode('Mkr432').tag(sync=True)
+    _fovDeg = Float(60).tag(sync=True)
+    _colorPalette = Unicode('NATIVE').tag(sync=True)
     
- #   def __init__(self, **kwargs):
- #       super(ESASkyWidget, self).__init__()
- #       self.observe(self._on_trait_change, type='change')
     
     @default('layout')
     def _default_layout(self):
         return widgets.Layout(height='400px', align_self='stretch')
+
+    def setGoToRADec(self, ra, dec):
+        
+        content = dict(
+                       event='goToRADec',
+                       ra=ra,
+                       dec=dec
+                )
+        
+        self.send(content)
 
     def goToTargetName(self, targetname):
         self._targetname = targetname 
@@ -34,4 +42,5 @@ class ESASkyWidget(widgets.DOMWidget):
         self._fovDeg = fovDeg
         
     def setHiPSColorPalette(self, colorPalette):
-        self._colorPalette = colorPalette    
+        self._colorPalette = colorPalette
+        
