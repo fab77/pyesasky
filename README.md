@@ -33,20 +33,20 @@ esasky
 
 
 
-# go to a target by name
+## go to a target by name
 esasky.goToTargetName('M51')
 
-# go to RA and Dec
+## go to RA and Dec
 esasky.setGoToRADec('10 0 2', '+10 1 23')
 esasky.setGoToRADec('45', '+81.7')
 
-# set the FoV in decimal degrees
+## set the FoV in decimal degrees
 esasky.setFoV(1)
 
-# use the Planck color palette for the current HiPS
+## use the Planck color palette for the current HiPS
 esasky.setHiPSColorPalette('PLANCK')
 
-# use the Native color palette for the current HiPS
+## use the Native color palette for the current HiPS
 esasky.setHiPSColorPalette('NATIVE')
 
 
