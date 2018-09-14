@@ -11,6 +11,7 @@ class Catalogue:
     _sources = []
     
     
+    
     def __init__(self, catalogueName, cooframe, color, lineWidth):
         _catalogueName = catalogueName
         _cooframe = cooframe
