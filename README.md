@@ -52,7 +52,7 @@ esasky.setHiPSColorPalette('NATIVE')
 
 
 
-# uninstall
+# Uninstall
 
 $ cd pyesasky
 
