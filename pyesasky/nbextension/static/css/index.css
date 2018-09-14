@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+ 
+html, body {
+    height: 100%;
+    background-color: #000 !important;
+}
+
+h2 {
+    font-family: NotesEsaBold, "Trebuchet MS", Tahoma, Arial;
+    font-size: 18px;
+    line-height: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #3277a6;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: default
+}
+
+#loading {
+    text-align: center;
+    font-size: small !important;
+}
+
+#reloadMessage {
+    text-align: center;
+    font-size: medium !important;
+    margin-top: 10px;
+}
+
+#esa-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#esa-logo-image{
+	display: block;
+	margin: auto;
+}
