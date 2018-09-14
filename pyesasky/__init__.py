@@ -1,5 +1,7 @@
-from ._version import version_info, __version__
-from .jupyter_server import load_jupyter_server_extension
+from ._version import version_info, __version__ # noqa
+from .catalogue import Catalogue # noqa
+from .jupyter_server import load_jupyter_server_extension # noqa
+
 
 # Jupyter Extension points
 def _jupyter_nbextension_paths():

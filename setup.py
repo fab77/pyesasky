@@ -12,12 +12,6 @@ from setupbase import (
 
 from setuptools import setup
 
-#from distutils import log
-#log.set_verbosity(log.DEBUG)
-#log.info('setup.py entered')
-#log.info('$PATH=%s' % os.environ['PATH'])
-
-
 name = 'pyesasky'
 
 # Ensure a valid python version
@@ -94,7 +88,7 @@ setup_args = dict(
     packages                = find_packages(),
     author                  = 'Fabrizio Giordano from ESDC (ESA/ESAC)',
     author_email            = 'fabriziogiordano77@gmail.com',
-    url                     = 'TBD',
+    url                     = 'https://github.com/fab77/pyesasky',
     license                 = 'TBD',
     platforms               = 'Linux, Mac OS X, Windows',
     keywords                = ['ipython','jupyter','widgets'],

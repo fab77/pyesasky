@@ -2,11 +2,12 @@ import ipywidgets as widgets
 from traitlets import Unicode, default, Float
 from docutils.nodes import target
 from statsmodels.tsa.statespace.tests.test_mlemodel import kwargs
-
+from .catalogue import Catalogue
 
 __all__ = ['ESASkyWidget']
 
-#class ESASkyWidget(HasTraits, widgets.DOMWidget):
+
+    
 class ESASkyWidget(widgets.DOMWidget):
 
     _view_name = Unicode('ESASkyJSView').tag(sync=True)
@@ -26,13 +27,11 @@ class ESASkyWidget(widgets.DOMWidget):
         return widgets.Layout(height='400px', align_self='stretch')
 
     def setGoToRADec(self, ra, dec):
-        
         content = dict(
                        event='goToRADec',
                        ra=ra,
                        dec=dec
                 )
-        
         self.send(content)
 
     def goToTargetName(self, targetname):
@@ -43,4 +42,12 @@ class ESASkyWidget(widgets.DOMWidget):
         
     def setHiPSColorPalette(self, colorPalette):
         self._colorPalette = colorPalette
+        
+    def overlayCatalogue(self, catalogue):
+        content = dict(
+                       event='overlayCatalogue',
+                       content=catalogue.toDict()
+                       )
+        self.send(content)
+        
         
