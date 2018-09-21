@@ -10,6 +10,8 @@ $ git clone https://github.com/fab77/pyesasky.git
 
 $ cd pyesasky
 
+$ npm install
+
 $ python setup.py install
 
 $ pip install .
@@ -19,12 +21,15 @@ $ jupyter nbextension install --py --sys-prefix pyesasky
 $ jupyter nbextension enable --py --sys-prefix pyesasky
 
 
+or simply run 
+
+$ sh reinstall.sh
+
 
 Once installed open Jupyter notebook
 
 $ jupyter notebook
 
-## first of all instantiate the ESASkyWidget
 
 from pyesasky.pyesasky import ESASkyWidget
 
@@ -50,19 +55,6 @@ esasky.setHiPSColorPalette('PLANCK')
 ## use the Native color palette for the current HiPS
 esasky.setHiPSColorPalette('NATIVE')
 
-## User Catalogue overlay
-
-from pyesasky.pyesasky import Catalogue
-
-catalogue = Catalogue('test catalogue', 'equatorial', '#ee2345', 10)
-
-catalogue.addSource('A', '105.69239256', '-8.45235969')
-
-catalogue.addSource('B', '105.70779763', '-8.31350997')
-
-esasky.overlayCatalogue(catalogue)
-
-esasky.setGoToRADec('105.69239256', '-8.45235969')
 
 
 
