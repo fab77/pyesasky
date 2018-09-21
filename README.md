@@ -10,6 +10,8 @@ $ git clone https://github.com/fab77/pyesasky.git
 
 $ cd pyesasky
 
+$ npm install
+
 $ python setup.py install
 
 $ pip install .
@@ -18,6 +20,10 @@ $ jupyter nbextension install --py --sys-prefix pyesasky
 
 $ jupyter nbextension enable --py --sys-prefix pyesasky
 
+
+or simply run 
+
+$ sh reinstall.sh
 
 
 Once installed open Jupyter notebook

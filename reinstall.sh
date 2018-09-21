@@ -15,6 +15,7 @@ sleep 2
 # install
 
 echo "installing"
+npm install
 python setup.py install
 pip install .
 jupyter nbextension install --py --sys-prefix pyesasky
