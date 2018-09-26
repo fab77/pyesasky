@@ -2,6 +2,8 @@
 
 ESASky Jupyter widget
 
+
+
 # Installation
 
 For a development installation (requires npm),
@@ -23,7 +25,13 @@ $ jupyter nbextension enable --py --sys-prefix pyesasky
 
 or simply run 
 
+
 $ sh reinstall.sh
+
+
+
+
+# Run pyesasky
 
 
 Once installed open Jupyter notebook
