@@ -16,6 +16,7 @@ sleep 2
 
 echo "installing"
 npm install
+npm i @jupyterlab/coreutils
 python setup.py install
 pip install .
 jupyter nbextension install --py --sys-prefix pyesasky

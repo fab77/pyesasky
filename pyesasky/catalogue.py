@@ -19,8 +19,14 @@ class Catalogue:
         _lineWidth = lineWidth
         
     def addSource(self, name, ra, dec):
+#        currSource = {}
+#        currSource['data'] = {}
+#        currSource['name'] = name.decode('utf-8')
+#        currSource['ra'] = ra
+#        currSource['dec'] = dec
+#        currSource['data']['sourceType'] = 'Catalogue'
         currSource = dict(
-                          name=name,
+                          name=name.decode('utf-8'),
                           ra=ra,
                           dec=dec
                           )
