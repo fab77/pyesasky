@@ -1,6 +1,9 @@
 # pyesasky
 
-ESASky Jupyter widget
+ESASky Jupyter widget - some Jupyter Notebook sample files in jupyter_samples folder
+
+- pyESASky-basic.ipynb
+- pyESASky-astroquery.ipynb (integration and overlay of Gaia DR2 data)
 
 
 
