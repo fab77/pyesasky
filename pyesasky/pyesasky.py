@@ -53,7 +53,7 @@ class ESASkyWidget(widgets.DOMWidget):
         self.send(content)
     
     
-    def overlayCatalogueFromAstropyTable(self, catalogueName, table, raColName, decColName, mainIdColName):
+    def overlayCatalogueFromAstropyTable(self, catalogueName, cooFrame, color, table, raColName, decColName, mainIdColName):
         
         raColNameUserInput = True
         decColNameUserInput = True
@@ -90,22 +90,15 @@ class ESASkyWidget(widgets.DOMWidget):
                     elif ('meta.main' in metaType and not mainIdColNameUserInput):
                         mainIdColName = colName 
                 i += 1
-                
-        print('#############')
-        print('raColName '+raColName)
-        print('decColName '+decColName)
-        print('mainIdColName '+mainIdColName)
         
-        
-        
-        gaiaCatalogue = Catalogue(catalogueName, 'equatorial', '#aa2345', 10)
+        userCatalogue = Catalogue(catalogueName, cooFrame, color, 10)
         
         j = 0
         while j < len(table):
-            gaiaCatalogue.addSource(table[j][mainIdColName], table[j][raColName], table[j][decColName])
+            userCatalogue.addSource((table[j][mainIdColName]).decode('utf-8'), table[j][raColName], table[j][decColName])
             j += 1
         
-        self.overlayCatalogue(gaiaCatalogue)
+        self.overlayCatalogue(userCatalogue)
 
         
         
