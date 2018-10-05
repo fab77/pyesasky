@@ -28,7 +28,7 @@ class Catalogue:
     def addSource(self, name, ra, dec):
         currSource = {}
         currSource['data'] = {}
-        currSource['name'] = str(name).decode('utf-8')
+        currSource['name'] = name
         currSource['ra'] = ra
         currSource['dec'] = dec
         currSource['data']['sourceType'] = 'Catalogue'
