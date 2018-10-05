@@ -3,6 +3,7 @@ from traitlets import Unicode, default, Float
 #from docutils.nodes import target
 #from statsmodels.tsa.statespace.tests.test_mlemodel import kwargs
 from .catalogue import Catalogue
+from .HiPS import HiPS
 
 
 __all__ = ['ESASkyWidget']
@@ -26,6 +27,7 @@ class ESASkyWidget(widgets.DOMWidget):
     @default('layout')
     def _default_layout(self):
         return widgets.Layout(height='400px', align_self='stretch')
+
 
     def setGoToRADec(self, ra, dec):
         content = dict(
@@ -51,7 +53,15 @@ class ESASkyWidget(widgets.DOMWidget):
                        content=catalogue.toDict()
                        )
         self.send(content)
-    
+        
+        
+    def setHiPS(self, hipsName, hipsURL, cooFrame, maxNorder, imgFormat):
+        userHiPS = HiPS(hipsName, hipsURL, cooFrame, maxNorder, imgFormat)
+        content = dict(
+                       event='changeHiPS',
+                       content=userHiPS.toDict()
+                       )
+        self.send(content)
     
     def overlayCatalogueFromAstropyTable(self, catalogueName, cooFrame, color, table, raColName, decColName, mainIdColName):
         
@@ -83,11 +93,11 @@ class ESASkyWidget(widgets.DOMWidget):
                     print('-----------')
                     print(colName)
                     print(metaType)
-                    if ('pos.eq.ra' in metaType and not raColNameUserInput):
+                    if ('pos.eq.ra;meta.main' in metaType and not raColNameUserInput):
                         raColName = colName
-                    elif ('pos.eq.dec' in metaType and not decColNameUserInput):
+                    elif ('pos.eq.dec;meta.main' in metaType and not decColNameUserInput):
                         decColName = colName
-                    elif ('meta.main' in metaType and not mainIdColNameUserInput):
+                    elif ('meta.id;meta.main' in metaType and not mainIdColNameUserInput):
                         mainIdColName = colName 
                 i += 1
         
@@ -95,6 +105,7 @@ class ESASkyWidget(widgets.DOMWidget):
         
         j = 0
         while j < len(table):
+            #print ('name '+ table[j][mainIdColName] +' ra '+table[j][raColName] +' dec '+ table[j][decColName])
             userCatalogue.addSource((table[j][mainIdColName]).decode('utf-8'), table[j][raColName], table[j][decColName])
             j += 1
         
