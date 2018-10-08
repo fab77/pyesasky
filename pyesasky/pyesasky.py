@@ -114,7 +114,8 @@ class ESASkyWidget(widgets.DOMWidget):
             elif type(nameValue) != 'str':
                 nameValue = str(nameValue)
             #print ('name '+ table[j][mainIdColName] +' ra '+table[j][raColName] +' dec '+ table[j][decColName])
-            userCatalogue.addSource((table[j][mainIdColName]).decode('utf-8'), table[j][raColName], table[j][decColName])
+            #userCatalogue.addSource((table[j][mainIdColName]).decode('utf-8'), table[j][raColName], table[j][decColName])
+            userCatalogue.addSource(nameValue, raValue, decValue)
             j += 1
         
         self.overlayCatalogue(userCatalogue)
