@@ -105,6 +105,14 @@ class ESASkyWidget(widgets.DOMWidget):
         
         j = 0
         while j < len(table):
+            raValue = table[j][raColName]
+            decValue = table[j][decColName]
+            
+            nameValue = table[j][mainIdColName]
+            if type(nameValue) == 'byte':
+                nameValue = nameValue.decode('utf-8')
+            elif type(nameValue) != 'str':
+                nameValue = str(nameValue)
             #print ('name '+ table[j][mainIdColName] +' ra '+table[j][raColName] +' dec '+ table[j][decColName])
             userCatalogue.addSource((table[j][mainIdColName]).decode('utf-8'), table[j][raColName], table[j][decColName])
             j += 1
