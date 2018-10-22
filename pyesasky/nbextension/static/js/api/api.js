@@ -33,14 +33,32 @@ function ESASkyAPIConstructor() {
 	};
 
 	this.overlayCatalogue = function(catalogueJSON){
-		console.log(catalogueJSON);
+		//alert("[api.js] Inside api.js");
+		//alert(catalogueJSON);
 		this.overlayCatalogueAPI(catalogueJSON);
 	};
 
-//	this.addEventListener("sourceSelected",function(e) {
-//                console.log(e.detail);
-//    });
+	this.clearCatalogue = function(catalogueName){
+		this.clearCatalogueAPI(catalogueName);
+	};
+	
+	this.removeCatalogue = function(catalogueName){
+		this.removeCatalogueAPI(catalogueName);
+	};
+	
+	this.overlayFootprints = function(footprintsSetJSON){
+		//alert("[api.js] overlayFootprints");
+		//alert(footprintsSetJSON);
+		this.overlayFootprintsAPI(footprintsSetJSON);
+	};
 
+	this.clearFootprintsOverlay = function(overlayName){
+		this.clearFootprintsOverlayAPI(overlayName);
+	};
+
+	this.deleteFootprintsOverlay = function(overlayName){
+		this.deleteFootprintsOverlayAPI(overlayName);
+	};
 }
 
 function JavaApiReady() {

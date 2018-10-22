@@ -25,12 +25,24 @@ class Catalogue:
         
         self._lineWidth = lineWidth
         
+    # def addSource(self, name, ra, dec, metadata, columnNames, columTypes):
+    #     currSource = {}
+    #     currSource['name'] = name
+    #     currSource['ra'] = ra
+    #     currSource['dec'] = dec
+    #     currSource['data'] = {}
+    #     currSource['data']['sourceType'] = 'Catalogue'
+    #     currSource['data']['columnNames'] = {}
+    #     currSource['data']['columnTypes'] = {}
+    #     currSource['metadata'] = {}
+    #     self._sources.append(currSource)
+
     def addSource(self, name, ra, dec):
         currSource = {}
-        currSource['data'] = {}
         currSource['name'] = name
         currSource['ra'] = ra
         currSource['dec'] = dec
+        currSource['data'] = {}
         currSource['data']['sourceType'] = 'Catalogue'
         self._sources.append(currSource)
         
