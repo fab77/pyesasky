@@ -3,7 +3,7 @@ var __gwtModuleFunction = $wnd.esaskyweb_V2_3_B9;
 var $sendStats = __gwtModuleFunction.__sendStats;
 $sendStats('moduleStartup', 'moduleEvalStart');
 var $gwt_version = "2.7.0";
-var $strongName = 'E676FA68F97924E2C55753048410C8B5';
+var $strongName = '5CF879FCDE049308866F50559C26BD93';
 var $gwt = {};
 var $doc = $wnd.document;
 var $moduleName, $moduleBase;
@@ -623,7 +623,7 @@ function $clinit_BaseDateJsonDeserializer$DateJsonDeserializer(){
 function BaseDateJsonDeserializer$DateJsonDeserializer(){
 }
 
-defineClass(1607, 1845, {}, BaseDateJsonDeserializer$DateJsonDeserializer);
+defineClass(1605, 1845, {}, BaseDateJsonDeserializer$DateJsonDeserializer);
 _.deserializeNumber = function deserializeNumber(millis, params){
   return new Date_3(millis);
 }
@@ -633,7 +633,7 @@ _.deserializeString = function deserializeString(date, params){
 }
 ;
 var INSTANCE;
-var Lcom_github_nmorel_gwtjackson_client_deser_BaseDateJsonDeserializer$DateJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser', 'BaseDateJsonDeserializer/DateJsonDeserializer', 1607);
+var Lcom_github_nmorel_gwtjackson_client_deser_BaseDateJsonDeserializer$DateJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser', 'BaseDateJsonDeserializer/DateJsonDeserializer', 1605);
 function $clinit_BaseDateJsonDeserializer$SqlDateJsonDeserializer(){
   $clinit_BaseDateJsonDeserializer$SqlDateJsonDeserializer = emptyMethod;
   $clinit_BaseDateJsonDeserializer();
@@ -643,7 +643,7 @@ function $clinit_BaseDateJsonDeserializer$SqlDateJsonDeserializer(){
 function BaseDateJsonDeserializer$SqlDateJsonDeserializer(){
 }
 
-defineClass(1608, 1845, {}, BaseDateJsonDeserializer$SqlDateJsonDeserializer);
+defineClass(1606, 1845, {}, BaseDateJsonDeserializer$SqlDateJsonDeserializer);
 _.deserializeNumber = function deserializeNumber_0(millis, params){
   return new Date_4(millis);
 }
@@ -654,7 +654,7 @@ _.deserializeString = function deserializeString_0(date, params){
 }
 ;
 var INSTANCE_0;
-var Lcom_github_nmorel_gwtjackson_client_deser_BaseDateJsonDeserializer$SqlDateJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser', 'BaseDateJsonDeserializer/SqlDateJsonDeserializer', 1608);
+var Lcom_github_nmorel_gwtjackson_client_deser_BaseDateJsonDeserializer$SqlDateJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser', 'BaseDateJsonDeserializer/SqlDateJsonDeserializer', 1606);
 function $clinit_BaseDateJsonDeserializer$SqlTimeJsonDeserializer(){
   $clinit_BaseDateJsonDeserializer$SqlTimeJsonDeserializer = emptyMethod;
   $clinit_BaseDateJsonDeserializer();
@@ -664,7 +664,7 @@ function $clinit_BaseDateJsonDeserializer$SqlTimeJsonDeserializer(){
 function BaseDateJsonDeserializer$SqlTimeJsonDeserializer(){
 }
 
-defineClass(1609, 1845, {}, BaseDateJsonDeserializer$SqlTimeJsonDeserializer);
+defineClass(1607, 1845, {}, BaseDateJsonDeserializer$SqlTimeJsonDeserializer);
 _.deserializeNumber = function deserializeNumber_1(millis, params){
   return new Time_0(millis);
 }
@@ -674,7 +674,7 @@ _.deserializeString = function deserializeString_1(date, params){
 }
 ;
 var INSTANCE_1;
-var Lcom_github_nmorel_gwtjackson_client_deser_BaseDateJsonDeserializer$SqlTimeJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser', 'BaseDateJsonDeserializer/SqlTimeJsonDeserializer', 1609);
+var Lcom_github_nmorel_gwtjackson_client_deser_BaseDateJsonDeserializer$SqlTimeJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser', 'BaseDateJsonDeserializer/SqlTimeJsonDeserializer', 1607);
 function $clinit_BaseDateJsonDeserializer$SqlTimestampJsonDeserializer(){
   $clinit_BaseDateJsonDeserializer$SqlTimestampJsonDeserializer = emptyMethod;
   $clinit_BaseDateJsonDeserializer();
@@ -684,7 +684,7 @@ function $clinit_BaseDateJsonDeserializer$SqlTimestampJsonDeserializer(){
 function BaseDateJsonDeserializer$SqlTimestampJsonDeserializer(){
 }
 
-defineClass(1610, 1845, {}, BaseDateJsonDeserializer$SqlTimestampJsonDeserializer);
+defineClass(1608, 1845, {}, BaseDateJsonDeserializer$SqlTimestampJsonDeserializer);
 _.deserializeNumber = function deserializeNumber_2(millis, params){
   return new Timestamp(millis);
 }
@@ -694,7 +694,7 @@ _.deserializeString = function deserializeString_2(date, params){
 }
 ;
 var INSTANCE_2;
-var Lcom_github_nmorel_gwtjackson_client_deser_BaseDateJsonDeserializer$SqlTimestampJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser', 'BaseDateJsonDeserializer/SqlTimestampJsonDeserializer', 1610);
+var Lcom_github_nmorel_gwtjackson_client_deser_BaseDateJsonDeserializer$SqlTimestampJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser', 'BaseDateJsonDeserializer/SqlTimestampJsonDeserializer', 1608);
 defineClass($intern_2, $intern_1, {});
 var Lcom_github_nmorel_gwtjackson_client_deser_BaseNumberJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser', 'BaseNumberJsonDeserializer', $intern_2);
 function $clinit_BaseNumberJsonDeserializer$BigDecimalJsonDeserializer(){
@@ -860,13 +860,13 @@ function $doDeserialize_0(reader){
 function CharacterJsonDeserializer(){
 }
 
-defineClass(1621, $intern_1, {}, CharacterJsonDeserializer);
+defineClass(1614, $intern_1, {}, CharacterJsonDeserializer);
 _.doDeserialize = function doDeserialize_9(reader, ctx, params){
   return $doDeserialize_0(reader);
 }
 ;
 var INSTANCE_12;
-var Lcom_github_nmorel_gwtjackson_client_deser_CharacterJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser', 'CharacterJsonDeserializer', 1621);
+var Lcom_github_nmorel_gwtjackson_client_deser_CharacterJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser', 'CharacterJsonDeserializer', 1614);
 function EnumJsonDeserializer(enumClass){
   if (!enumClass) {
     throw new IllegalArgumentException_0('enumClass cannot be null');
@@ -888,13 +888,13 @@ function $clinit_JavaScriptObjectJsonDeserializer(){
 function JavaScriptObjectJsonDeserializer(){
 }
 
-defineClass(1623, $intern_1, {}, JavaScriptObjectJsonDeserializer);
+defineClass(1617, $intern_1, {}, JavaScriptObjectJsonDeserializer);
 _.doDeserialize = function doDeserialize_11(reader, ctx, params){
   return $nextJavaScriptObject(reader, ctx.useSafeEval);
 }
 ;
 var INSTANCE_13;
-var Lcom_github_nmorel_gwtjackson_client_deser_JavaScriptObjectJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser', 'JavaScriptObjectJsonDeserializer', 1623);
+var Lcom_github_nmorel_gwtjackson_client_deser_JavaScriptObjectJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser', 'JavaScriptObjectJsonDeserializer', 1617);
 function $clinit_StringJsonDeserializer(){
   $clinit_StringJsonDeserializer = emptyMethod;
   INSTANCE_14 = new StringJsonDeserializer;
@@ -918,13 +918,13 @@ function $clinit_UUIDJsonDeserializer(){
 function UUIDJsonDeserializer(){
 }
 
-defineClass(1618, $intern_1, {}, UUIDJsonDeserializer);
+defineClass(1609, $intern_1, {}, UUIDJsonDeserializer);
 _.doDeserialize = function doDeserialize_13(reader, ctx, params){
   return fromString($nextString(reader));
 }
 ;
 var INSTANCE_15;
-var Lcom_github_nmorel_gwtjackson_client_deser_UUIDJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser', 'UUIDJsonDeserializer', 1618);
+var Lcom_github_nmorel_gwtjackson_client_deser_UUIDJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser', 'UUIDJsonDeserializer', 1609);
 function $clinit_VoidJsonDeserializer(){
   $clinit_VoidJsonDeserializer = emptyMethod;
   INSTANCE_16 = new VoidJsonDeserializer;
@@ -933,13 +933,13 @@ function $clinit_VoidJsonDeserializer(){
 function VoidJsonDeserializer(){
 }
 
-defineClass(1606, $intern_1, {}, VoidJsonDeserializer);
+defineClass(1620, $intern_1, {}, VoidJsonDeserializer);
 _.doDeserialize = function doDeserialize_14(reader, ctx, params){
   return $skipValue(reader) , null;
 }
 ;
 var INSTANCE_16;
-var Lcom_github_nmorel_gwtjackson_client_deser_VoidJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser', 'VoidJsonDeserializer', 1606);
+var Lcom_github_nmorel_gwtjackson_client_deser_VoidJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser', 'VoidJsonDeserializer', 1620);
 function $deserializeInline(this$static, reader, ctx, params, bufferedProperties){
   var bean, ignoreUnknown, instance, property, propertyName, requiredPropertiesLeft;
   ignoreUnknown = params.ignoreUnknown || this$static.isDefaultIgnoreUnknown();
@@ -1155,54 +1155,54 @@ _.newCollection = function newCollection(){
 }
 ;
 var Lcom_github_nmorel_gwtjackson_client_deser_collection_ArrayListJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.collection', 'ArrayListJsonDeserializer', 323);
-defineClass(1612, 378, {});
+defineClass(1615, 378, {});
 _.isNullValueAllowed = function isNullValueAllowed_0(){
   return false;
 }
 ;
-var Lcom_github_nmorel_gwtjackson_client_deser_collection_BaseQueueJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.collection', 'BaseQueueJsonDeserializer', 1612);
+var Lcom_github_nmorel_gwtjackson_client_deser_collection_BaseQueueJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.collection', 'BaseQueueJsonDeserializer', 1615);
 function BaseSetJsonDeserializer(deserializer){
   BaseCollectionJsonDeserializer.call(this, deserializer);
 }
 
 defineClass(395, 378, {});
 var Lcom_github_nmorel_gwtjackson_client_deser_collection_BaseSetJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.collection', 'BaseSetJsonDeserializer', 395);
-defineClass(1615, 395, {});
+defineClass(1621, 395, {});
 _.isNullValueAllowed = function isNullValueAllowed_1(){
   return false;
 }
 ;
-var Lcom_github_nmorel_gwtjackson_client_deser_collection_BaseSortedSetJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.collection', 'BaseSortedSetJsonDeserializer', 1615);
+var Lcom_github_nmorel_gwtjackson_client_deser_collection_BaseSortedSetJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.collection', 'BaseSortedSetJsonDeserializer', 1621);
 function HashSetJsonDeserializer(deserializer){
   BaseSetJsonDeserializer.call(this, deserializer);
 }
 
-defineClass(1614, 395, {}, HashSetJsonDeserializer);
+defineClass(1623, 395, {}, HashSetJsonDeserializer);
 _.newCollection = function newCollection_0(){
   return new HashSet;
 }
 ;
-var Lcom_github_nmorel_gwtjackson_client_deser_collection_HashSetJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.collection', 'HashSetJsonDeserializer', 1614);
+var Lcom_github_nmorel_gwtjackson_client_deser_collection_HashSetJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.collection', 'HashSetJsonDeserializer', 1623);
 function LinkedHashSetJsonDeserializer(deserializer){
   BaseSetJsonDeserializer.call(this, deserializer);
 }
 
-defineClass(1605, 395, {}, LinkedHashSetJsonDeserializer);
+defineClass(1610, 395, {}, LinkedHashSetJsonDeserializer);
 _.newCollection = function newCollection_1(){
   return new LinkedHashSet;
 }
 ;
-var Lcom_github_nmorel_gwtjackson_client_deser_collection_LinkedHashSetJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.collection', 'LinkedHashSetJsonDeserializer', 1605);
+var Lcom_github_nmorel_gwtjackson_client_deser_collection_LinkedHashSetJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.collection', 'LinkedHashSetJsonDeserializer', 1610);
 function LinkedListJsonDeserializer(deserializer){
   BaseListJsonDeserializer.call(this, deserializer);
 }
 
-defineClass(1611, 284, {}, LinkedListJsonDeserializer);
+defineClass(1624, 284, {}, LinkedListJsonDeserializer);
 _.newCollection = function newCollection_2(){
   return new LinkedList;
 }
 ;
-var Lcom_github_nmorel_gwtjackson_client_deser_collection_LinkedListJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.collection', 'LinkedListJsonDeserializer', 1611);
+var Lcom_github_nmorel_gwtjackson_client_deser_collection_LinkedListJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.collection', 'LinkedListJsonDeserializer', 1624);
 function ListJsonDeserializer(deserializer){
   BaseListJsonDeserializer.call(this, deserializer);
 }
@@ -1217,42 +1217,42 @@ function PriorityQueueJsonDeserializer(deserializer){
   BaseCollectionJsonDeserializer.call(this, deserializer);
 }
 
-defineClass(1613, 1612, {}, PriorityQueueJsonDeserializer);
+defineClass(1616, 1615, {}, PriorityQueueJsonDeserializer);
 _.newCollection = function newCollection_4(){
   return new PriorityQueue;
 }
 ;
-var Lcom_github_nmorel_gwtjackson_client_deser_collection_PriorityQueueJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.collection', 'PriorityQueueJsonDeserializer', 1613);
+var Lcom_github_nmorel_gwtjackson_client_deser_collection_PriorityQueueJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.collection', 'PriorityQueueJsonDeserializer', 1616);
 function StackJsonDeserializer(deserializer){
   BaseListJsonDeserializer.call(this, deserializer);
 }
 
-defineClass(1620, 284, {}, StackJsonDeserializer);
+defineClass(1618, 284, {}, StackJsonDeserializer);
 _.newCollection = function newCollection_5(){
   return new Stack;
 }
 ;
-var Lcom_github_nmorel_gwtjackson_client_deser_collection_StackJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.collection', 'StackJsonDeserializer', 1620);
+var Lcom_github_nmorel_gwtjackson_client_deser_collection_StackJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.collection', 'StackJsonDeserializer', 1618);
 function TreeSetJsonDeserializer(deserializer){
   BaseSetJsonDeserializer.call(this, deserializer);
 }
 
-defineClass(1616, 1615, {}, TreeSetJsonDeserializer);
+defineClass(1622, 1621, {}, TreeSetJsonDeserializer);
 _.newCollection = function newCollection_6(){
   return new TreeSet;
 }
 ;
-var Lcom_github_nmorel_gwtjackson_client_deser_collection_TreeSetJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.collection', 'TreeSetJsonDeserializer', 1616);
+var Lcom_github_nmorel_gwtjackson_client_deser_collection_TreeSetJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.collection', 'TreeSetJsonDeserializer', 1622);
 function VectorJsonDeserializer(deserializer){
   BaseListJsonDeserializer.call(this, deserializer);
 }
 
-defineClass(1624, 284, {}, VectorJsonDeserializer);
+defineClass(1613, 284, {}, VectorJsonDeserializer);
 _.newCollection = function newCollection_7(){
   return new Vector;
 }
 ;
-var Lcom_github_nmorel_gwtjackson_client_deser_collection_VectorJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.collection', 'VectorJsonDeserializer', 1624);
+var Lcom_github_nmorel_gwtjackson_client_deser_collection_VectorJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.collection', 'VectorJsonDeserializer', 1613);
 function $doDeserialize_2(this$static, reader, ctx, params){
   var key, name_0, result, value_0;
   result = this$static.newMap();
@@ -1284,22 +1284,22 @@ function HashMapJsonDeserializer(keyDeserializer, valueDeserializer){
   BaseMapJsonDeserializer.call(this, keyDeserializer, valueDeserializer);
 }
 
-defineClass(1619, 324, {}, HashMapJsonDeserializer);
+defineClass(1611, 324, {}, HashMapJsonDeserializer);
 _.newMap = function newMap(){
   return new HashMap;
 }
 ;
-var Lcom_github_nmorel_gwtjackson_client_deser_map_HashMapJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.map', 'HashMapJsonDeserializer', 1619);
+var Lcom_github_nmorel_gwtjackson_client_deser_map_HashMapJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.map', 'HashMapJsonDeserializer', 1611);
 function IdentityHashMapJsonDeserializer(keyDeserializer, valueDeserializer){
   BaseMapJsonDeserializer.call(this, keyDeserializer, valueDeserializer);
 }
 
-defineClass(1617, 324, {}, IdentityHashMapJsonDeserializer);
+defineClass(1612, 324, {}, IdentityHashMapJsonDeserializer);
 _.newMap = function newMap_0(){
   return new IdentityHashMap;
 }
 ;
-var Lcom_github_nmorel_gwtjackson_client_deser_map_IdentityHashMapJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.map', 'IdentityHashMapJsonDeserializer', 1617);
+var Lcom_github_nmorel_gwtjackson_client_deser_map_IdentityHashMapJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.map', 'IdentityHashMapJsonDeserializer', 1612);
 function LinkedHashMapJsonDeserializer(keyDeserializer, valueDeserializer){
   BaseMapJsonDeserializer.call(this, keyDeserializer, valueDeserializer);
 }
@@ -1314,12 +1314,12 @@ function TreeMapJsonDeserializer(keyDeserializer, valueDeserializer){
   BaseMapJsonDeserializer.call(this, keyDeserializer, valueDeserializer);
 }
 
-defineClass(1622, 324, {}, TreeMapJsonDeserializer);
+defineClass(1619, 324, {}, TreeMapJsonDeserializer);
 _.newMap = function newMap_2(){
   return new TreeMap_0;
 }
 ;
-var Lcom_github_nmorel_gwtjackson_client_deser_map_TreeMapJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.map', 'TreeMapJsonDeserializer', 1622);
+var Lcom_github_nmorel_gwtjackson_client_deser_map_TreeMapJsonDeserializer_2_classLit = createForClass('com.github.nmorel.gwtjackson.client.deser.map', 'TreeMapJsonDeserializer', 1619);
 function $deserialize_1(key){
   if (null == key) {
     return null;
@@ -36141,7 +36141,10 @@ function $updateResultInformationText(count, entity){
     }
   }
    else if (instanceOf(entity, 112)) {
-    if ($showMocData(entity)) {
+    if (entity.getContext() == ($clinit_EntityContext() , USER_IMAGING) || entity.getContext() == USER_SPECTRA) {
+      baseResultInformationText = $replace_0($getText(($clinit_TextMgr() , $clinit_TextMgr() , instance_6), 'resultsPresenter_observationsInTheCurrentArea'), '$COUNT$', count + '');
+    }
+     else if ($showMocData(entity)) {
       baseResultInformationText = $getText(($clinit_TextMgr() , $clinit_TextMgr() , instance_6), 'resultsPresenter_showingMissionCoverage');
       emptyTableText = $getText((null , instance_6), 'resultsPresenter_showingGlobalSkyCoverage');
     }
@@ -37277,7 +37280,7 @@ function $createCommonObservationEntity(this$static, descriptor, context){
    else {
     throw new IllegalArgumentException_0('Unknown Descriptor type');
   }
-  $add_15(this$static.commonObservationEntities, newEntity);
+  context != ($clinit_EntityContext() , USER_SPECTRA) && context != USER_IMAGING && $add_15(this$static.commonObservationEntities, newEntity);
   return newEntity;
 }
 
@@ -50451,36 +50454,36 @@ _.getDeserializedType = function getDeserializedType_30(){
 _.initMapSubtypeClassToDeserializer = function initMapSubtypeClassToDeserializer_1(){
   var map_0;
   map_0 = new IdentityHashMap_0(31);
-  $put_3(map_0, Ljava_util_LinkedHashMap_2_classLit, new ObjectBeanJsonDeserializerImpl$1);
-  $put_3(map_0, Ljava_util_LinkedHashSet_2_classLit, new ObjectBeanJsonDeserializerImpl$2);
-  $put_3(map_0, Ljava_lang_Void_2_classLit, new ObjectBeanJsonDeserializerImpl$3);
-  $put_3(map_0, Ljava_lang_Short_2_classLit, new ObjectBeanJsonDeserializerImpl$4);
-  $put_3(map_0, Ljava_sql_Timestamp_2_classLit, new ObjectBeanJsonDeserializerImpl$5);
-  $put_3(map_0, Ljava_util_LinkedList_2_classLit, new ObjectBeanJsonDeserializerImpl$6);
-  $put_3(map_0, Ljava_util_PriorityQueue_2_classLit, new ObjectBeanJsonDeserializerImpl$7);
-  $put_3(map_0, Ljava_util_HashSet_2_classLit, new ObjectBeanJsonDeserializerImpl$8);
-  $put_3(map_0, Ljava_util_Date_2_classLit, new ObjectBeanJsonDeserializerImpl$9);
-  $put_3(map_0, Ljava_lang_Integer_2_classLit, new ObjectBeanJsonDeserializerImpl$10);
-  $put_3(map_0, Ljava_lang_Byte_2_classLit, new ObjectBeanJsonDeserializerImpl$11);
-  $put_3(map_0, Ljava_util_TreeSet_2_classLit, new ObjectBeanJsonDeserializerImpl$12);
-  $put_3(map_0, Ljava_lang_String_2_classLit, new ObjectBeanJsonDeserializerImpl$13);
-  $put_3(map_0, Ljava_util_IdentityHashMap_2_classLit, new ObjectBeanJsonDeserializerImpl$14);
-  $put_3(map_0, Ljava_util_UUID_2_classLit, new ObjectBeanJsonDeserializerImpl$15);
-  $put_3(map_0, Ljava_util_HashMap_2_classLit, new ObjectBeanJsonDeserializerImpl$16);
-  $put_3(map_0, Ljava_lang_Boolean_2_classLit, new ObjectBeanJsonDeserializerImpl$17);
-  $put_3(map_0, Ljava_util_Stack_2_classLit, new ObjectBeanJsonDeserializerImpl$18);
-  $put_3(map_0, Ljava_util_ArrayList_2_classLit, new ObjectBeanJsonDeserializerImpl$19);
-  $put_3(map_0, Ljava_lang_Double_2_classLit, new ObjectBeanJsonDeserializerImpl$20);
-  $put_3(map_0, Ljava_math_BigInteger_2_classLit, new ObjectBeanJsonDeserializerImpl$21);
-  $put_3(map_0, Ljava_lang_Long_2_classLit, new ObjectBeanJsonDeserializerImpl$22);
-  $put_3(map_0, Ljava_lang_Character_2_classLit, new ObjectBeanJsonDeserializerImpl$23);
-  $put_3(map_0, Ljava_util_TreeMap_2_classLit, new ObjectBeanJsonDeserializerImpl$24);
-  $put_3(map_0, Ljava_sql_Time_2_classLit, new ObjectBeanJsonDeserializerImpl$25);
-  $put_3(map_0, Ljava_sql_Date_2_classLit, new ObjectBeanJsonDeserializerImpl$26);
-  $put_3(map_0, Lcom_google_gwt_core_client_JavaScriptObject_2_classLit, new ObjectBeanJsonDeserializerImpl$27);
+  $put_3(map_0, Ljava_util_Date_2_classLit, new ObjectBeanJsonDeserializerImpl$1);
+  $put_3(map_0, Ljava_util_UUID_2_classLit, new ObjectBeanJsonDeserializerImpl$2);
+  $put_3(map_0, Ljava_util_LinkedHashSet_2_classLit, new ObjectBeanJsonDeserializerImpl$3);
+  $put_3(map_0, Ljava_util_HashMap_2_classLit, new ObjectBeanJsonDeserializerImpl$4);
+  $put_3(map_0, Ljava_math_BigDecimal_2_classLit, new ObjectBeanJsonDeserializerImpl$5);
+  $put_3(map_0, Ljava_util_IdentityHashMap_2_classLit, new ObjectBeanJsonDeserializerImpl$6);
+  $put_3(map_0, Ljava_sql_Date_2_classLit, new ObjectBeanJsonDeserializerImpl$7);
+  $put_3(map_0, Ljava_lang_Double_2_classLit, new ObjectBeanJsonDeserializerImpl$8);
+  $put_3(map_0, Ljava_util_Vector_2_classLit, new ObjectBeanJsonDeserializerImpl$9);
+  $put_3(map_0, Ljava_lang_Long_2_classLit, new ObjectBeanJsonDeserializerImpl$10);
+  $put_3(map_0, Ljava_util_LinkedHashMap_2_classLit, new ObjectBeanJsonDeserializerImpl$11);
+  $put_3(map_0, Ljava_lang_Character_2_classLit, new ObjectBeanJsonDeserializerImpl$12);
+  $put_3(map_0, Ljava_util_PriorityQueue_2_classLit, new ObjectBeanJsonDeserializerImpl$13);
+  $put_3(map_0, Lcom_google_gwt_core_client_JavaScriptObject_2_classLit, new ObjectBeanJsonDeserializerImpl$14);
+  $put_3(map_0, Ljava_util_Stack_2_classLit, new ObjectBeanJsonDeserializerImpl$15);
+  $put_3(map_0, Ljava_sql_Timestamp_2_classLit, new ObjectBeanJsonDeserializerImpl$16);
+  $put_3(map_0, Ljava_sql_Time_2_classLit, new ObjectBeanJsonDeserializerImpl$17);
+  $put_3(map_0, Ljava_lang_Short_2_classLit, new ObjectBeanJsonDeserializerImpl$18);
+  $put_3(map_0, Ljava_lang_String_2_classLit, new ObjectBeanJsonDeserializerImpl$19);
+  $put_3(map_0, Ljava_lang_Integer_2_classLit, new ObjectBeanJsonDeserializerImpl$20);
+  $put_3(map_0, Ljava_util_ArrayList_2_classLit, new ObjectBeanJsonDeserializerImpl$21);
+  $put_3(map_0, Ljava_util_TreeMap_2_classLit, new ObjectBeanJsonDeserializerImpl$22);
+  $put_3(map_0, Ljava_lang_Void_2_classLit, new ObjectBeanJsonDeserializerImpl$23);
+  $put_3(map_0, Ljava_util_TreeSet_2_classLit, new ObjectBeanJsonDeserializerImpl$24);
+  $put_3(map_0, Ljava_math_BigInteger_2_classLit, new ObjectBeanJsonDeserializerImpl$25);
+  $put_3(map_0, Ljava_util_HashSet_2_classLit, new ObjectBeanJsonDeserializerImpl$26);
+  $put_3(map_0, Ljava_lang_Boolean_2_classLit, new ObjectBeanJsonDeserializerImpl$27);
   $put_3(map_0, Ljava_lang_Float_2_classLit, new ObjectBeanJsonDeserializerImpl$28);
-  $put_3(map_0, Ljava_math_BigDecimal_2_classLit, new ObjectBeanJsonDeserializerImpl$29);
-  $put_3(map_0, Ljava_util_Vector_2_classLit, new ObjectBeanJsonDeserializerImpl$30);
+  $put_3(map_0, Ljava_util_LinkedList_2_classLit, new ObjectBeanJsonDeserializerImpl$29);
+  $put_3(map_0, Ljava_lang_Byte_2_classLit, new ObjectBeanJsonDeserializerImpl$30);
   return map_0;
 }
 ;
@@ -50490,7 +50493,7 @@ function ObjectBeanJsonDeserializerImpl$1(){
 
 defineClass(1271, $intern_6, {}, ObjectBeanJsonDeserializerImpl$1);
 _.newDeserializer = function newDeserializer_256(){
-  return new LinkedHashMapJsonDeserializer(($clinit_StringKeyDeserializer() , $clinit_StringKeyDeserializer() , INSTANCE_17), new ObjectBeanJsonDeserializerImpl);
+  return $clinit_BaseDateJsonDeserializer$DateJsonDeserializer() , $clinit_BaseDateJsonDeserializer$DateJsonDeserializer() , INSTANCE;
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$1_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/1', 1271);
@@ -50499,7 +50502,7 @@ function ObjectBeanJsonDeserializerImpl$10(){
 
 defineClass(1280, $intern_6, {}, ObjectBeanJsonDeserializerImpl$10);
 _.newDeserializer = function newDeserializer_257(){
-  return $clinit_BaseNumberJsonDeserializer$IntegerJsonDeserializer() , $clinit_BaseNumberJsonDeserializer$IntegerJsonDeserializer() , INSTANCE_8;
+  return $clinit_BaseNumberJsonDeserializer$LongJsonDeserializer() , $clinit_BaseNumberJsonDeserializer$LongJsonDeserializer() , INSTANCE_9;
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$10_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/10', 1280);
@@ -50508,7 +50511,7 @@ function ObjectBeanJsonDeserializerImpl$11(){
 
 defineClass(1281, $intern_6, {}, ObjectBeanJsonDeserializerImpl$11);
 _.newDeserializer = function newDeserializer_258(){
-  return $clinit_BaseNumberJsonDeserializer$ByteJsonDeserializer() , $clinit_BaseNumberJsonDeserializer$ByteJsonDeserializer() , INSTANCE_5;
+  return new LinkedHashMapJsonDeserializer(($clinit_StringKeyDeserializer() , $clinit_StringKeyDeserializer() , INSTANCE_17), new ObjectBeanJsonDeserializerImpl);
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$11_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/11', 1281);
@@ -50517,7 +50520,7 @@ function ObjectBeanJsonDeserializerImpl$12(){
 
 defineClass(1282, $intern_6, {}, ObjectBeanJsonDeserializerImpl$12);
 _.newDeserializer = function newDeserializer_259(){
-  return new TreeSetJsonDeserializer(new ObjectBeanJsonDeserializerImpl);
+  return $clinit_CharacterJsonDeserializer() , $clinit_CharacterJsonDeserializer() , INSTANCE_12;
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$12_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/12', 1282);
@@ -50526,7 +50529,7 @@ function ObjectBeanJsonDeserializerImpl$13(){
 
 defineClass(1283, $intern_6, {}, ObjectBeanJsonDeserializerImpl$13);
 _.newDeserializer = function newDeserializer_260(){
-  return $clinit_StringJsonDeserializer() , $clinit_StringJsonDeserializer() , INSTANCE_14;
+  return new PriorityQueueJsonDeserializer(new ObjectBeanJsonDeserializerImpl);
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$13_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/13', 1283);
@@ -50535,7 +50538,7 @@ function ObjectBeanJsonDeserializerImpl$14(){
 
 defineClass(1284, $intern_6, {}, ObjectBeanJsonDeserializerImpl$14);
 _.newDeserializer = function newDeserializer_261(){
-  return new IdentityHashMapJsonDeserializer(($clinit_StringKeyDeserializer() , $clinit_StringKeyDeserializer() , INSTANCE_17), new ObjectBeanJsonDeserializerImpl);
+  return $clinit_JavaScriptObjectJsonDeserializer() , $clinit_JavaScriptObjectJsonDeserializer() , INSTANCE_13;
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$14_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/14', 1284);
@@ -50544,7 +50547,7 @@ function ObjectBeanJsonDeserializerImpl$15(){
 
 defineClass(1285, $intern_6, {}, ObjectBeanJsonDeserializerImpl$15);
 _.newDeserializer = function newDeserializer_262(){
-  return $clinit_UUIDJsonDeserializer() , $clinit_UUIDJsonDeserializer() , INSTANCE_15;
+  return new StackJsonDeserializer(new ObjectBeanJsonDeserializerImpl);
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$15_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/15', 1285);
@@ -50553,7 +50556,7 @@ function ObjectBeanJsonDeserializerImpl$16(){
 
 defineClass(1286, $intern_6, {}, ObjectBeanJsonDeserializerImpl$16);
 _.newDeserializer = function newDeserializer_263(){
-  return new HashMapJsonDeserializer(($clinit_StringKeyDeserializer() , $clinit_StringKeyDeserializer() , INSTANCE_17), new ObjectBeanJsonDeserializerImpl);
+  return $clinit_BaseDateJsonDeserializer$SqlTimestampJsonDeserializer() , $clinit_BaseDateJsonDeserializer$SqlTimestampJsonDeserializer() , INSTANCE_2;
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$16_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/16', 1286);
@@ -50562,7 +50565,7 @@ function ObjectBeanJsonDeserializerImpl$17(){
 
 defineClass(1287, $intern_6, {}, ObjectBeanJsonDeserializerImpl$17);
 _.newDeserializer = function newDeserializer_264(){
-  return $clinit_BooleanJsonDeserializer() , $clinit_BooleanJsonDeserializer() , INSTANCE_11;
+  return $clinit_BaseDateJsonDeserializer$SqlTimeJsonDeserializer() , $clinit_BaseDateJsonDeserializer$SqlTimeJsonDeserializer() , INSTANCE_1;
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$17_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/17', 1287);
@@ -50571,7 +50574,7 @@ function ObjectBeanJsonDeserializerImpl$18(){
 
 defineClass(1288, $intern_6, {}, ObjectBeanJsonDeserializerImpl$18);
 _.newDeserializer = function newDeserializer_265(){
-  return new StackJsonDeserializer(new ObjectBeanJsonDeserializerImpl);
+  return $clinit_BaseNumberJsonDeserializer$ShortJsonDeserializer() , $clinit_BaseNumberJsonDeserializer$ShortJsonDeserializer() , INSTANCE_10;
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$18_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/18', 1288);
@@ -50580,7 +50583,7 @@ function ObjectBeanJsonDeserializerImpl$19(){
 
 defineClass(1289, $intern_6, {}, ObjectBeanJsonDeserializerImpl$19);
 _.newDeserializer = function newDeserializer_266(){
-  return new ArrayListJsonDeserializer(new ObjectBeanJsonDeserializerImpl);
+  return $clinit_StringJsonDeserializer() , $clinit_StringJsonDeserializer() , INSTANCE_14;
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$19_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/19', 1289);
@@ -50589,7 +50592,7 @@ function ObjectBeanJsonDeserializerImpl$2(){
 
 defineClass(1272, $intern_6, {}, ObjectBeanJsonDeserializerImpl$2);
 _.newDeserializer = function newDeserializer_267(){
-  return new LinkedHashSetJsonDeserializer(new ObjectBeanJsonDeserializerImpl);
+  return $clinit_UUIDJsonDeserializer() , $clinit_UUIDJsonDeserializer() , INSTANCE_15;
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$2_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/2', 1272);
@@ -50598,7 +50601,7 @@ function ObjectBeanJsonDeserializerImpl$20(){
 
 defineClass(1290, $intern_6, {}, ObjectBeanJsonDeserializerImpl$20);
 _.newDeserializer = function newDeserializer_268(){
-  return $clinit_BaseNumberJsonDeserializer$DoubleJsonDeserializer() , $clinit_BaseNumberJsonDeserializer$DoubleJsonDeserializer() , INSTANCE_6;
+  return $clinit_BaseNumberJsonDeserializer$IntegerJsonDeserializer() , $clinit_BaseNumberJsonDeserializer$IntegerJsonDeserializer() , INSTANCE_8;
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$20_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/20', 1290);
@@ -50607,7 +50610,7 @@ function ObjectBeanJsonDeserializerImpl$21(){
 
 defineClass(1291, $intern_6, {}, ObjectBeanJsonDeserializerImpl$21);
 _.newDeserializer = function newDeserializer_269(){
-  return $clinit_BaseNumberJsonDeserializer$BigIntegerJsonDeserializer() , $clinit_BaseNumberJsonDeserializer$BigIntegerJsonDeserializer() , INSTANCE_4;
+  return new ArrayListJsonDeserializer(new ObjectBeanJsonDeserializerImpl);
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$21_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/21', 1291);
@@ -50616,7 +50619,7 @@ function ObjectBeanJsonDeserializerImpl$22(){
 
 defineClass(1292, $intern_6, {}, ObjectBeanJsonDeserializerImpl$22);
 _.newDeserializer = function newDeserializer_270(){
-  return $clinit_BaseNumberJsonDeserializer$LongJsonDeserializer() , $clinit_BaseNumberJsonDeserializer$LongJsonDeserializer() , INSTANCE_9;
+  return new TreeMapJsonDeserializer(($clinit_StringKeyDeserializer() , $clinit_StringKeyDeserializer() , INSTANCE_17), new ObjectBeanJsonDeserializerImpl);
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$22_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/22', 1292);
@@ -50625,7 +50628,7 @@ function ObjectBeanJsonDeserializerImpl$23(){
 
 defineClass(1293, $intern_6, {}, ObjectBeanJsonDeserializerImpl$23);
 _.newDeserializer = function newDeserializer_271(){
-  return $clinit_CharacterJsonDeserializer() , $clinit_CharacterJsonDeserializer() , INSTANCE_12;
+  return $clinit_VoidJsonDeserializer() , $clinit_VoidJsonDeserializer() , INSTANCE_16;
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$23_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/23', 1293);
@@ -50634,7 +50637,7 @@ function ObjectBeanJsonDeserializerImpl$24(){
 
 defineClass(1294, $intern_6, {}, ObjectBeanJsonDeserializerImpl$24);
 _.newDeserializer = function newDeserializer_272(){
-  return new TreeMapJsonDeserializer(($clinit_StringKeyDeserializer() , $clinit_StringKeyDeserializer() , INSTANCE_17), new ObjectBeanJsonDeserializerImpl);
+  return new TreeSetJsonDeserializer(new ObjectBeanJsonDeserializerImpl);
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$24_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/24', 1294);
@@ -50643,7 +50646,7 @@ function ObjectBeanJsonDeserializerImpl$25(){
 
 defineClass(1295, $intern_6, {}, ObjectBeanJsonDeserializerImpl$25);
 _.newDeserializer = function newDeserializer_273(){
-  return $clinit_BaseDateJsonDeserializer$SqlTimeJsonDeserializer() , $clinit_BaseDateJsonDeserializer$SqlTimeJsonDeserializer() , INSTANCE_1;
+  return $clinit_BaseNumberJsonDeserializer$BigIntegerJsonDeserializer() , $clinit_BaseNumberJsonDeserializer$BigIntegerJsonDeserializer() , INSTANCE_4;
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$25_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/25', 1295);
@@ -50652,7 +50655,7 @@ function ObjectBeanJsonDeserializerImpl$26(){
 
 defineClass(1296, $intern_6, {}, ObjectBeanJsonDeserializerImpl$26);
 _.newDeserializer = function newDeserializer_274(){
-  return $clinit_BaseDateJsonDeserializer$SqlDateJsonDeserializer() , $clinit_BaseDateJsonDeserializer$SqlDateJsonDeserializer() , INSTANCE_0;
+  return new HashSetJsonDeserializer(new ObjectBeanJsonDeserializerImpl);
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$26_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/26', 1296);
@@ -50661,7 +50664,7 @@ function ObjectBeanJsonDeserializerImpl$27(){
 
 defineClass(1297, $intern_6, {}, ObjectBeanJsonDeserializerImpl$27);
 _.newDeserializer = function newDeserializer_275(){
-  return $clinit_JavaScriptObjectJsonDeserializer() , $clinit_JavaScriptObjectJsonDeserializer() , INSTANCE_13;
+  return $clinit_BooleanJsonDeserializer() , $clinit_BooleanJsonDeserializer() , INSTANCE_11;
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$27_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/27', 1297);
@@ -50679,7 +50682,7 @@ function ObjectBeanJsonDeserializerImpl$29(){
 
 defineClass(1299, $intern_6, {}, ObjectBeanJsonDeserializerImpl$29);
 _.newDeserializer = function newDeserializer_277(){
-  return $clinit_BaseNumberJsonDeserializer$BigDecimalJsonDeserializer() , $clinit_BaseNumberJsonDeserializer$BigDecimalJsonDeserializer() , INSTANCE_3;
+  return new LinkedListJsonDeserializer(new ObjectBeanJsonDeserializerImpl);
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$29_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/29', 1299);
@@ -50688,7 +50691,7 @@ function ObjectBeanJsonDeserializerImpl$3(){
 
 defineClass(1273, $intern_6, {}, ObjectBeanJsonDeserializerImpl$3);
 _.newDeserializer = function newDeserializer_278(){
-  return $clinit_VoidJsonDeserializer() , $clinit_VoidJsonDeserializer() , INSTANCE_16;
+  return new LinkedHashSetJsonDeserializer(new ObjectBeanJsonDeserializerImpl);
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$3_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/3', 1273);
@@ -50697,7 +50700,7 @@ function ObjectBeanJsonDeserializerImpl$30(){
 
 defineClass(1300, $intern_6, {}, ObjectBeanJsonDeserializerImpl$30);
 _.newDeserializer = function newDeserializer_279(){
-  return new VectorJsonDeserializer(new ObjectBeanJsonDeserializerImpl);
+  return $clinit_BaseNumberJsonDeserializer$ByteJsonDeserializer() , $clinit_BaseNumberJsonDeserializer$ByteJsonDeserializer() , INSTANCE_5;
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$30_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/30', 1300);
@@ -50706,7 +50709,7 @@ function ObjectBeanJsonDeserializerImpl$4(){
 
 defineClass(1274, $intern_6, {}, ObjectBeanJsonDeserializerImpl$4);
 _.newDeserializer = function newDeserializer_280(){
-  return $clinit_BaseNumberJsonDeserializer$ShortJsonDeserializer() , $clinit_BaseNumberJsonDeserializer$ShortJsonDeserializer() , INSTANCE_10;
+  return new HashMapJsonDeserializer(($clinit_StringKeyDeserializer() , $clinit_StringKeyDeserializer() , INSTANCE_17), new ObjectBeanJsonDeserializerImpl);
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$4_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/4', 1274);
@@ -50715,7 +50718,7 @@ function ObjectBeanJsonDeserializerImpl$5(){
 
 defineClass(1275, $intern_6, {}, ObjectBeanJsonDeserializerImpl$5);
 _.newDeserializer = function newDeserializer_281(){
-  return $clinit_BaseDateJsonDeserializer$SqlTimestampJsonDeserializer() , $clinit_BaseDateJsonDeserializer$SqlTimestampJsonDeserializer() , INSTANCE_2;
+  return $clinit_BaseNumberJsonDeserializer$BigDecimalJsonDeserializer() , $clinit_BaseNumberJsonDeserializer$BigDecimalJsonDeserializer() , INSTANCE_3;
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$5_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/5', 1275);
@@ -50724,7 +50727,7 @@ function ObjectBeanJsonDeserializerImpl$6(){
 
 defineClass(1276, $intern_6, {}, ObjectBeanJsonDeserializerImpl$6);
 _.newDeserializer = function newDeserializer_282(){
-  return new LinkedListJsonDeserializer(new ObjectBeanJsonDeserializerImpl);
+  return new IdentityHashMapJsonDeserializer(($clinit_StringKeyDeserializer() , $clinit_StringKeyDeserializer() , INSTANCE_17), new ObjectBeanJsonDeserializerImpl);
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$6_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/6', 1276);
@@ -50733,7 +50736,7 @@ function ObjectBeanJsonDeserializerImpl$7(){
 
 defineClass(1277, $intern_6, {}, ObjectBeanJsonDeserializerImpl$7);
 _.newDeserializer = function newDeserializer_283(){
-  return new PriorityQueueJsonDeserializer(new ObjectBeanJsonDeserializerImpl);
+  return $clinit_BaseDateJsonDeserializer$SqlDateJsonDeserializer() , $clinit_BaseDateJsonDeserializer$SqlDateJsonDeserializer() , INSTANCE_0;
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$7_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/7', 1277);
@@ -50742,7 +50745,7 @@ function ObjectBeanJsonDeserializerImpl$8(){
 
 defineClass(1278, $intern_6, {}, ObjectBeanJsonDeserializerImpl$8);
 _.newDeserializer = function newDeserializer_284(){
-  return new HashSetJsonDeserializer(new ObjectBeanJsonDeserializerImpl);
+  return $clinit_BaseNumberJsonDeserializer$DoubleJsonDeserializer() , $clinit_BaseNumberJsonDeserializer$DoubleJsonDeserializer() , INSTANCE_6;
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$8_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/8', 1278);
@@ -50751,7 +50754,7 @@ function ObjectBeanJsonDeserializerImpl$9(){
 
 defineClass(1279, $intern_6, {}, ObjectBeanJsonDeserializerImpl$9);
 _.newDeserializer = function newDeserializer_285(){
-  return $clinit_BaseDateJsonDeserializer$DateJsonDeserializer() , $clinit_BaseDateJsonDeserializer$DateJsonDeserializer() , INSTANCE;
+  return new VectorJsonDeserializer(new ObjectBeanJsonDeserializerImpl);
 }
 ;
 var Lgwtjackson_java_lang_ObjectBeanJsonDeserializerImpl$9_2_classLit = createForClass('gwtjackson.java.lang', 'ObjectBeanJsonDeserializerImpl/9', 1279);
@@ -53472,7 +53475,7 @@ function Date_4(date){
   Date_3.call(this, date);
 }
 
-defineClass(466, 74, $intern_38, Date_4);
+defineClass(464, 74, $intern_38, Date_4);
 _.getHours_0 = function getHours_0(){
   throw new IllegalArgumentException;
 }
@@ -53501,7 +53504,7 @@ _.toString$ = function toString_55(){
   return '' + ($intern_37 + (this.jsdate.getFullYear() - $intern_37)) + '-' + padTwo(this.jsdate.getMonth() + 1) + '-' + padTwo(this.jsdate.getDate());
 }
 ;
-var Ljava_sql_Date_2_classLit = createForClass('java.sql', 'Date', 466);
+var Ljava_sql_Date_2_classLit = createForClass('java.sql', 'Date', 464);
 function Time(hour, minute, second){
   Date_2.call(this, 70, 0, 1, hour, minute, second);
 }
@@ -53532,7 +53535,7 @@ function valueOf_50(s){
   }
 }
 
-defineClass(465, 74, $intern_38, Time, Time_0);
+defineClass(466, 74, $intern_38, Time, Time_0);
 _.getDate_0 = function getDate_0(){
   throw new IllegalArgumentException;
 }
@@ -53565,7 +53568,7 @@ _.toString$ = function toString_56(){
   return padTwo(this.jsdate.getHours()) + ':' + padTwo(this.jsdate.getMinutes()) + ':' + padTwo(this.jsdate.getSeconds());
 }
 ;
-var Ljava_sql_Time_2_classLit = createForClass('java.sql', 'Time', 465);
+var Ljava_sql_Time_2_classLit = createForClass('java.sql', 'Time', 466);
 function $compareTo_10(this$static, o){
   var cmp;
   cmp = compare_6(fromDouble(this$static.jsdate.getTime()), fromDouble(o.jsdate.getTime()));
@@ -55018,7 +55021,7 @@ function IdentityHashMap_0(ignored){
   AbstractHashMap_0.call(this, ignored);
 }
 
-defineClass(376, 261, $intern_17, IdentityHashMap, IdentityHashMap_0);
+defineClass(375, 261, $intern_17, IdentityHashMap, IdentityHashMap_0);
 _.equals$ = function equals_41(obj){
   var entry, entry$iterator, otherKey, otherMap, otherValue;
   if (obj === this) {
@@ -55064,7 +55067,7 @@ _.hashCode$ = function hashCode_44(){
   return hashCode;
 }
 ;
-var Ljava_util_IdentityHashMap_2_classLit = createForClass('java.util', 'IdentityHashMap', 376);
+var Ljava_util_IdentityHashMap_2_classLit = createForClass('java.util', 'IdentityHashMap', 375);
 function $ensureChain(this$static, hashCode){
   var map_0 = this$static.backingMap;
   return map_0[hashCode] || (map_0[hashCode] = []);
@@ -55547,7 +55550,7 @@ function LinkedHashMap(){
   this.head_0.next = this.head_0;
 }
 
-defineClass(464, 24, $intern_17, LinkedHashMap);
+defineClass(465, 24, $intern_17, LinkedHashMap);
 _.clear_0 = function clear_5(){
   this.map_0.clear_0();
   this.head_0.prev = this.head_0;
@@ -55609,7 +55612,7 @@ _.size_1 = function size_21(){
 }
 ;
 _.accessOrder = false;
-var Ljava_util_LinkedHashMap_2_classLit = createForClass('java.util', 'LinkedHashMap', 464);
+var Ljava_util_LinkedHashMap_2_classLit = createForClass('java.util', 'LinkedHashMap', 465);
 function $addToEnd(this$static){
   var tail;
   tail = this$static.this$01.head_0.prev;
@@ -55921,7 +55924,7 @@ function PriorityQueue_0(cmp){
   this.cmp = cmp;
 }
 
-defineClass(375, 1798, $intern_18, PriorityQueue);
+defineClass(376, 1798, $intern_18, PriorityQueue);
 _.addAll = function addAll_5(c){
   if ($addAll_1(this.heap, c)) {
     $makeHeap(this, 0);
@@ -55976,7 +55979,7 @@ _.toString$ = function toString_64(){
   return $toString_2(this.heap);
 }
 ;
-var Ljava_util_PriorityQueue_2_classLit = createForClass('java.util', 'PriorityQueue', 375);
+var Ljava_util_PriorityQueue_2_classLit = createForClass('java.util', 'PriorityQueue', 376);
 function $add_16(this$static, o){
   return $add_13(this$static.arrayList, o);
 }
@@ -56077,8 +56080,8 @@ function Stack(){
   Vector.call(this);
 }
 
-defineClass(1270, 52, $intern_124, Stack);
-var Ljava_util_Stack_2_classLit = createForClass('java.util', 'Stack', 1270);
+defineClass(1269, 52, $intern_124, Stack);
+var Ljava_util_Stack_2_classLit = createForClass('java.util', 'Stack', 1269);
 function $getEntry_0(this$static, key){
   var c, childNum, tree;
   tree = this$static.root;
@@ -56434,7 +56437,7 @@ function TreeSet(){
   this.map_0 = new TreeMap_0;
 }
 
-defineClass(1269, $intern_40, $intern_123, TreeSet);
+defineClass(1270, $intern_40, $intern_123, TreeSet);
 _.add_0 = function add_19(o){
   return $put_6(this.map_0, o, ($clinit_Boolean() , FALSE_1)) == null;
 }
@@ -56455,7 +56458,7 @@ _.size_1 = function size_27(){
   return this.map_0.size_0;
 }
 ;
-var Ljava_util_TreeSet_2_classLit = createForClass('java.util', 'TreeSet', 1269);
+var Ljava_util_TreeSet_2_classLit = createForClass('java.util', 'TreeSet', 1270);
 function $compareTo_11(this$static, o){
   return compareTo_10(this$static.uuidValue, o.uuidValue);
 }
