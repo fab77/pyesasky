@@ -8,7 +8,24 @@ class MetadataDescriptor:
     _label = ''
     _visible = True
     _type = ''
-    index = 0
-    maxDecimalDigits = 4
+    _index = 0
+    _maxDecimalDigits = 4
 
-    def __init__(self):
+    def __init__(self, label, columnType, maxDecimalDigits):
+        self._tapName = label
+        self._label = label
+        self._type = columnType
+        if maxDecimalDigits:
+            self._maxDecimalDigits = maxDecimalDigits
+
+    def getLabel(self):
+        return self._tapName
+    
+    def getColumnType(self):
+        return self._type
+
+    
+
+
+
+

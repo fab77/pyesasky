@@ -1,5 +1,8 @@
 from ._version import version_info, __version__ # noqa
 from .catalogue import Catalogue # noqa
+from .footprintSet import FootprintSet # noqa
+from .metadataDescriptor import MetadataDescriptor # noqa
+from .metadataType import MetadataType # noqa
 from .jupyter_server import load_jupyter_server_extension # noqa
 
 

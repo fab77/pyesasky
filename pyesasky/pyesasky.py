@@ -4,7 +4,11 @@ from traitlets import Unicode, default, Float
 #from statsmodels.tsa.statespace.tests.test_mlemodel import kwargs
 from .catalogue import Catalogue
 from .footprintSet import FootprintSet
+from .footprintSetDescriptor import FootprintSetDescriptor
+from .metadataDescriptor import MetadataDescriptor
+from .metadataType import MetadataType
 from .HiPS import HiPS
+import csv
 
 
 __all__ = ['ESASkyWidget']
@@ -97,6 +101,110 @@ class ESASkyWidget(widgets.DOMWidget):
                        content=footprintSet.toDict()
                         )
         self.send(content)
+
+    def overlayFootprintsWithDetails(self, footprintSet):
+        content = dict(
+                        event='overlayFootprintsWithDetails',
+                       content=footprintSet.toDict()
+                        )
+        self.send(content)
+
+    def overlayFootprintsFromCSV(self, pathToFile, csvDelimiter, footprintSetDescriptor):
+
+        footprintSet = FootprintSet(footprintSetDescriptor.getDatasetName(), 'J2000', footprintSetDescriptor.getHistoColor(), footprintSetDescriptor.getLineWidth())
+
+        #read colums
+        with open(pathToFile) as csv_file:
+            csv_reader = csv.reader(csv_file, delimiter=csvDelimiter)
+            line_count = 0
+            for row in csv_reader:
+                if line_count == 0:
+                    columns = row
+                    print(f'Column identified: {", ".join(row)}')
+                    line_count += 1
+                    i = 0
+                    while i < len(columns):
+                        if columns[i] == footprintSetDescriptor.getIdColumnName():
+                            columnId = columns[i]
+                            print('{id} column identified: '+columnId)
+                            if footprintSetDescriptor.getIdColumnName() == footprintSetDescriptor.getNameColumnName():
+                                columnName = columnId
+                                print('{name} column identified: '+columnName)
+                        elif columns[i] == footprintSetDescriptor.getNameColumnName():
+                            columnName = columns[i]
+                            print('{name} column identified: '+columnName)
+                        elif columns[i] == footprintSetDescriptor.getStcsColumnName():
+                            columnStcs = columns[i]
+                            print('{stcs} column identified: '+columnStcs)
+                        elif columns[i] == footprintSetDescriptor.getCentralRADegColumnName():
+                            columnRaDeg = columns[i]
+                            print('{centerRaDeg} column identified: '+columnRaDeg)
+                        elif columns[i] == footprintSetDescriptor.getCentralDecDegColumnName():
+                            columnDecDeg = columns[i]
+                            print('{currDecDeg} column identified: '+columnDecDeg)
+                        i += 1
+                else:
+                    i = 0
+                    currDetails = []
+                    currId = ''
+                    currName = ''
+                    currStcs = ''
+                    currRaDeg = ''
+                    currDecDeg = ''
+
+                    while i < len(row):
+                        if columns[i] == footprintSetDescriptor.getIdColumnName():
+                            currId = row[i]
+                            if footprintSetDescriptor.getIdColumnName() == footprintSetDescriptor.getNameColumnName():
+                                currName = currId
+                        elif columns[i] == footprintSetDescriptor.getNameColumnName():
+                            currName = row[i]
+                        elif columns[i] == footprintSetDescriptor.getStcsColumnName():
+                            currStcs = row[i]
+                        elif columns[i] == footprintSetDescriptor.getCentralRADegColumnName():
+                            currRaDeg = row[i]
+                        elif columns[i] == footprintSetDescriptor.getCentralDecDegColumnName():
+                            currDecDeg = row[i]
+                        else:
+                            currMetadata = {}
+                            if len(footprintSetDescriptor.getMetadata()) > 0:
+                                j = 0
+                                while j < len(footprintSetDescriptor.getMetadata()):
+                                    if footprintSetDescriptor.getMetadata()[j].getLabel() == columns[i]:
+                                        currMetadata['name'] = footprintSetDescriptor.getMetadata()[j].getLabel()
+                                        currMetadata['value'] = row[i]
+                                        currMetadata['type'] = footprintSetDescriptor.getMetadata()[j].getType()
+                                        #currMetadata = {
+                                        #    'name': footprintSetDescriptor.getMetadata()[j].getLabel(),
+                                        #    'value': row[i],
+                                        #    'type': footprintSetDescriptor.getMetadata()[j].getType()
+                                        #    }
+                                        break
+                                    j += 1
+                            else:
+                                currMetadata['name'] = columns[i]
+                                currMetadata['value'] = row[i]
+                                currMetadata['type'] = MetadataType.STRING
+                                #currMetadata = {
+                                #    'name': columns[i],
+                                #    'value': row[i],
+                                #    'type': MetadataType.STRING
+                                #    }
+                            currDetails.append(currMetadata)
+
+                        i += 1
+                    #print ('Adding footprint (id:'+currId+', name:'+currName+', raDeg:'+currRaDeg+', decDeg:'+currDecDeg+', stcs:'+currStcs)
+                    #k = 0
+                    #while k < len(currDetails):
+                    #    print ('\t (name:'+currDetails[k]['name']+', type:'+currDetails[k]['type']+', value:'+currDetails[k]['value'])
+                    #    k += 1
+                    
+                    footprintSet.addFootprint(currName, currStcs, currId, currRaDeg, currDecDeg, currDetails)
+                    #print(f'\t{row[0]} works in the {row[1]} department, and was born in {row[2]}.')
+                    line_count += 1
+            print(f'Processed {line_count} lines.')
+            self.overlayFootprintsWithDetails(footprintSet)
+
 
     def overlayCatalogueFromAstropyTable(self, catalogueName, cooFrame, color, table, raColName, decColName, mainIdColName):
         

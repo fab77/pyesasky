@@ -24,8 +24,9 @@ class FootprintSet:
             self._color = color
         
         self._lineWidth = lineWidth
-        
-    def addFootprint(self, name, stcs, id):
+    
+    # details is a dictionary d = {'banana': 3, 'apple': 4, 'pear': 1, 'orange': 2}
+    def addFootprint(self, name, stcs, id, centralRADeg, centralDecDeg, details):
         currFootprint = {}
         #currFootprint['data'] = {}
         currFootprint['name'] = name
@@ -33,7 +34,29 @@ class FootprintSet:
             currFootprint['id'] = len(self._footprints)
         else:
             currFootprint['id'] = int(id)
+        
         currFootprint['stcs'] = stcs
+
+        if not centralRADeg:
+            currFootprint['centralRADeg'] = centralRADeg.split()[0]
+        else:
+            currFootprint['centralRADeg'] = centralRADeg
+
+        if not centralDecDeg:
+            currFootprint['centralDecDeg'] = centralDecDeg.split()[1]
+        else:
+            currFootprint['centralDecDeg'] = centralDecDeg
+        
+        currFootprint['data'] = []
+        i = 0
+        while i < len(details):
+            currFootprint['data'].append(details[i]) 
+            i += 1
+
+        #for key in details:
+        #    print(''+details[key])
+        #    currFootprint['data'][key] = details[key]
+
         self._footprints.append(currFootprint)
         
     def toDict(self):
