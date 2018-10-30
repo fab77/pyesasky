@@ -15,23 +15,15 @@ $ git clone https://github.com/fab77/pyesasky.git
 
 $ cd pyesasky
 
-$ npm install
+$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/footprints
+  remotes/origin/master
 
-$ python setup.py install
-
-$ pip install .
-
-$ jupyter nbextension install --py --sys-prefix pyesasky
-
-$ jupyter nbextension enable --py --sys-prefix pyesasky
-
-
-or simply run 
-
+$ git checkout remotes/origin/footprints
 
 $ sh reinstall.sh
-
-
 
 
 # Run pyesasky
