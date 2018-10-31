@@ -4,15 +4,15 @@ __all__ = ['FootprintSet']
 
 class FootprintSet:
     
-    _footprintSetName = ''
-    _cooframe = 'J2000'
-    _color = '#aa2345'
-    _lineWidth = 10
-    _footprints = []
+    # _footprintSetName = ''
+    # _cooframe = 'J2000'
+    # _color = '#aa2345'
+    # _lineWidth = 10
+    # _footprints = []
     
     
     
-    def __init__(self, footprintSetName, cooframe, color, lineWidth):
+    def __init__(self, footprintSetName="User dataset", cooframe="J2000", color="green", lineWidth=5):
         self._footprintSetName = footprintSetName        
         
         if (cooframe == 'J2000' or cooframe == 'Galactic'): 
@@ -24,6 +24,7 @@ class FootprintSet:
             self._color = color
         
         self._lineWidth = lineWidth
+        self._footprints = []
     
     # details is a dictionary d = {'banana': 3, 'apple': 4, 'pear': 1, 'orange': 2}
     def addFootprint(self, name, stcs, id, centralRADeg, centralDecDeg, details):

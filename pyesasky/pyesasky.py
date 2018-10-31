@@ -111,6 +111,7 @@ class ESASkyWidget(widgets.DOMWidget):
 
     def overlayFootprintsFromCSV(self, pathToFile, csvDelimiter, footprintSetDescriptor):
 
+        
         footprintSet = FootprintSet(footprintSetDescriptor.getDatasetName(), 'J2000', footprintSetDescriptor.getHistoColor(), footprintSetDescriptor.getLineWidth())
 
         #read colums
@@ -142,6 +143,8 @@ class ESASkyWidget(widgets.DOMWidget):
                         elif columns[i] == footprintSetDescriptor.getCentralDecDegColumnName():
                             columnDecDeg = columns[i]
                             print('{currDecDeg} column identified: '+columnDecDeg)
+                        else:
+                            print('extra column identified: '+columns[i])
                         i += 1
                 else:
                     i = 0
