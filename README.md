@@ -17,11 +17,16 @@ $ cd pyesasky
 
 $ git branch -a
 * master
+
   remotes/origin/HEAD -> origin/master
+
+  remotes/origin/ESASky_3.0
+  
   remotes/origin/footprints
+
   remotes/origin/master
 
-$ git checkout remotes/origin/footprints
+$ git checkout remotes/origin/ESASky_3.0
 
 $ sh reinstall.sh
 
