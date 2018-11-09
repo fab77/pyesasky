@@ -50,7 +50,7 @@ data_files_spec = [
     ('share/jupyter/nbextensions/pyesasky/js/sliderSelector', pjoin(nb_path, 'js', 'sliderSelector'), '*.js*'),
     ('share/jupyter/nbextensions/pyesasky/js/datepicker', pjoin(nb_path, 'js', 'datepicker'), '*.js*'),
     ('share/jupyter/nbextensions/pyesasky/js/api', pjoin(nb_path, 'js', 'api'), '*.js*'),
-    ('share/jupyter/nbextensions/pyesasky/js/esaskyweb_V2_3_beta_B10', pjoin(nb_path, 'js', 'esaskyweb_V2_3_beta_B10'), '*.js*'),
+    ('share/jupyter/nbextensions/pyesasky/js/esaskyweb_V3_0', pjoin(nb_path, 'js', 'esaskyweb_V3_0'), '*.js*'),
     
     ('share/jupyter/nbextensions/pyesasky/images', pjoin(nb_path, 'images'), '*.gif*'),
     ('share/jupyter/nbextensions/pyesasky/images', pjoin(nb_path, 'images'), '*.png*'),
@@ -59,11 +59,11 @@ data_files_spec = [
     ('share/jupyter/nbextensions/pyesasky/internationalization', pjoin(nb_path, 'internationalization'), '*.xml*'),
     
     ('share/jupyter/nbextensions/pyesasky/css', pjoin(nb_path, 'css'), '*.css*'),
-    ('share/jupyter/nbextensions/pyesasky/js/esaskyweb_V2_3_beta_B10/gwt/aladinlite', pjoin(nb_path, 'js', 'esaskyweb_V2_3_beta_B10','gwt','aladinlite'), '*.css*'),
-    ('share/jupyter/nbextensions/pyesasky/js/esaskyweb_V2_3_beta_B10/gwt/dark', pjoin(nb_path, 'js', 'esaskyweb_V2_3_beta_B10','gwt','dark'), '*.css*'),
-    ('share/jupyter/nbextensions/pyesasky/js/esaskyweb_V2_3_beta_B10/gwt/dark/images', pjoin(nb_path, 'js', 'esaskyweb_V2_3_beta_B10','gwt','dark','images'), '*.gif*'),
-    ('share/jupyter/nbextensions/pyesasky/js/esaskyweb_V2_3_beta_B10/gwt/dark/images', pjoin(nb_path, 'js', 'esaskyweb_V2_3_beta_B10','gwt','dark','images'), '*.png*'),
-    ('share/jupyter/nbextensions/pyesasky/js/esaskyweb_V2_3_beta_B10/gwt/dark/images', pjoin(nb_path, 'js', 'esaskyweb_V2_3_beta_B10','gwt','dark','images'), '*.jpg*'),
+    ('share/jupyter/nbextensions/pyesasky/js/esaskyweb_V3_0/gwt/aladinlite', pjoin(nb_path, 'js', 'esaskyweb_V3_0','gwt','aladinlite'), '*.css*'),
+    ('share/jupyter/nbextensions/pyesasky/js/esaskyweb_V3_0/gwt/dark', pjoin(nb_path, 'js', 'esaskyweb_V3_0','gwt','dark'), '*.css*'),
+    ('share/jupyter/nbextensions/pyesasky/js/esaskyweb_V3_0/gwt/dark/images', pjoin(nb_path, 'js', 'esaskyweb_V3_0','gwt','dark','images'), '*.gif*'),
+    ('share/jupyter/nbextensions/pyesasky/js/esaskyweb_V3_0/gwt/dark/images', pjoin(nb_path, 'js', 'esaskyweb_V3_0','gwt','dark','images'), '*.png*'),
+    ('share/jupyter/nbextensions/pyesasky/js/esaskyweb_V3_0/gwt/dark/images', pjoin(nb_path, 'js', 'esaskyweb_V3_0','gwt','dark','images'), '*.jpg*'),
     
     
     ('share/jupyter/lab/extensions', lab_path, '*.tgz'),

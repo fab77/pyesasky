@@ -2,66 +2,55 @@
 <!DOCTYPE Internationalization>
 <Internationalization langCode="es">
 
-	<text key="ESASky_Description">
-		ESASky is an application that allows you to visualise and download public astronomical data from space-based missions.
-	</text>
-	
 	<!-- SsoCountRequestCallback -->
 	<text key="SsoCountRequestCallback_objectNotAvailableInEsaSky">
-		Lo sentimos, pero el objeto que esta buscando no esta
-		disponible en ESASky en este momento. Actualmente estamos procesando
-		objetos del Sistema Solar. Por favor intentelo de nuevo en unos dias
+		Lo sentimos, pero el objeto que est&#225; buscando no
+		est&#225;
+		disponible en ESASky en este momento. Actualmente estamos
+		procesando
+		objetos del Sistema Solar. Por favor, int&#233;ntelo de
+		nuevo en unos d&#237;as.
 	</text>
 	<text key="SsoCountRequestCallback_targetCurrentlyUnavailable">
-		Objeto actualmente no disponible
+		Objeto actualmente no disponible.
 	</text>
 
 	<!-- JsonRequestCallback -->
 	<text key="JsonRequestCallback_retrievingMOC">
-		Recuperando MOC
+		Recuperando MOC...
 	</text>
 
 	<!-- SSOOrbitMetadataCallback -->
 	<text key="SSOOrbitMetadataCallback_retrievingOrbitPoints">
-		Recuperando puntos de la &#243;rbita de $SSONAME$
+		Recuperando puntos de la &#243;rbita de $SSONAME$...
 	</text>
 
 	<!-- countRequestCallback -->
 	<text key="CountRequestCallback_countingAvailableData">
-		Contando datos disponibles
+		Contando datos disponibles...
 	</text>
 
 	<!-- getMissionDataCountRequestCallback -->
 	<text key="GetMissionDataCountRequestCallback_searchingInArchive">
-		Buscando archivo $NAME$
+		Buscando archivo $NAME$...
 	</text>
 
 	<!-- publicationsSourcesCallback -->
 	<text key="PublicationsSourcesCallback_retrievingPubSources">
-		Obteniendo objetos con publicaciones
+		Obteniendo objetos con publicaciones...
 	</text>
 
 	<!-- publicationsBySourceCallback -->
 	<text key="PublicationsBySourceCallback_retrievingPubsOf">
-		Obteniendo publicaciones de $NAME$
+		Obteniendo publicaciones de $NAME$...
 	</text>
-	<text key="PublicationsBySourceCallback_helpTitle">
-		Publicaciones
-	</text>
-	<text key="PublicationsBySourceCallback_helpDescription">
-		Publicaciones asociadas a esta fuente en SIMBAD m&#225;s el acceso a las fuentes de cada publicaci&#243;n.
-		&lt;br&gt;&lt;br&gt;
-		&lt;a href="http://www.cosmos.esa.int/web/esdc/esasky-interface#publications" target="_blank"&gt; 
-		Toda la documentaci&#243;n de esta funcionalidad. 
-		&lt;/a&gt;
-	</text>
-	
+
 	<!-- metadataCallback -->
 	<text key="MetadataCallback_retrievingMissionMetadata">
-		Obteniendo metadatos de $NAME$
+		Obteniendo metadatos de $NAME$...
 	</text>
 	<text key="MetadataCallback_retrievingSSOMetadata">
-		Obteniendo metadatos del OSS $NAME$
+		Obteniendo metadatos de $NAME$...
 	</text>
 
 	<!-- searchPanel -->
@@ -81,14 +70,15 @@
 		Ejemplos de entrada por coordenadas:
 	</text>
 	<text key="searchPanel_wrongCoordsInput">
-		Error al analizar las coordenadas. Revise los formatos
-		de entrada permitidos.
+		Error al interpretar las coordenadas. Revise los
+		formatos
+		permitidos.
 	</text>
 	<text key="searchPanel_targetNotFound">
-		Destino no encontrado.
+		Objeto no encontrado.
 	</text>
 	<text key="searchPanel_ssoTargetNotFound">
-		Objeto del sistema solar no encontrado.
+		Objeto del Sistema Solar no encontrado.
 	</text>
 	<text key="searchPanel_seeMoreExamples">
 		Ver m&#225;s ejemplos
@@ -104,51 +94,21 @@
 
 	<!-- uploadTargetList -->
 	<text key="uploadTargetList_targetList">
-		Archivo de lista de objetos:
-	</text>
-	<text key="uploadTargetList_targetListDescriptionText">
-		$ES$
-		Select an example target list or select a text file containing your list of targets, either names resolved by SIMBAD or a list of coordinates. 
-		While the list is loading, the message 'Resolving target list...' appears at the top of the interface, then once loaded, the target list appears on the left.
-		&lt;br&gt;&lt;br&gt;
-		Click on a target to view it in the sky. 
-		If an object has not been resolved by SIMBAD it will be crossed out. 
-		Below the target list are some video style buttons, press play to play through the list of targets, the target being displayed will be highlighted in dark grey in the list.
-		Text and comments can also be added to a target list and the text is displayed in ESASky below the player buttons.
-		&lt;br&gt;&lt;br&gt;
-		&lt;a href="https://www.cosmos.esa.int/web/esdc/esasky-target-lists" target="_blank"&gt; 
-		See here for the format needed to display text and some example files.
-		&lt;/a&gt;
-		&lt;br&gt;&lt;br&gt;
-		&lt;a href="https://www.cosmos.esa.int/web/esdc/esasky-interface#list" target="_blank"&gt; 
-		Full documentation of this feature. 
-		&lt;/a&gt;
+		Lista de objetos:
 	</text>
 	<text key="uploadTargetList_uploadTargetList">
 		Subir lista de objetos
 	</text>
 	<text key="uploadTargetList_uploadTargetListFailed">
-		fallo debido a
-	</text>
-	<text key="uploadTargetList_removedUploadedFile">
-		Archivo cargado eliminado
+		Fallo debido a
 	</text>
 	<text key="uploadTargetList_title">
-		$ES$Target List
+		Lista de objetos
 	</text>
-	<text key="uploadTargetList_selectList">
-		Selecciona una lista de objetos
-	</text>
-	<text key="uploadTargetList_orUpload">
-		o
-	</text>
-	<text key="uploadTargetList_targetListsFilenames">
-		SpiralGalaxies|BrightNebulae|DarkNebulae|GlobularClusters|StarFormationRegions|X-rayPulsars|SupernovaRemnants|GammaRayBursts|GalaxyClusters|BrownDwarfs|PotentiallyHabitableExoplanets|ClosestExoplanetCandidatesByDistance
-	</text>
-	
+
 	<!-- uploadTargetListPanel -->
 	<text key="uploadTargetListPanel_MultiTargetCatalog">
-		Catalogo Multi Objeto
+		Cat&#225;logo Multi-Objeto
 	</text>
 
 	<!-- Sky -->
@@ -164,49 +124,20 @@
 	<text key="sky_selectSky">
 		Selecione cielos
 	</text>
-	<text key="sky_selectSky_help">
-		$ES$
-		The skies are ordered into wavelength regions, from Gamma-ray to Radio, and an Others section at the bottom which currently holds physical models. 
-		Select a sky by choosing the wavelength region in the first panel, and browse the skies in the second panel. 
-		Details on each sky can be found by clicking the i icon. For further details and a list of all the available skies, go to the skies (HiPS) information page.
-		&lt;br&gt;&lt;br&gt;
-		The colour of the skies can be modified with the colour map options 'Native', 'EOSB', 'Planck', 'Rainbow', 'Greyscale' and 'Cubehelix'.
-		&lt;br&gt;&lt;br&gt;
-		A sky can be added to the stack by selecting the + button. 
-		&lt;br&gt;&lt;br&gt;
-		Click on the video style buttons to play through the skies in the stack, skip forward, backwards or stop.
-		&lt;br&gt;&lt;br&gt;
-		&lt;a href="https://www.cosmos.esa.int/web/esdc/esasky-interface#skies" target="_blank"&gt; 
-		Full documentation of this feature. 
-		&lt;/a&gt;
-	</text>
 	<text key="sky_selectASky">
-		Selecione un cielo
+		Seleccione un cielo.
 	</text>
 	<text key="sky_skyDetails">
-		Detalles del cielo
+		Detalles del cielo.
 	</text>
 	<text key="sky_removeSky">
-		Eliminar cielo
+		Eliminar cielo.
 	</text>
 	<text key="sky_loadingSkies">
-		$ES$ Loading skies
+		Cargando cielo...
 	</text>
 
 	<!-- treeMap -->
-	<text key="treeMap_tooltipText_sources">
-		$COUNT$ fuente(s) de $MISION$ encontradas en el campo de visi&#243;n actual
-	</text>
-	<text key="treeMap_tooltipText_sources_catalog">
-		$COUNT$ fuente(s) del $MISION$ encontradas en el campo de visi&#243;n actual
-	</text>
-	<text key="treeMap_tooltipText_images">
-		$COUNT$ im&#225;gene(s) de $MISION$ encontradas en el campo de visi&#243;n
-		actual
-	</text>
-	<text key="treeMap_tooltipText_spectra">
-		$COUNT$ espectro(s) de $MISION$ encontrados en el campo de visi&#243;n actual
-	</text>
 	<text key="treeMap_imageObservations">
 		Observaciones
 	</text>
@@ -217,54 +148,40 @@
 		Espectros
 	</text>
 	<text key="treeMap_SSOObservations">
-		Observaciones de objetos del sistema solar
+		Observaciones de objetos del Sistema Solar (OSS)
 	</text>
 	<text key="treeMap_allData">
 		Todo
 	</text>
 	<text key="treeMap_SSO">
-		Objeto del sistema solar
+		Objeto del Sistema Solar (OSS)
 	</text>
 	<text key="treeMap_loadingObservations">
-		Cargando observaciones
+		Cargando observaciones...
 	</text>
 	<text key="treeMap_loadingCatalogues">
-		Cargando cat&#225;logos
+		Cargando cat&#225;logos...
 	</text>
 	<text key="treeMap_loadingSpectras">
-		Cargando espectros
+		Cargando espectros...
 	</text>
 	<text key="treeMap_loadingSSO">
-		Carga de objetos del sistema solar
+		Cargando observaciones del Sistema Solar...
 	</text>
 	<text key="treeMap_noObservations">
-		No se han encontrado observaciones
+		No se encontraron observaciones.
 	</text>
 	<text key="treeMap_noCatalogues">
-		No se encontraron entradas de cat&#225;logo
+		No se encontraron entradas de cat&#225;logo.
 	</text>
 	<text key="treeMap_noSpectraFound">
-		No se encontraron datos espectrales
+		No se encontraron datos espectrales.
 	</text>
 	<text key="treeMap_noSSOFound">
-		No se encontraron observaciones del Sistema Solar
+		No se encontraron observaciones del Sistema Solar.
 	</text>
 	<text key="treeMap_nameOfSelectedLabel">
-		SSO: $SSONAME$ ($SSOTYPE$)
-	</text>
-
-	<!-- uploadTargetList -->
-	<text key="uploadTargetList_uploadTargetListFailed">
-		Longitud de onda
-	</text>
-	<text key="uploadTargetList_uploadTargetListFailed">
-		Seleccione la longitud de onda
-	</text>
-	<text key="uploadTargetList_uploadTargetListFailed">
-		Cielos
-	</text>
-	<text key="uploadTargetList_uploadTargetListFailed">
-		Seleccione un cielo
+		OSS: $SSONAME$ ($SSOTYPE$)
 	</text>
 
 	<!-- HiPS Details Popup -->
@@ -305,7 +222,7 @@
 		Previsualizar
 	</text>
 	<text key="abstractTablePanel_sourceInPublication">
-		Fuentes de la publicaci&#243;n
+		Fuentes citadas en la publicaci&#243;n
 	</text>
 	<text key="abstractTablePanel_name">
 		Nombre
@@ -313,13 +230,11 @@
 	<text key="abstractTablePanel_observation">
 		Observaci&#243;n
 	</text>
-	<text key="abstractTablePanel_noDataMatching">
-		Sin datos que coincidan con el filtro aplicado
-	</text>
 
 	<!-- commonObservationTablePanel -->
 	<text key="commonObservationTablePanel_sendRowToVOA">
-		Enviar fila a la aplicaci&#243;n de observatorio virtual
+		Enviar fila a una aplicaci&#243;n de observatorio
+		virtual
 	</text>
 	<text key="commonObservationTablePanel_centreOnObservation">
 		Centrar en observaci&#243;n
@@ -335,29 +250,8 @@
 		Proyectar futuras observaciones con $MISSION$
 	</text>
 	<text key="planObservationPanel_helpMessageText">
-		$ES$
-		This tool projects onto the sky the footprints of astronomical instruments, at any chosen position and orientation, and has been developed to aid professional astronomers when they are defining their future observation proposals for a particular space mission or ground-based telescope. 
-		Currently the tool works for all the JWST instruments, including being able to project the full focal plane of the JWST. 
-		The possibility to project the footprints of other live missions, like XMM-Newton or HST, will be implemented in the near future.
-		&lt;br&gt;&lt;br&gt;
-		IMPORTANT: This functionality is not intended to replace the JWST ATP tool, but just to provide a quick-look aid for astronomers planning JWST observations that require overlapping with existing observations by other missions available in ESASky, or who want to make sure that their instrument or parallel pointings are covering/avoiding particular features or objects in their target regions. 
-		The coordinates and positional angles of the pointings defined using this functionality have to be checked and refined in the APT, which is the official tool for preparing JWST observations. 
-		For information and installation of the APT, go to 
-		&lt;a href="http://www.stsci.edu/hst/proposing/apt" target="_blank"&gt; 
-		this STSci webpage
-		&lt;/a&gt;
-		; for details on the different JWST instruments, 
-		&lt;a href="https://jwst.stsci.edu/instrumentation" target="_blank"&gt; 
-		click here. 
-		&lt;/a&gt;
-		&lt;br&gt;&lt;br&gt;
-		&lt;a href="https://www.youtube.com/watch?v=n2iW1HfVgVE&amp;feature=youtu.be" target="_blank"&gt; 
-		See also the following video: How to plan future JWST observations
-		&lt;/a&gt;
-		&lt;br&gt;&lt;br&gt;
-		&lt;a href="https://www.cosmos.esa.int/web/esdc/esasky-interface#planning" target="_blank"&gt; 
-		Full documentation of this feature. 
-		&lt;/a&gt;
+		Usa este di&#225;logo para proyectar futuras
+		observaciones.
 	</text>
 	<text key="planObservationPanel_helpMessageTitle">
 		Proyectar futuras observaciones
@@ -365,13 +259,13 @@
 
 	<!-- futureFootprintRow -->
 	<text key="futureFootprintRow_addJWSTInstrument">
-		Agregar un instrumento JWST
+		Agregar un instrumento del JWST.
 	</text>
 	<text key="futureFootprintRow_rotation">
 		Rotaci&#243;n
 	</text>
 	<text key="futureFootprintRow_allInstruments">
-		Todos los Instrumentos
+		Todos los instrumentos
 	</text>
 	<text key="futureFootprintRow_removeFootprint">
 		Eliminar esta huella
@@ -380,7 +274,7 @@
 		Aumenta
 	</text>
 	<text key="futureFootprintRow_angleBy">
-		&#225;ngulo
+		&#193;ngulo
 	</text>
 	<text key="futureFootprintRow_decrease">
 		Disminuye
@@ -395,42 +289,22 @@
 		Sistema de coordenadas:
 	</text>
 	<text key="futureFootprintRow_dataCopiedToClipboard">
-		Datos copiados al portapapeles
-	</text>
-
-	<!-- menuPanel -->
-	<text key="menuPanel_videoTutorials">
-		Video tutoriales
-	</text>
-	<text key="menuPanel_comunity">
-		Sugerencias
-	</text>
-	<text key="menuPanel_aboutUs">
-		Sobre nosotros
-	</text>
-	<text key="menuPanel_releaseNotes">
-		Notas de lanzamiento
-	</text>
-	<text key="menuPanel_newsletter">
-		Noticias
+		Datos copiados al portapapeles.
 	</text>
 
 	<!-- screenShotDialogBox -->
 	<text key="screenShotDialogBox_screenshot">
-		ESASky Captura de pantalla
+		Captura de pantalla
 	</text>
 
 	<!-- ctrlToolBar -->
 	<text key="ctrlToolBar_URLClipboard">
 		URL copiada al portapapeles
 	</text>
-	<text key="ctrlToolBar_takeScreenshot">
-		Tome una captura de pantalla de la pantalla actual
-	</text>
 
 	<!-- ctrlToolBarPresenter -->
 	<text key="ctrlToolBarPresenter_bibcode">
-		Cod.Pub: $HTML$
+		C&#243;digo de publicaci&#243;n: $HTML$
 	</text>
 	<text key="ctrlToolBarPresenter_authors">
 		Autores: $HTML$
@@ -439,7 +313,7 @@
 		Revista: $JOURNAL$, $DATE$
 	</text>
 	<text key="ctrlToolBarPresenter_pubSources">
-		Objetos de la publicaci&#243;n:
+		Objetos citados en la publicaci&#243;n:
 	</text>
 	<text key="ctrlToolBarPresenter_adsSearch">
 		Busqueda en ADS: $HTML$
@@ -447,19 +321,7 @@
 	<text key="ctrlToolBarPresenter_authorSources">
 		Objetos relacionados con el autor:
 	</text>
-	<text key="ctrlToolBarPresenter_showingMaxSources">
-		Mostrando solo los primeros $COUNT$ objetos
-	</text>
-	<text key="ctrlToolBarPresenter_showingCountSources">
-		$COUNT$ objeto(s) relacionados
-	</text>
-	<text key="ctrlToolBarPresenter_loadPublicationDetails">
-		$ES$ Loading Publication Details
-	</text>
-	<text key="ctrlToolBarPresenter_retrievingPublicationTargetList">
-		$ES$ Retrieving Target List
-	</text>
-	
+
 	<!-- playerPanel -->
 	<text key="playerPanel_next">
 		Siguiente
@@ -489,42 +351,22 @@
 	<text key="webConstants_manageSkies">
 		Administrar cielos
 	</text>
-	<text key="webConstants_uploadTargetList">
-		$ES$ Manage List of Targets
-	</text>
 	<text key="webConstants_learnMore">
-		¡Aprenda m&#225;s sobre ESASky!
-	</text>
-	<text key="webConstants_getURLCurrentView">
-		Obtener URL para la vista actual
-	</text>
-	<text key="webConstants_additionalInformation">
-		Informaci&#243;n adicional sobre ESASky
-	</text>
-	<text key="webConstants_exploreImageObservations">
-		Explore las im&#225;genes de observaciones para esta regi&#243;n
-	</text>
-	<text key="webConstants_exploreCatalogue">
-		Explore los datos del cat&#225;logo de esta regi&#243;n
-	</text>
-	<text key="webConstants_exploreSpectral">
-		Explore los datos espectrales de esta regi&#243;n
-	</text>
-	<text key="webConstants_exploreData">
-		Explore los datos para $TARGET$
+		&#161;Aprenda m&#225;s sobre ESASky!
 	</text>
 	<text key="webConstants_trackSSO">
-		Seguimiento de objetos del sistema solar a trav&#233;s del cuadro de
+		Seguimiento de objetos del Sistema Solar a trav&#233;s
+		del cuadro de
 		b&#250;squeda
 	</text>
 	<text key="webConstants_projectFutureObservations">
-		Proyectar de observaciones futuras
+		Proyecte observaciones futuras
 	</text>
 	<text key="webConstants_explorePublications">
-		Explore publicaciones de esta regi&#243;n
+		Examine las publicaciones sobre esta regi&#243;n
 	</text>
 	<text key="webConstants_exploreRandomTarget">
-		Explore una fuente aleatoria
+		Investigue un objeto aleatorio
 	</text>
 
 	<!-- displayUtils -->
@@ -532,54 +374,36 @@
 		Problema de conectividad
 	</text>
 	<text key="displayUtils_VOnotFound">
-		No pudimos encontrar ninguna herramienta compatible con el Observatorio
-		Virtual (VO) corriendo en su ordenador
+		No pudimos encontrar ninguna herramienta compatible con
+		el Observatorio
+		Virtual (VO) activa en su ordenador.
 	</text>
 	<text key="displayUtils_startOneOf">
-		Comience uno de los siguientes
-	</text>
-	<text key="displayUtils_toCommunicateWithDS9">
-		$ES$In order to communicate with DS9, you will also have to launch a
+		Lance una de las siguientes aplicaciones:
 	</text>
 	<text key="displayUtils_seeHelp">
-		por favor vea la ayuda para m&#225;s detalles
+		Por favor, lea la ayuda para m&#225;s detalles.
 	</text>
 	<text key="displayUtils_tryAgain">
-		Una vez que se ejecute cualquiera de estas aplicaciones, intente de nuevo
+		Una vez que se est&#233; ejecutando cualquiera de estas
+		aplicaciones, int&#233;ntelo de nuevo.
 	</text>
 
 	<!-- resultsPresenter -->
-	<text key="resultsPresenter_numberOfFilteredRows">
-		$REMAINING_ROWS$ row(s) remain after filtering
-	</text>
 	<text key="resultsPresenter_noDataAvailable">
-		No hay datos disponibles en el &#225;rea escogido
+		No hay datos disponibles en el &#225;rea escogida.
 	</text>
 	<text key="resultsPresenter_noDataFound">
-		Datos no encontrados
-	</text>
-	<text key="resultsPresenter_sourcesInTheCurrentArea">
-		$COUNT$ Fuente(s) en el &#225;rea escogido
+		Datos no encontrados.
 	</text>
 	<text key="resultsPresenter_totalMissionCoverage">
-		Cobertura total de la misi&#243;n
+		Cobertura total de la misi&#243;n.
 	</text>
 	<text key="resultsPresenter_noDataAvailableForTheCurrentObject">
-		No hay datos disponibles para el objeto escogido
+		No hay datos disponibles para el objeto escogido.
 	</text>
 	<text key="resultsPresenter_showingMissionCoverage">
 		Mostrando cobertura de la misi&#243;n
-	</text>
-	<text key="resultsPresenter_showingGlobalSkyCoverage">
-		Mostrando cobertura global del cielo para la misi&#243;n &lt;br&gt; Acerque y
-		actualice la tabla para obtener las huellas reales de las
-		observaciones individuales
-	</text>
-	<text key="resultsPresenter_observationsInTheCurrentArea">
-		$COUNT$ Observacione(s) en el &#225;rea escogido
-	</text>
-		<text key="resultsPresenter_publicationsInTheCurrentArea">
-		$ES$ $COUNT$ Publication(s) for this source
 	</text>
 	<text key="resultsPresenter_computingDataCrossMatch">
 		C&#225;lculo de datos cruzados de datos para $SSOTEXT$
@@ -590,19 +414,18 @@
 		Cerrar pestaña
 	</text>
 	<text key="closeableTabLayoutPanel_saveResultsTableOrDownload">
-		Guarde la tabla de resultados o descargue los productos seleccionados
+		Guarde la tabla de resultados o descargue los productos
+		seleccionados
 	</text>
 	<text key="closeableTabLayoutPanel_sendTableToVOA">
-		Enviar tabla a la aplicaci&#243;n de observatorio virtual
+		Enviar tabla a una aplicaci&#243;n de observatorio
+		virtual
 	</text>
 	<text key="closeableTabLayoutPanel_recentre">
-		Recentre
+		Volver a centrar
 	</text>
 	<text key="closeableTabLayoutPanel_refreshData">
 		Actualizar datos
-	</text>
-	<text key="closeableTabLayoutPanel_styleBtn">
-		Personalizar estilo
 	</text>
 	<text key="closeableTabLayoutPanel_loading">
 		Cargando...
@@ -613,72 +436,66 @@
 
 	<!-- targetWidget -->
 	<text key="targetWidget_showTargetInTheSky">
-		Mostrar objetivo en el cielo
+		Mostrar objeto en el cielo
 	</text>
 	<text key="targetWidget_targetNotFoundInSimbad">
-		Objetivo no encontrado en Simbad
+		Objeto no encontrado en Simbad.
 	</text>
 
 	<!-- welcomeDialog -->
 	<text key="WelcomeDialog_title">
-		Bienvenido a ESASky!
+		&#161;Bienvenido a ESASky!
 	</text>
 	<text key="WelcomeDialog_description">
-		ESASky es una aplicaci&#243;n que le permite visualizar y descargar datos
-		astron&#243;micos p&#250;blicos de misiones espaciales.
-	</text>
-	<text key="WelcomeDialog_diceText">
-		&lt;div style=&quot;margin-top: -8px; margin-bottom: 15px; font-size: 0.8em;&quot;&gt;Click on &lt;img id=&quot;welcomeDiceImg&quot; src=&quot;images/random_dice.png&quot; alt=&quot;the dice icon&quot; style=&quot;width: 20px; height: 20px; border: white 1px solid; border-radius: 4px; padding: 2px; margin-bottom: -8px;&quot;&gt; to explore random targets in the sky or in &lt;img id=&quot;welcomeTargetListImg&quot; src=&quot;images/target_list.png&quot; alt=&quot;the dice icon&quot; style=&quot;width: 20px; height: 20px; border: white 1px solid; border-radius: 4px; padding: 2px; margin-bottom: -8px;&quot;&gt; to see targets by class&lt;br&gt;&lt;/div&gt;
+		ESASky es una aplicaci&#243;n que le permite visualizar
+		y descargar datos
+		astron&#243;micos p&#250;blicos de misiones
+		espaciales.
 	</text>
 	<text key="WelcomeDialog_tutorialLink">
-		$ES$ Video Tutorials
+		Tutoriales en video
+	</text>
+	<text key="WelcomeDialog_echoLink">
+		Foro
 	</text>
 	<text key="WelcomeDialog_contactInfo">
-		$ES$ Contact Us
+		Cont&#225;ctenos
 	</text>
 	<text key="WelcomeDialog_contactInfoEmailCopied">
-		$ES$ Email address copied to clipboard
+		Direcci&#243;n de correo electr&#243;nico copiada al
+		portapapeles
 	</text>
 	<text key="WelcomeDialog_checkbox">
-		$ES$ Don't show this message again (uses cookies)
+		No volver a mostrar (usa cookies)
 	</text>
 	<text key="WelcomeDialog_cookieInformation">
-		Politica de cookies de ESASky
+		Pol&#237;tica de cookies de ESASky
 	</text>
 	<text key="WelcomeDialog_closeButton">
-		$ES$ Close
+		Cerrar
 	</text>
 
 	<!-- allSkyPanel -->
-	<text key="AllSkyPanel_selectedSky">
-		Cielo: $SKYNAME$
-	</text>
 	<text key="AllSkyPanel_fovButton">
 		Introducir FoV manualmente con decimales
 	</text>
 
 	<!-- allSkyPresenter -->
 	<text key="AllSkyPresenter_futureSelectedDetectorCatalog">
-		Cat&#225;logo de detectores seleccionados futuros
+		Cat&#225;logo de detectores futuros seleccionados
 	</text>
 
-	<!-- allSkyFocusPanel -->
-	<text key="AllSkyFocusPanel_tellUs">
-		Cuentanos
-	</text>
-	<text key="AllSkyFocusPanel_help">
-		Ayuda
-	</text>
 	<text key="AllSkyFocusPanel_searchIn">
 		Buscar en
 	</text>
 
 	<!-- fovDialogBox -->
 	<text key="FovDialogBox_inputFoVTextBox">
-		Introduce un FoV con decimales
+		Introduce el tama&#241;o del campo de visi&#243;n (con
+		decimales)
 	</text>
 	<text key="FovDialogBox_wrongFov">
-		Solo numeros y puntos!
+		&#161;S&#243;lo n&#250;meros y puntos!
 	</text>
 
 	<!-- zoomControlPanel -->
@@ -688,24 +505,24 @@
 	<text key="ZoomControlPanel_zoomOut">
 		Alejarse
 	</text>
-	
+
 	<!-- EsaSkyNumberControl -->
 	<text key="EsaSkyNumberControl_increaseWithLabel">
-		Increase $TITLE$ with $STEP$
+		Aumentar $TITLE$ un factor $STEP$
 	</text>
 	<text key="EsaSkyNumberControl_decreaseWithLabel">
-		Decrease $TITLE$ with $STEP$
+		Disminuir $TITLE$ un factor $STEP$
 	</text>
 
 	<!-- saveAllView -->
 	<text key="saveAllView_save_In_VOTABLE_Format">
-		Guardar tabla como VOTable
+		VOTable
 	</text>
 	<text key="saveAllView_save_In_VOTABLE_Format_Title">
 		Guardar como tabla XML VO
 	</text>
 	<text key="saveAllView_save_In_CSV_Format">
-		Guardar tabla como CSV
+		CSV
 	</text>
 	<text key="saveAllView_save_In_CSV_Format_Title">
 		Guardar como CSV, Valores Separados por Comas
@@ -738,23 +555,10 @@
 		Detector:
 	</text>
 	<text key="PlanningDetectorCenterTooltip_referenceRA">
-		RA Referencia:
+		RA de referencia:
 	</text>
 	<text key="PlanningDetectorCenterTooltip_referenceDEC">
-		DEC Referencia:
-	</text>
-	
-	<text key="stylePanel_Title">
-		Estilo de $MISSION$
-	</text>
-	<text key="stylePanel_helpMessageText">
-		Usa este panel para personalizar el estilo los resultados
-	</text>
-	<text key="stylePanel_removeAvgCheckBox">
-		Restar PM medio
-	</text>
-	<text key="stylePanel_removeMedianCheckBox">
-		Restar mediana del PM
+		DEC de referencia:
 	</text>
 
 	<!-- catalogString -->
@@ -777,37 +581,25 @@
 		Flujo
 	</text>
 	<text key="fluxUVW1">
-		Flujo comenzando con el filtro UVW1
+		Flujo en el filtro UVW1
 	</text>
 	<text key="btMagnitude">
 		magnitud BT
 	</text>
 	<text key="SN">
-		Señal a ruido
+		Ratio se&#241;al/ruido
 	</text>
 	<text key="gMagnitude">
-		magnitud G
+		Magnitud G
 	</text>
 	<text key="hpMagnitude">
-		magnitud Hp
+		Magnitud Hp
 	</text>
 	<text key="fluxDensity">
-		densidad de Flujo
+		Densidad de flujo
 	</text>
 	<text key="error">
-		error
-	</text>
-	<text key="sourceLimitDescription">
-		Mostrando las primeras $sourceLimit$ fuentes ordenadas por $orderBy$
-	</text>
-	<text key="sourceLimitNumImages">
-		Mostrando las $sourceLimit$ fuentes mas observadas (Numero de imagenes)
-	</text>
-	<text key="INTEGRAL_flux20_40">
-		Flujo&lt;sub&gt;20-40 keV&lt;/sub&gt;&lt;br&gt;(mCrab)
-	</text>
-	<text key="INTEGRAL_flux40_100">
-		Flujo&lt;sub&gt;40-100 keV&lt;/sub&gt;&lt;br&gt;(mCrab)
+		Error
 	</text>
 	<text key="INTEGRAL_Type">
 		Tipo
@@ -818,15 +610,6 @@
 	<text key="INTEGRAL_Exposure">
 		Exposici&#243;n (ksec)
 	</text>
-	<text key="EP_STACK_ONTIME">
-		EP Ontime &lt;i&gt;(s)&lt;/i&gt; </text>
-	<text key="3XMM_EPIC_ep_8_flux">
-		Flujo&lt;br&gt;(erg cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
-	</text>
-	<text key="3XMM_EPIC_ep_8_flux_err">
-		Error de flujo&lt;br&gt;(erg
-		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
-	</text>
 	<text key="observation_id">
 		ID Observaci&#243;n
 	</text>
@@ -836,79 +619,11 @@
 	<text key="XMM_OMdate_obs">
 		Fecha observaci&#243;n
 	</text>
-	<text key="XMM_OM_uvw1_ab_flux">
-		Flujo UVW1&lt;br&gt;(erg
-		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
-	</text>
-	<text key="XMM_OM_uvw2_ab_flux">
-		Flujo UVW2&lt;br&gt;(erg
-		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
-	</text>
-	<text key="XMM_OM_uvm2_ab_flux">
-		Flujo UVM2&lt;br&gt;(erg
-		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
-	</text>
-	<text key="XMM_OM_u_ab_flux">
-		Flujo U&lt;br&gt;(erg
-		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
-	</text>
-	<text key="XMM_OM_v_ab_flux">
-		Flujo V&lt;br&gt;(erg
-		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
-	</text>
-	<text key="XMM_OM_b_ab_flux">
-		Flujo B&lt;br&gt;(erg
-		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
-	</text>
-	<text key="XMM_Slew_flux_b0">
-		Flujo (0.2-12kev)&lt;br&gt;(erg
-		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
-	</text>
-	<text key="XMM_Slew_flux_b0_err">
-		Error de Flujo (0.2-12kev)&lt;br&gt;(erg
-		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
-	</text>
-	<text key="XMM_Slew_flux_b4">
-		Flujo (2-12kev)&lt;br&gt;(erg
-		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
-	</text>
-	<text key="XMM_Slew_flux_b4_err">
-		Error de Flujo (2-12kev)&lt;br&gt;(erg
-		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
-	</text>
-	<text key="XMM_Slew_flux_b5">
-		Flujo (0.2-2kev)&lt;br&gt;(erg
-		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
-	</text>
-	<text key="XMM_Slew_flux_b5_err">
-		Error de Flujo (0.2-2kev)&lt;br&gt;(erg
-		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
-	</text>
-	<text key="pm_ra">
-		Movimiento correcto en RA&lt;br&gt;&lt;i&gt;(mas/yr)&lt;/i&gt; </text>
-	<text key="pm_de">
-		Movimiento correcto en Dec&lt;br&gt;&lt;i&gt;(mas/yr)&lt;/i&gt; </text>
-	<text key="Tycho_2_bt_mag">
-		Magnitud BT&lt;br&gt;&lt;i&gt;(mag)&lt;/i&gt; </text>
-	<text key="Tycho_2_vt_mag">
-		Magnitud VT&lt;br&gt;&lt;i&gt;(mag)&lt;/i&gt; </text>
-	<text key="parallax">
-		Paralaje&lt;br&gt;&lt;i&gt;(mas)&lt;/i&gt; </text>
-	<text key="Gaia_DR1_TGAS_parallax_error">
-		Error de paralaje&lt;br&gt;&lt;i&gt;(mas)&lt;/i&gt; </text>
-	<text key="Gaia_DR1_TGAS_pmra_error">
-		Error de MC en RA&lt;br&gt;&lt;i&gt;(mas/yr)&lt;/i&gt; </text>
-	<text key="Gaia_DR1_TGAS_pmdec_error">
-		Error de MC en Dec&lt;br&gt;&lt;i&gt;(mas/yr)&lt;/i&gt; </text>
-	<text key="Gaia_DR1_TGAS_phot_g_mean_mag">
-		Mag media G&lt;br&gt;&lt;i&gt;(mag)&lt;/i&gt; </text>
-	<text key="mag">
-		Magnitud&lt;br&gt;&lt;i&gt;(mag)&lt;/i&gt; </text>
 	<text key="HSC_v2_1_match_id">
-		ID parejo
+		ID cruzado
 	</text>
 	<text key="targetName">
-		Nombre de destino
+		Nombre del objeto
 	</text>
 	<text key="HSC_v2_1_num_images">
 		Numero de Im&#225;genes
@@ -925,10 +640,10 @@
 	<text key="Herschel_HPPSC_rms">
 		&amp;Delta;Flujo &lt;i&gt;(mJy)&lt;/i&gt; </text>
 	<text key="Herschel_HPPSC_elong_flag">
-		Indicador de Elong
+		Indicador de elongaci&#243;n
 	</text>
 	<text key="Herschel_HPPSC_edge_flag">
-		Indicador de margen
+		Indicador de borde
 	</text>
 	<text key="Herschel_HPPSC_blend_flag">
 		Indicador de combinaci&#243;n
@@ -937,18 +652,20 @@
 		Indicador de Mapa de OSS
 	</text>
 	<text key="Herschel_HPPSC_fluxdao">
-		Fluxdao &lt;i&gt;(mJy)&lt;/i&gt; </text>
+		Densidad de flujo medida por DAOPHOT
+		&lt;i&gt;(mJy)&lt;/i&gt; </text>
 	<text key="Herschel_HPPSC_fluxdao_err">
-		&amp;Delta;Fluxdao &lt;i&gt;(mJy)&lt;/i&gt; </text>
+		Error en el flujo DAOPHOT &lt;i&gt;(mJy)&lt;/i&gt; </text>
 	<text key="Herschel_HPPSC_fluxtm2">
-		Flujo TM2 &lt;i&gt;(mJy)&lt;/i&gt; </text>
+		Densidad de flujo medida por TM2
+		&lt;i&gt;(mJy)&lt;/i&gt; </text>
 	<text key="Herschel_HPPSC_fluxtm2_err">
-		&amp;Delta;Flujo TM2 &lt;i&gt;(mJy)&lt;/i&gt; </text>
+		Error en el Flujo TM2 &lt;i&gt;(mJy)&lt;/i&gt; </text>
 	<text key="Herschel_HPPSC_pntsrc_flag">
-		Indicador de punto de origen
+		Indicador de fuente puntual
 	</text>
 	<text key="Herschel_HPPSC_lowfwhm_flag">
-		Indicador de FWHM bajo
+		Indicador de anchura a media altura (FWHM) baja
 	</text>
 	<text key="Herschel_HPPSC_largegal_flag">
 		Indicador de Galaxia Grande
@@ -960,13 +677,13 @@
 		Indicador de OSS contaminador
 	</text>
 	<text key="Submm">
-		Submillimetro
+		Submilim&#233;trico
 	</text>
 	<text key="Herschel_HPPSC_extsrc_flag">
 		Indicador de fuente extendida
 	</text>
 	<text key="PGCC2_snr">
-		Señal a ruido
+		Ratio se&#241;al/ruido
 	</text>
 	<text key="PGCC2_gau_major_axis">
 		FWHM mayor &lt;i&gt;(arcmin)&lt;/i&gt; </text>
@@ -974,9 +691,6 @@
 		Error FWHM mayor &lt;i&gt;(arcmin)&lt;/i&gt; </text>
 	<text key="PGCC2_gau_minor_axis">
 		FWHM menor &lt;i&gt;(arcmin)&lt;/i&gt; </text>
-	<text key="PGCC2_gau_minor_axis_sig">
-		valor
-	</text>
 	<text key="PCCS2E_frequency">
 		Frequencia &lt;i&gt;(GHz)&lt;/i&gt; </text>
 	<text key="PCCS2E_detflux">
@@ -984,25 +698,20 @@
 	<text key="PCCS2E_detflux_err">
 		Error de densidad de Flujo &lt;i&gt;(mJy)&lt;/i&gt; </text>
 	<text key="PCCS2E_highest_reliability_cat">
-		Confiabilidad de Cat.
+		Fiabilidad del cat&#225;logo
 	</text>
 	<text key="PSZ_redshift">
-		Desp. Rojo
+		Desplazamiento al Rojo
 	</text>
 	<text key="PSZ_msz">
-		Masa deSunyaev-Zeldovich &lt;i&gt;(10&lt;sup&gt;14&lt;/sup&gt;
+		Masa de Sunyaev-Zeldovich
+		&lt;i&gt;(10&lt;sup&gt;14&lt;/sup&gt;
 		M&lt;sub&gt;solar&lt;/sub&gt;)&lt;/i&gt; </text>
 	<text key="PSZ_validation">
 		Validaci&#243;n
 	</text>
-	<text key="Gaia_DR1_ra_error">
-		Error RA (mas)
-	</text>
-	<text key="Gaia_DR1_dec_error">
-		Error Dec(mas)
-	</text>
 	<text key="productURL">
-		URLProducto
+		URL del producto
 	</text>
 	<text key="instrument">
 		Instrumento
@@ -1023,10 +732,10 @@
 		Filtro
 	</text>
 	<text key="Collection">
-		Collection
+		Colecci&#243;n
 	</text>
 	<text key="Herschel_ObservationOid">
-		OidObservaci&#243;n
+		Oid de la observaci&#243;n
 	</text>
 	<text key="Herschel_Filter">
 		Filtro &lt;i&gt;(microns)&lt;/i&gt; </text>
@@ -1054,19 +763,11 @@
 		Modo de observaci&#243;n
 	</text>
 	<text key="Herschel_WavelengthRange">
-		Rango de onda
+		Rango de longitud de onda
 	</text>
 	<text key="PublicationTooltip_BIBCOUNT">
-		Num. pub.:
+		N&#250;mero de publicaciones:
 	</text>
-	<text key="RA_J1991">
-		RA &lt;i&gt;(&#126;J1991)&lt;/i&gt; </text>
-	<text key="DEC_J1991">
-		Dec &lt;i&gt;(&#126;J1991)&lt;/i&gt; </text>
-	<text key="RA_J1991.25">
-		RA &lt;i&gt;(J1991.25)&lt;/i&gt; </text>
-	<text key="DEC_J1991.25">
-		Dec &lt;i&gt;(J1991.25)&lt;/i&gt; </text>
 	<text key="RA_J2000">
 		RA &lt;i&gt;(J2000)&lt;/i&gt; </text>
 	<text key="DEC_J2000">
@@ -1075,10 +776,6 @@
 		RA &lt;i&gt;(J2015.0)&lt;/i&gt; </text>
 	<text key="DEC_J2015">
 		Dec &lt;i&gt;(J2015.0)&lt;/i&gt; </text>
-	<text key="RA_J2015.5">
-		RA &lt;i&gt;(J2015.5)&lt;/i&gt; </text>
-	<text key="DEC_J2015.5">
-		Dec &lt;i&gt;(J2015.5)&lt;/i&gt; </text>	
 	<text key="SoftX-ray">
 		Rayos X Blandos
 	</text>
@@ -1092,7 +789,7 @@
 		Ultravioleta
 	</text>
 	<text key="Optical">
-		Optico
+		&#211;ptico
 	</text>
 	<text key="NearIR">
 		IR cercano
@@ -1100,12 +797,6 @@
 	<text key="MidToFarIR">
 		IR medio a lejano
 	</text>
-    <text key="MidIR">
-        IR medio
-    </text>
-    <text key="MidInfrared">
-        Infrarojo medio
-    </text>
 	<text key="FarIR">
 		IR lejano
 	</text>
@@ -1122,19 +813,19 @@
 		Submm
 	</text>
 	<text key="Submillimeter">
-		Submilimetros
+		Submilim&#233;trico
 	</text>
 	<text key="Radio">
 		Radio
 	</text>
 	<text key="pubDate">
-		fecha de publicaci&#243;n
+		Fecha de publicaci&#243;n
 	</text>
 	<text key="BIBCODE">
-		COD.PUB.
+		C&#243;digo de publicaci&#243;n
 	</text>
 	<text key="Title">
-		Titulo
+		T&#237;tulo
 	</text>
 	<text key="Authors">
 		Autores
@@ -1146,25 +837,31 @@
 		Fecha
 	</text>
 	<text key="CHANDRA_flux_b">
-		Flujo ACIS (erg cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
+		Flujo ACIS (erg
+		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
 	</text>
 	<text key="CHANDRA_lower_flux_b">
-		Flujo Bajo ACIS (erg cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
+		Flujo Bajo ACIS (erg
+		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
 	</text>
 	<text key="CHANDRA_upper_flux_b">
-		Flujo Alto ACIS (erg cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
+		Flujo Alto ACIS (erg
+		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
 	</text>
 	<text key="CHANDRA_flux_w">
-		Flujo (erg cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
+		Flujo (erg
+		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
 	</text>
 	<text key="CHANDRA_lower_flux_w">
-		Flujo Bajo HCR (erg cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
+		Flujo Bajo HCR (erg
+		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
 	</text>
 	<text key="CHANDRA_upper_flux_w">
-		Flujo Alto HCR (erg cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
+		Flujo Alto HCR (erg
+		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
 	</text>
 	<text key="CHANDRA_snr">
-		Relación señal a ruido
+		Ratio se&#241;al/ruido
 	</text>
 	<text key="Gaia_phot_g_mean_flux">
 		Flujo &lt;i&gt;(e-/s)&lt;/i&gt; </text>
@@ -1197,51 +894,1221 @@
 		Colecci&#243;n
 	</text>
 	<text key="Observation ObjectId">
-		Observation ObjectId
+		ObjectId de la observaci&#243;n
 	</text>
 	<text key="BIBCODE_preview">
 		BIBCODE_preview
 	</text>
-	
+		<text key="header_learnMore">
+		&#161;Aprenda m&#225;s sobre ESASky!
+	</text>
+	<text key="header_getURLCurrentView">
+		Obtener la URL de la vista actual
+	</text>
+	<text key="header_viewInWWTAbbr">
+		Ver en WWT
+	</text>
+	<text key="header_viewInWWTFull">
+		Ver en WorldWide Telescope
+	</text>
+	<text key="header_takeScreenshotFull">
+		Hacer una captura de pantalla de la vista actual
+	</text>
+	<text key="header_takeScreenshot">
+		Captura de pantalla
+	</text>
+	<!-- menuPanel -->
+	<text key="header_videoTutorials">
+		Tutoriales en v&#237;deo
+	</text>
+	<text key="header_comunity">
+		Comentarios
+	</text>
+	<text key="header_aboutUs">
+		Sobre nosotros
+	</text>
+	<text key="header_releaseNotes">
+        NNotas de publicaci&#243;n
+	</text>
+	<text key="header_newsletter">
+        Bolet&#237;n de noticias
+	</text>
+	<text key="header_sciMode">
+        Modo cient&#237;fico
+	</text>
+	<text key="header_share">
+		Compartir
+	</text>
+	<text key="header_help">
+		Ayuda
+	</text>
+
+	<text key="ESASky_Description">
+        ESASky es una aplicaci&#243;n que le permite visualizar
+        y descargar datos
+        astron&#243;micos p&#250;blicos de misiones
+        espaciales.
+	</text>
+
+	<text key="PublicationsBySourceCallback_helpTitle">
+		Publicaciones
+	</text>
+	<text key="PublicationsBySourceCallback_helpDescription">
+		Publicaciones asociadas a esta fuente en SIMBAD,
+        y acceso a las fuentes de cada publicaci&#243;n.
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-interface#publications"
+		target="_blank"&gt;
+		Documentaci&#243;n completa de esta funcionalidad.
+		&lt;/a&gt; </text>
+
+	<text key="uploadTargetList_targetListDescriptionText">
+		Seleccione una lista de ejemplo, o suba un fichero de texto
+        que contenga su lista de objetos, ya sea nombres reconocidos por SIMBAD
+        o una lista de coordenadas.
+        Mientras se carga la lista, el mensaje 'Resolviendo lista de objetos...'
+        aparecer&#225; en la parte superior de la interfaz; una vez cargada,
+        la lista aparecer&#225; a la izquierda.
+		&lt;br&gt;&lt;br&gt;
+		Pincha en un objeto para visualizarlo en el cielo.
+        Si un objeto no ha sido reconocido por SIMBAD,aparecer&#225; tachado.
+		Debajo de la lista aparecen unos botones de vídeo.
+        Pulse 'Play' para avanzar automáticamente por la lista de objetos;
+        el objeto mostrado en cada momento aparecer&#225; resaltado en color gris oscuro.
+        Es posible a&#241;adir texto y comentarios a una lista de objetos;
+        este texto se mostrar&#225; en ESASky debajo de los botones.
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-target-lists"
+		target="_blank"&gt;
+		Pinche aqu&#237; para ver el formato requerido y algunos ficheros de ejemplo.
+		&lt;/a&gt;
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-interface#list"
+		target="_blank"&gt;
+		Documentaci&#243;n completa de esta funcionalidad.
+		&lt;/a&gt; </text>
+
+	<text key="uploadTargetList_selectList">
+		Seleccionar lista de objetos
+	</text>
+	<text key="uploadTargetList_orUpload">
+		or
+	</text>
+	<text key="uploadTargetList_targetListsFilenames">
+		GalaxiasEspirales|NebulosasBrillantes|NebulosasOscuras|CumulosGlobulares|RegionesDeFormacionEstelar|PulsaresDeRayosX|RemanentesDeSupernova|EstallidosDeRayosGamma|CumulosDeGalaxias|EnanasMarrones|ExoplanetasPotencialmenteHabitables|ExoplanetasMasProximosEnOrdenDeDistancia
+	</text>
+	<text key="sky_selectSky_help">
+        Los cielos est&#225;n agrupados en rangos de longitud de onda,
+        de rayos Gamma a Radio, y en una secci&#243;n &quot;Otros&quot; que actualmente contiene modelos f&#237;sicos.
+        Para seleccionar un cielo, escoja el rango de longitud de onda en el primer men&#250;,
+        y navegue entre los cielos del segundo men&#250;.
+		Pinche en el icono de la &quot;i&quot; para conocer los detalles de cada cielo.
+        Para m&#225;s informaci&#243;n y una lista de los cielos (HiPS) disponibles,
+        vaya a la p&#225;gina correspondiente de la documentaci&#243;n general.
+		&lt;br&gt;&lt;br&gt;
+		La paleta de colores del cielo puede modificarse con las opciones
+        'Nativa', 'EOSB', 'Planck',
+		'Arcoiris', 'Escala de grises' y 'Cubehelix'.
+		&lt;br&gt;&lt;br&gt;
+		Es posible a&#241;adir un cielo a la pila mediante el bot&#243;n +.
+		&lt;br&gt;&lt;br&gt;
+        Pulse los botones de v&#237;deo para visualizar autom&#225;ticamente los distintos cielos de la pila, pasar al siguiente, al anterior o parar.
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-interface#skies"
+		target="_blank"&gt;
+		Documentaci&#243;n completa de esta funcionalidad.
+		&lt;/a&gt; </text>
+	<text key="abstractTablePanel_noDataMatching">
+		No hay datos que correspondan con el filtro aplicado.
+	</text>
+
+	<text key="dateFilter_resetFilter">
+		Quitar filtro
+	</text>
+	<text key="doubleFilter_resetFilter">
+		Quitar filtro
+	</text>
+	<text key="planObservationPanel_helpMessageText">
+        Esta herramienta proyecta en el cielo las huellas de instrumentos astron&#243;micos
+        en la posici&#243;n y orientaci&#243;n elegidas.
+        Ha sido desarrollada para ayudar a los astr&#243;nomos profesionales
+        a preparar sus propuestas de observaci&#243;n para una misi&#243;n espacial
+        o telescopio terrestre determinado.
+        Actualmente, la herramienta ofrece todos los instrumentos del JWST,
+        incluyendo la posibilidad de proyectar el plano focal del JWST al completo.
+        Las huellas de instrumentos de otras misiones operativas
+        se implementar&#225;n en un futuro cercano.
+		&lt;br&gt;&lt;br&gt;
+		IMPORTANTE: Esta funcionalidad no reemplaza la herramienta ATP del JWST.
+        Su prop&#243;sito es tan s&#243;lo proporcionar una ayuda a los astr&#243;nomos
+        cuyas observaciones con el JWST requieran solapamiento
+        con observaciones ya existentes de otras misiones
+        disponibles en ESASky, o que quieran cerciorarse de que sus observaciones,
+        ya sean con un solo instrumento o en paralelo,
+        cubren/evitan ciertas zonas u objetos en las regiones a observar.
+        Las coordenadas y &#225;ngulos de posici&#243;n definidos mediante esta herramienta
+        deben de ser comprobados y refinados en la APT,
+        que sigue siendo la herramienta oficial para preparar observaciones con el JWST.
+        Para m&#225;s informaci&#243;n y para la instalaci&#243;n de la APT, vaya a
+		&lt;a href="//www.stsci.edu/hst/proposing/apt" target="_blank"&gt;
+		esta p&#225;gina del STScI
+		&lt;/a&gt;
+		; para conocer m&#225;s detalles de los distintos instrumentos del JWST,
+		&lt;a href="//jwst.stsci.edu/instrumentation" target="_blank"&gt;
+		haga clic aqu&#237;.
+		&lt;/a&gt;
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.youtube.com/watch?v=n2iW1HfVgVE&amp;feature=youtu.be"
+		target="_blank"&gt;
+        Tambi&#233;n puede ver el siguiente v&#237;deo: How to plan future JWST observations
+		&lt;/a&gt;
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-interface#planning"
+		target="_blank"&gt;
+		Documentaci&#243;n completa de esta funcionalidad.
+		&lt;/a&gt; </text>
+	<text key="ctrlToolBarPresenter_showingMaxSources">
+		Mostrando s&#243;lo las primeras $COUNT$ fuentes
+	</text>
+	<text key="ctrlToolBarPresenter_loadPublicationDetails">
+		Cargando detalles de las publicaciones
+	</text>
+	<text key="ctrlToolBarPresenter_retrievingPublicationTargetList">
+		Obteniendo la lista de objetos
+	</text>
+	<text key="webConstants_uploadTargetList">
+		Administre una lista de objetos
+	</text>
+	<text key="webConstants_exploreImageObservations">
+		Examine las im&#225;genes de esta regi&#243;n
+	</text>
+	<text key="webConstants_exploreCatalogue">
+		Examine los datos de cat&#225;logo de esta regi&#243;n
+	</text>
+	<text key="webConstants_exploreSpectral">
+		Examine los datos espectrales de esta regi&#243;n
+	</text>
+	<text key="webConstants_exploreData">
+		Examine los datos para $TARGET$
+	</text>
+	<text key="displayUtils_toCommunicateWithDS9">
+		Para comunicarse con DS9, es necesario lanzar tambi&#233;n una
+	</text>
+	<text key="resultsPresenter_numberOfFilteredRows">
+		$REMAINING_ROWS$ filas tras el filtrado
+	</text>
+	<text key="resultsPresenter_sourcesInTheCurrentArea">
+		$COUNT$ fuentes en el &#225;rea seleccionada
+	</text>
+	<text key="resultsPresenter_observationsInTheCurrentArea">
+		$COUNT$ observacion(es) en el &#225;rea seleccionada
+	</text>
+	<text key="resultsPresenter_publicationsInTheCurrentArea">
+		$COUNT$ publicacion(es) sobre esta fuente
+	</text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_IMAGING_INTEGRAL">
+        Las observaciones de INTEGRAL/IBIS consisten
+        en un gran n&#250;mero de exposiciones (&quot;science windows&quot;)
+        en torno a la posici&#243;n de un objeto.
+        Por este motivo, y a causa del gran campo del instrumento IBIS,
+        no resulta pr&#225;ctico mostrar las huellas geom&#233;tricas de todas estas exposiciones.
+        En lugar de eso, ESASky muestra las posiciones centrales
+        de cada una de las observaciones,
+        las cuales enlazan con la lista completa de exposiciones asociadas con ella.
+ 		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-observations#INTEGRAL"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_IMAGING_XMM-EPIC">
+		Las observaciones de XMM-Newton son productos de alto nivel del
+        Processing Pipeline System (PPS) presentes en el archivo cient&#237;fico de la misi&#243;n
+		(&lt;a href="//nxsa.esac.esa.int/nxsa-web/#home"
+		target="_blank"&gt;XSA&lt;/a&gt;).
+        Los datos incluidos son las im&#225;genes de alto nivel
+        combinadas de las tres c&#225;maras (EPIC PN, EPIC MOS1 y EPIC MOS2)
+        en la banda de energ&#237;a 0.2-12 keV.
+        Los criterios de selecci&#243;n se basan en la existencia
+        de una imagen p&#250;blica combinada de alto nivel.
+        Los mosaicos de subapuntado han sido excluidos,
+        pero se incluye el mosaico combinado completo.
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-observations#XMM-Newton-OBS"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text key="resultsPresenter_helpDescription_ASTRO_IMAGING_Chandra">
+        El conjunto de datos de Chandra incluye todas las observaciones p&#250;blicas
+        (im&#225;genes y espectros), hasta el 8 de octubre de 2017,
+        de los instrumentos ACIS, LETG, HETG y HRC,
+        disponibles en el archivo de datos de Chandra a trav&#233;s de Chaser
+		(&lt;a href="//cda.harvard.edu/chaser/"
+		target="_blank"&gt;//cda.harvard.edu/chaser/&lt;/a&gt;).
+        Para obtener informaci&#243;n detallada de la misi&#243;n Chandra y sus productos,
+        consulte el sitio web:
+		&lt;a href="//cxc.harvard.edu/" target="_blank"&gt;
+		//cxc.harvard.edu/&lt;/a&gt;.
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-observations#Chandra-OBS"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text key="resultsPresenter_helpDescription_ASTRO_IMAGING_SUZAKU">
+        Las observaciones incluyen todas las im&#225;genes p&#250;blicas
+        presentes en el archivo de SUZAKU en DARTS.
+        Para obtener informaci&#243;n detallada de la misi&#243;n SUZAKU y sus productos,
+        visite:
+		&lt;a href="//www.astro.isas.jaxa.jp/suzaku/" target="_blank"&gt;
+		//www.astro.isas.jaxa.jp/suzaku/&lt;/a&gt;.
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-observations#SUZAKU-OBS"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_IMAGING_XMM-OM-OPTICAL">
+		Los datos del
+		&lt;a href="//www.cosmos.esa.int/web/xmm-newton/technical-details-om"
+		target="_blank"&gt;
+		Optical Monitor
+		&lt;/a&gt;
+        (OM) en ESASky son observaciones p&#250;blicas
+        con al menos un producto de alto nivel,
+        donde las im&#225;genes individuales por filtro se combinan
+        y alinean al Norte.
+        En ESASky se incluyen los siguientes tipos de im&#225;genes de OM:
+        Modo por defecto RSIMAG (RSIMAG),
+        marco completo a baja resoluci&#243;n (LSIMAG),
+        marco completo a alta resoluci&#243;n (HSIMAG),
+        y definida por el usuario (USIMAG).
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-observations#OM-OBS"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_IMAGING_XMM-OM-UV">
+        Los datos del
+        &lt;a href="//www.cosmos.esa.int/web/xmm-newton/technical-details-om"
+        target="_blank"&gt;
+        Optical Monitor
+        &lt;/a&gt;
+        (OM) en ESASky son observaciones p&#250;blicas
+        con al menos un producto de alto nivel,
+        donde las im&#225;genes individuales por filtro se combinan
+        y alinean al Norte.
+        En ESASky se incluyen los siguientes tipos de im&#225;genes de OM:
+        Modo por defecto RSIMAG (RSIMAG),
+        marco completo a baja resoluci&#243;n (LSIMAG),
+        marco completo a alta resoluci&#243;n (HSIMAG),
+        y definida por el usuario (USIMAG).
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-observations#OM-OBS"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text key="resultsPresenter_helpDescription_ASTRO_IMAGING_HST">
+		Los datos observacionales del Telescopio Espacial Hubble (HST)
+        proporcionados por ESASky son productos cient&#237;ficos
+        de las tres colecciones de datos de Hubble:
+		&lt;ul&gt;
+		&lt;li&gt;
+		&lt;span&gt;
+		La colecci&#243;n HST est&#225;ndar
+		&lt;/span&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+		&lt;span&gt;
+		La colecci&#243;n del Hubble Legacy Archive (HLA)
+		&lt;/span&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+		&lt;span&gt;
+		La colecci&#243;n de Productos Cient&#237;ficos de Alto Nivel (HLSP)
+		&lt;/span&gt;
+		&lt;/li&gt;
+		&lt;/ul&gt;
+        ESASky aplica un filtro en los datos de archivo del HST
+        para mostrar en primer lugar todas las im&#225;genes compuestas (asociaciones)
+        y despu&#233;s todas las im&#225;genes individuales (&quot;HST singleton&quot;)
+        que no forman parte de ninguna asociaci&#243;n.
+		&lt;br&gt;&lt;br&gt;
+		&lt;a href="//www.cosmos.esa.int/web/esdc/esasky-observations#HST-OBS"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_IMAGING_Herschel">
+        Los datos de Herschel disponibles incluyen
+        todas las observaciones p&#250;blicas de los instrumentos HIFI, PACS y SPIRE
+        (incluidas las observaciones paralelas PACS/SPIRE).
+        Los datos cient&#237;ficos que se obtienen son &quot;Standalone Browse Products&quot;.
+        M&#225;s abajo se proporciona una breve descripci&#243;n de estos productos.
+		Pinche
+		&lt;a href="//www.cosmos.esa.int/web/herschel/data-products-overview"
+		target="_blank"&gt;
+		aqu&#237;
+		&lt;/a&gt;
+		para m&#225;s informaci&#243;n sobre los datos de Herschel.
+
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-observations#HERSCHEL-OBS"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text key="resultsPresenter_helpDescription_ASTRO_IMAGING_ISO">
+        El Infrared Space Observatory (ISO), lanzado en noviembre de 1995,
+        fue el primer aut&#233;ntico observatorio infrarrojo orbital.
+        Transportaba cuatro instrumentos cient&#237;ficos:
+        dos espectr&#243;metros (SWS y LWS),
+        un fotopolar&#237;metro de imagen (ISOPHOT) y una c&#225;mara (ISOCAM).
+        Las &#250;nicas im&#225;genes proporcionadas a trav&#233;s de ESASky son las de ISOCAM.
+        Los datos espectrosc&#243;picos proceden de los cuatro instrumentos.
+
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-observations#ISO-OBS"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_INTEGRAL">
+        El cat&#225;logo IBIS/ISGRI de fuentes de rayos gamma blandos
+        es un cat&#225;logo de todo el cielo basado en observaciones de INTEGRAL-IBIS
+        realizadas durante las primeras 1000 &#243;rbitas del sat&#233;lite.
+        El cat&#225;logo se public&#243; en 2009, siendo actualizado en 2016.
+        Se compil&#243; a partir de todos los datos p&#250;blicos de buena calidad
+        disponibles desde el lanzamiento de la misi&#243;n en 2002 hasta finales de 2010,
+        e incluye 939 fuentes detectadas significativamente
+        en la banda de energ&#237;a 17-100 keV;
+        de ellas, 120 son fuentes de rayos gamma blandos previamente desconocidas.
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#INTEGRAL"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_CHANDRA">
+        El cat&#225;logo CSC (Chandra Source Catalog) contiene posiciones y flujos
+        detectados en im&#225;genes p&#250;blicas de los instrumentos ACIS y HRC
+        a bordo del observatorio de rayos X Chandra.
+        En la actualidad, el cat&#225;logo s&#243;lo incluye fuentes puntuales y
+        fuentes compactas con extensi&#243;n espacial observada menor a 30 segundos de arco.
+		
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#Chandra"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_XMM-EPIC">
+        El cat&#225;logo 3XMM-DR8 contiene fuentes detectadas
+        a partir de 10242 observaciones con las c&#225;maras EPIC de XMM-Newton,
+        las cuales cubren el intervalo de energ&#237;a entre 0.2 y 12 keV.
+        Actualmente s&#243;lo se muestran las fuentes
+        con indicador de calidad (QUALITY) igual a 0 o 1
+        (&quot;buenas&quot; fuentes o &quot;con par&#225;metros sospechosos&quot;).
+
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="https://www.cosmos.esa.int/web/esdc/esasky-catalogues#3XMM"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_XMM-EPIC-STACK">
+        El cat&#225;logo 3XMM-DR7s ha sido compilado
+        a partir de 434 grupos de observaciones de XMM-Newton de buena calidad con solapamiento.
+        Los grupos comprenden un total de 1789 observaciones,
+        seleccionadas entre las observaciones p&#250;blicas
+        realizadas en el per&#237;odo del 3 de febrero de 2000 al 15 de diciembre de 2016,
+        las cuales se emplearon para generar el cat&#225;logo 3XMM-DR7.
+
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="https://www.cosmos.esa.int/web/esdc/esasky-catalogues#3XMMs"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_XMM-OM">
+        SUSS2.1 es un cat&#225;logo de fuentes casualmente detectadas
+        por el Optical Monitor (OM) a bordo del observatorio XMM-Newton.
+        El cat&#225;logo proporciona las posiciones de m&#225;s de 5 millones de fuentes y
+        sus magnitudes y flujos en seis filtros &#243;pticos y ultravioletas de banda ancha,
+        as&#237; como diagnosticos de perfil y estad&#237;sticas de variabilidad.
+
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#SUSS2.1"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_XMM-SLEW">
+        ​XMMSL1 es el primer cat&#225;logo de fuentes de rayos X
+        detectadas en los datos de &quot;slew&quot; de XMM-Newton,
+        compilado por miembros del Centro de Operaciones Cient&#237;ficas de XMM-Newton
+        y el consorcio EPIC en nombre de la Agencia Espacial Europea.
+        Despu&#233;s de corregir los solapamientos, el estudio cubre el 65% del cielo.
+
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#XMMSL1"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_Tycho-2">
+        ​El cat&#225;logo Tycho-2 es un cat&#225;logo astrom&#233;trico
+        que contiene posiciones, movimientos propios y fotometr&#237;a en dos colores (B y V)
+        para los 2.5 millones de estrellas m&#225;s brillantes del cielo.
+        El cat&#225;logo se basa en observaciones del sat&#233;lite Hipparcos,
+        las mismas empleadas en el cat&#225;logo Tycho original.
+        T&#233;cnicas de reducci&#243;n de datos mejoradas han producido un cat&#225;logo
+        con un n&#250;mero significativamente mayor de entradas
+        y con precisi&#243;n mejorada.
+
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#TYCHO"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_Gaia DR2">
+        El cat&#225;logo Gaia DR2 proporciona posiciones, paralajes y movimientos propios
+        para m&#225;s de 1300 millones de estrellas con magnitudes G entre 3 y 21,
+        y velocidades radiales medias para m&#225;s de 7.2 millones de estrellas
+        con magnitudes G medias entre 4 y 13 y temperaturas efectivas entre 3550 y 6900 K.
+        Los errores en la paralaje van de 0.04 mas para G&lt;17 mag
+        a 0.7 mas para G=20.
+        Los errores en los movimientos propios var&#237;an
+        de menos de 0.06 mas/yr para G&lt;15 mag a 1.2 mas/yr para G=20 mag.
+        La precisi&#243;n de la velocidad radial var&#237;a de
+        200-300 m/s en el l&#237;mite brillante
+        y entre 1.2 y 2.5 km/s en el l&#237;mite tenue
+        para estrellas de temperaturas efectivas de 4750 y 6500 K, respectivamente.
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#GAIA"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_2MASS">
+        El estudio 2MASS observ&#243; el 99.998% del cielo en tres bandas, J, H y Ks.
+        El cat&#225;logo PSC contiene informaci&#243;n posicional y fotom&#233;trica de
+        470.992.970 fuentes puntuales,
+        detectadas en al menos una banda con una ratio se&#241;al-ruido (S/N) mayor que 7,
+        o en las tres bandas con una ratio se&#241;al-ruido mayor que 5.
+        Adem&#225;s, la posici&#243;n de la fuente debe de cumplir ciertas condiciones,
+        para garantizar que no se trata de una detecci&#243;n esp&#250;rea
+        ni hay confusi&#243;n entre fuentes.
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#2MASS"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_AllWise">
+        El cat&#225;logo AllWISE proporciona astrometr&#237;a y
+        fotometr&#237;a en cuatro bandas del infrarrojo medio (3.4, 4.6, 12 and 22 micras)
+        para 747.634.026 objetos detectados en las im&#225;genes profundas de la muestra
+        &quot;AllWISE Atlas Intensity Images&quot;,
+        mejorando la fotometr&#237;a de las fuentes discretas en las cuatro bandas
+        respecto al cat&#225;logo WISE.
+        Adem&#225;s, presenta mejoras en la computaci&#243;n de la variabilidad de las fuentes.
+        La astrometr&#237;a tambi&#233;n se ha mejorado la astrometr&#237;a
+        gracias a la correcci&#243;n del movimiento propio de las estrellas de referencia,
+        procedentes del cat&#225;logo 2MASS,
+        teniendo en cuenta los 11 a&#241;os de diferencia entre ambos estudios.
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#WISE"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_Hipparcos-2">
+        El cat&#225;logo Hipparcos-2 es una nueva reducci&#243;n
+        de los datos de la misi&#243;n Hipparcos,
+        mejorando la precisi&#243;n hasta en un factor 4
+        para estrellas con magnitud Hp igual o inferior a 8.
+        Contiene posiciones, paralajes y movimientos propios para 118.218 estrellas.
+
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#HIPPARCOS"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_HSC">
+        El cat&#225;logo HSC es una combinaci&#243;n de todas las listas de fuentes visitadas
+        existentes en el Hubble Legacy Archive (HLA) para formar un &#250;nico cat&#225;logo.
+        Contiene en torno a 80 millones de detecciones de 30 millones de objetos,
+        con 112 diferentes combinaciones de detector y filtro,
+        y alrededor de 160.000 exposiciones.
+        Las listas de fuentes de la publicaci&#243;n de los datos (Data Release 8) del HLA
+        se cruzan mediante un algoritmo desarrollado por Bud&#225;vari &amp; Ludow (2012).
+        La precisi&#243;n astrom&#233;trica media es mejor que 0.10 mag,
+        con precisiones relativas que pueden ser de 0.02 mag en ciertos casos.
+        Los residuos astrom&#233;tricos relativos son t&#237;picamente de menos de 10 mas,
+        y la precisi&#243;n astrom&#233;trica absoluta es menor que 0.1 segundos de arco
+        para la mayor&#237;a de fuentes.
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#HSC"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_Herschel-HPPSC-070">
+        El cat&#225;logo Herschel-PACS de fuentes puntuales (HPPSC)
+        contiene en torno al medio mill&#243;n de entradas,
+        corresponidentes a detecciones en las tres bandas del instrumento PACS
+        (Photodetector Array Camera and Spectrometer) de la misi&#243;n Herschel,
+        la cual mape&#243; aproximadamente un 8% del cielo en el infrarrojo.
+		&lt;br&gt;&lt;br&gt;
+        Los tres filtros de banda ancha estaban centrados en 70, 100 y 160 micras,
+        y permit&#237;an resoluciones angulares
+        de 5.6&#698;, 6.8&#698; and 11.3&#698;, respectivamente.
+        El cat&#225;logo consiste en tres tablas, una por cada banda.
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#HPPSC"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_Herschel-HPPSC-100">
+        El cat&#225;logo Herschel-PACS de fuentes puntuales (HPPSC)
+        contiene en torno al medio mill&#243;n de entradas,
+        corresponidentes a detecciones en las tres bandas del instrumento PACS
+        (Photodetector Array Camera and Spectrometer) de la misi&#243;n Herschel,
+        la cual mape&#243; aproximadamente un 8% del cielo en el infrarrojo.
+        &lt;br&gt;&lt;br&gt;
+        Los tres filtros de banda ancha estaban centrados en 70, 100 y 160 micras,
+        y permit&#237;an resoluciones angulares
+        de 5.6&#698;, 6.8&#698; and 11.3&#698;, respectivamente.
+        El cat&#225;logo consiste en tres tablas, una por cada banda.
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#HPPSC"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_Herschel-HPPSC-160">
+        El cat&#225;logo Herschel-PACS de fuentes puntuales (HPPSC)
+        contiene en torno al medio mill&#243;n de entradas,
+        corresponidentes a detecciones en las tres bandas del instrumento PACS
+        (Photodetector Array Camera and Spectrometer) de la misi&#243;n Herschel,
+        la cual mape&#243; aproximadamente un 8% del cielo en el infrarrojo.
+        &lt;br&gt;&lt;br&gt;
+        Los tres filtros de banda ancha estaban centrados en 70, 100 y 160 micras,
+        y permit&#237;an resoluciones angulares
+        de 5.6&#698;, 6.8&#698; and 11.3&#698;, respectivamente.
+        El cat&#225;logo consiste en tres tablas, una por cada banda.
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#HPPSC"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_Herschel-SPSC-250">
+		El cat&#225;logo SPIRE de fuentes puntuales (SPSC)
+        contiene m&#225;s de 1.6 millones de entradas,
+        extra&#237;das de un total de 6878 observaciones en el rango submilim&#233;trico
+        realizadas con el instrumento SPIRE (Spectral and Photometric Imaging Receiver)
+        de la misi&#243;n Herschel.
+        El cat&#225;logo consiste en tres tablas,
+        una por cada banda fotom&#233;trica de SPIRE,
+        centradas en 250, 350 y 500 micras (1199, 857 y 600 GHz, respectivamente).
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#HSPSC"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_Herschel-SPSC-350">
+        El cat&#225;logo SPIRE de fuentes puntuales (SPSC)
+        contiene m&#225;s de 1.6 millones de entradas,
+        extra&#237;das de un total de 6878 observaciones en el rango submilim&#233;trico
+        realizadas con el instrumento SPIRE (Spectral and Photometric Imaging Receiver)
+        de la misi&#243;n Herschel.
+        El cat&#225;logo consiste en tres tablas,
+        una por cada banda fotom&#233;trica de SPIRE,
+        centradas en 250, 350 y 500 micras (1199, 857 y 600 GHz, respectivamente).
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#HSPSC"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_Herschel-SPSC-500">
+        El cat&#225;logo SPIRE de fuentes puntuales (SPSC)
+        contiene m&#225;s de 1.6 millones de entradas,
+        extra&#237;das de un total de 6878 observaciones en el rango submilim&#233;trico
+        realizadas con el instrumento SPIRE (Spectral and Photometric Imaging Receiver)
+        de la misi&#243;n Herschel.
+        El cat&#225;logo consiste en tres tablas,
+        una por cada banda fotom&#233;trica de SPIRE,
+        centradas en 250, 350 y 500 micras (1199, 857 y 600 GHz, respectivamente).
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#HSPSC"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_Planck-PGCC2">
+        PCCCS2 es un conjunto de cat&#225;logos monofrecuencia,
+        extra&#237;dos de los mapas finales de intensidad y polarizaci&#243;n
+        de la misi&#243;n Planck.
+        Dichos mapas contienen 48 meses de datos de los canales LFI
+        y 29 meses de datos de los canales HFI,
+        lo que se traduce en medias de 8 y 4 medidas de densidad de flujo
+        para LFI y HFI, respectivamente.
+		&lt;br&gt;
+		Para 100 GHz y frecuencias superiores,
+        cada cat&#225;logo se ha dividido en dos subcat&#225;logos:
+        PCCS2, que contiene todas las detecciones fiables (&gt;80%)
+        y PCCS2E, que incluye fuentes ubicadas en regiones del cielo
+        donde no fue posible estimar su fiabilidad.
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#PGCC2"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_Planck-PCCS2E-HFI">
+        PCCCS2 es un conjunto de cat&#225;logos monofrecuencia,
+        extra&#237;dos de los mapas finales de intensidad y polarizaci&#243;n
+        de la misi&#243;n Planck.
+        Dichos mapas contienen 48 meses de datos de los canales LFI
+        y 29 meses de datos de los canales HFI,
+        lo que se traduce en medias de 8 y 4 medidas de densidad de flujo
+        para LFI y HFI, respectivamente.
+        &lt;br&gt;
+        Para 100 GHz y frecuencias superiores,
+        cada cat&#225;logo se ha dividido en dos subcat&#225;logos:
+        PCCS2, que contiene todas las detecciones fiables (&gt;80%)
+        y PCCS2E, que incluye fuentes ubicadas en regiones del cielo
+        donde no fue posible estimar su fiabilidad.
+
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#PCCS2"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_Planck-PCCS2-HFI">
+        PCCCS2 es un conjunto de cat&#225;logos monofrecuencia,
+        extra&#237;dos de los mapas finales de intensidad y polarizaci&#243;n
+        de la misi&#243;n Planck.
+        Dichos mapas contienen 48 meses de datos de los canales LFI
+        y 29 meses de datos de los canales HFI,
+        lo que se traduce en medias de 8 y 4 medidas de densidad de flujo
+        para LFI y HFI, respectivamente.
+        &lt;br&gt;
+        Para 100 GHz y frecuencias superiores,
+        cada cat&#225;logo se ha dividido en dos subcat&#225;logos:
+        PCCS2, que contiene todas las detecciones fiables (&gt;80%)
+        y PCCS2E, que incluye fuentes ubicadas en regiones del cielo
+        donde no fue posible estimar su fiabilidad.
+
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#PCCS2"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_Planck-PCCS2-LFI">
+        PCCCS2 es un conjunto de cat&#225;logos monofrecuencia,
+        extra&#237;dos de los mapas finales de intensidad y polarizaci&#243;n
+        de la misi&#243;n Planck.
+        Dichos mapas contienen 48 meses de datos de los canales LFI
+        y 29 meses de datos de los canales HFI,
+        lo que se traduce en medias de 8 y 4 medidas de densidad de flujo
+        para LFI y HFI, respectivamente.
+        Se han medido densidades de flujo de polarizaci&#243;n y &#225;ngulos de polarizaci&#243;n
+        para cientos de fuentes con una significancia &gt;99.99%.
+        Esto implica que la mayor&#237;a de las fuentes de polarizaci&#243;n son muy brillantes,
+        introduciendo un efecto de selecci&#243;n.
+    
+		&lt;br&gt;&lt;br&gt;
+		&lt;a href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#PCCS2"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_CATALOGUE_Planck-PSZ">
+        El catálogo PSZ de Planck es una lista de detecciones de
+        distorsiones causadas por el efecto Sunyaev-Zel'dovich (SZ) en casi todo el cielo.
+        Ha sido obtenida a partir de los mapas
+        de los canales del instrumento de alta frecuencia (HFI)
+        de la misión Planck,
+        después de enmascarar y rellenar las fuentes puntuales brillantes (SNR>10)
+        de los catálogos PCCS en los mismos canales.
+        Contiene 1653 detecciones, de las cuales 1203 son cúmulos confirmados
+        con contrapartidas conocidas por otros conjuntos de datos.
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-catalogues#PSZ2"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_SPECTRA_XMM-NEWTON">
+        Las observaciones de XMM-Newton consisten en
+        productos PPS (Processing Pipeline System) p&#250;blicos
+        disponibles en el archivo cient&#237;fico de la misi&#243;n.
+		(&lt;a href="//nxsa.esac.esa.int/nxsa-web/#home"
+		target="_blank"&gt;XSA&lt;/a&gt;).
+        Los instrumentos RGS tienen un alto poder de resoluci&#243;n
+        (entre 150 y 800) en el rango de 5 a 35 &#197; [de 0.33 a 2.5 keV]
+        (primer orden espectral).
+        El &#225;rea efectiva es m&#225;xima en torno a los 15 &#197; [0.83 keV] (primer orden),
+        aproximadamente 150 cm2 para ambos espectr&#243;metros.
+
+		&lt;br&gt;&lt;br&gt;
+		&lt;a href="//www.cosmos.esa.int/web/esdc/esasky-observations#RGS"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text key="resultsPresenter_helpDescription_ASTRO_SPECTRA_Chandra">
+		El conjunto de datos de Chandra incluye todas las
+        El conjunto de datos de Chandra incluye todas las observaciones p&#250;blicas
+        (im&#225;genes y espectros), hasta el 8 de octubre de 2017,
+        de los instrumentos ACIS, LETG, HETG y HRC,
+        disponibles en el archivo de datos de Chandra a trav&#233;s de Chaser.
+		(&lt;a href="//cda.harvard.edu/chaser/"
+		target="_blank"&gt;//cda.harvard.edu/chaser/&lt;/a&gt;).
+        Para obtener informaci&#243;n detallada de la misi&#243;n Chandra y sus productos,
+        consulte el sitio web:
+		&lt;a href="//cxc.harvard.edu/" target="_blank"&gt;
+		//cxc.harvard.edu/&lt;/a&gt;.
+
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-observations#Chandra-OBS"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+
+	<text key="resultsPresenter_helpDescription_ASTRO_SPECTRA_IUE">
+        IUE (International Ultraviolet Explorer)
+        fue un proyecto conjunto de ESA, NASA y PPARC (Reino Unido).
+        La misi&#243;n estuvo operativa entre 1978 y 1996
+        con tres espectr&#243;grafos Echelle: SWP, LWP y LWR.
+        En el modo de baja resoluci&#243;n, &#233;sta es ~0.6 nm,
+        correspondiendo a poderes de resoluci&#243;n de
+        R~250 a 150 nm y R~450 a 270 nm.
+        En el modo de alta resoluci&#243;n, &#233;sta es ~0.02 nm,
+        correspondiente con poderes de resoluci&#243;n de
+        R~7500 a 150 nm y R~13500 a 270 nm, respectivamente.
+		&lt;br&gt;&lt;br&gt;
+		ESASky proporciona espectros completamente calibrados de los tres espectr&#243;grafos,
+        obtenidos directamente del
+		&lt;a href="//sdc.cab.inta-csic.es/ines/index2.html" target="_blank"&gt;
+		archivo INES (IUE Newly Extracted Spectra)&lt;/a&gt;,
+		desarrollado y mantenido en el
+		&lt;a
+        href="//cab.inta-csic.es/en/" target="_blank"&gt;Centro de
+        Astrobiolog&#237;a (CAB)&lt;/a&gt;
+		cerca de Madrid (Espa&#241;a).
+
+		&lt;br&gt;&lt;br&gt;
+		&lt;a href="//www.cosmos.esa.int/web/esdc/esasky-observations#IUE"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text key="resultsPresenter_helpDescription_ASTRO_SPECTRA_HST(UV)">
+        Los datos observacionales del Telescopio Espacial Hubble (HST)
+        proporcionados por ESASky son productos cient&#237;ficos
+        de las tres colecciones de datos de Hubble:
+        &lt;ul&gt;
+        &lt;li&gt;
+        &lt;span&gt;
+        La colecci&#243;n HST est&#225;ndar
+        &lt;/span&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;span&gt;
+        La colecci&#243;n del Hubble Legacy Archive (HLA)
+        &lt;/span&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;span&gt;
+        La colecci&#243;n de Productos Cient&#237;ficos de Alto Nivel (HLSP)
+        &lt;/span&gt;
+        &lt;/li&gt;
+        &lt;/ul&gt;
+        ESASky aplica un filtro en los datos de archivo del HST
+        para mostrar en primer lugar todas las im&#225;genes compuestas (asociaciones)
+        y despu&#233;s todas las im&#225;genes individuales (&quot;HST singleton&quot;)
+        que no forman parte de ninguna asociaci&#243;n.
+
+		&lt;br&gt;&lt;br&gt;
+		&lt;a href="//www.cosmos.esa.int/web/esdc/esasky-observations#HST-OBS"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_SPECTRA_HST(OPTICAL)">
+        Los datos observacionales del Telescopio Espacial Hubble (HST)
+        proporcionados por ESASky son productos cient&#237;ficos
+        de las tres colecciones de datos de Hubble:
+        &lt;ul&gt;
+        &lt;li&gt;
+        &lt;span&gt;
+        La colecci&#243;n HST est&#225;ndar
+        &lt;/span&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;span&gt;
+        La colecci&#243;n del Hubble Legacy Archive (HLA)
+        &lt;/span&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;span&gt;
+        La colecci&#243;n de Productos Cient&#237;ficos de Alto Nivel (HLSP)
+        &lt;/span&gt;
+        &lt;/li&gt;
+        &lt;/ul&gt;
+        ESASky aplica un filtro en los datos de archivo del HST
+        para mostrar en primer lugar todas las im&#225;genes compuestas (asociaciones)
+        y despu&#233;s todas las im&#225;genes individuales (&quot;HST singleton&quot;)
+        que no forman parte de ninguna asociaci&#243;n.
+
+		&lt;br&gt;&lt;br&gt;
+		&lt;a href="//www.cosmos.esa.int/web/esdc/esasky-observations#HST-OBS"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text key="resultsPresenter_helpDescription_ASTRO_SPECTRA_ISO(IR)">
+        El Infrared Space Observatory (ISO), lanzado en noviembre de 1995,
+        fue el primer aut&#233;ntico observatorio infrarrojo orbital.
+        Transportaba cuatro instrumentos cient&#237;ficos:
+        dos espectr&#243;metros (SWS y LWS),
+        un fotopolar&#237;metro de imagen (ISOPHOT) y una c&#225;mara (ISOCAM).
+        Las &#250;nicas im&#225;genes proporcionadas a trav&#233;s de ESASky son las de ISOCAM.
+        Los datos espectrosc&#243;picos proceden de los cuatro instrumentos.
+
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-observations#ISO-OBS"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text
+		key="resultsPresenter_helpDescription_ASTRO_SPECTRA_Herschel">
+        Los datos de Herschel disponibles incluyen
+        todas las observaciones p&#250;blicas de los instrumentos HIFI, PACS y SPIRE
+        (incluidas las observaciones paralelas PACS/SPIRE).
+        Los datos cient&#237;ficos que se obtienen son &quot;Standalone Browse Products&quot;.
+        M&#225;s abajo se proporciona una breve descripci&#243;n de estos productos.
+        Pinche
+        &lt;a href="//www.cosmos.esa.int/web/herschel/data-products-overview"
+        target="_blank"&gt;
+        aqu&#237;
+        &lt;/a&gt;
+        para m&#225;s informaci&#243;n sobre los datos de Herschel.
+
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-observations#HERSCHEL-OBS"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text key="resultsPresenter_helpDescription_SSO_Herschel">
+		Los datos de Herschel disponibles incluyen
+        todas las observaciones p&#250;blicas de los instrumentos HIFI, PACS y SPIRE
+        (incluidas las observaciones paralelas PACS/SPIRE).
+        Los datos cient&#237;ficos que se obtienen son &quot;Standalone Browse Products&quot;.
+        M&#225;s abajo se proporciona una breve descripci&#243;n de estos productos.
+		Pinche
+		&lt;a href="//www.cosmos.esa.int/web/herschel/data-products-overview"
+		target="_blank"&gt;
+		aqu&#237;
+		&lt;/a&gt;
+		para m&#225;s informaci&#243;n sobre los datos de Herschel.
+
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-observations#HERSCHEL-OBS"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text key="resultsPresenter_helpDescription_SSO_HST">
+        Los datos observacionales del Telescopio Espacial Hubble (HST)
+        proporcionados por ESASky son productos cient&#237;ficos
+        de las tres colecciones de datos de Hubble:
+        &lt;ul&gt;
+        &lt;li&gt;
+        &lt;span&gt;
+        La colecci&#243;n HST est&#225;ndar
+        &lt;/span&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;span&gt;
+        La colecci&#243;n del Hubble Legacy Archive (HLA)
+        &lt;/span&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;span&gt;
+        La colecci&#243;n de Productos Cient&#237;ficos de Alto Nivel (HLSP)
+        &lt;/span&gt;
+        &lt;/li&gt;
+        &lt;/ul&gt;
+        ESASky aplica un filtro en los datos de archivo del HST
+        para mostrar en primer lugar todas las im&#225;genes compuestas (asociaciones)
+        y despu&#233;s todas las im&#225;genes individuales (&quot;HST singleton&quot;)
+        que no forman parte de ninguna asociaci&#243;n.
+
+		&lt;br&gt;&lt;br&gt;
+		&lt;a href="//www.cosmos.esa.int/web/esdc/esasky-observations#HST-OBS"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text key="resultsPresenter_helpDescription_SSO_XMM-EPIC">
+        Las observaciones de XMM-Newton son productos de alto nivel del
+        Processing Pipeline System (PPS) presentes en el archivo cient&#237;fico de la misi&#243;n
+        Puede encontrar informaci&#243;n detallada acerca de los productos de XMM-Newton
+        en la
+		&lt;a href="//www.cosmos.esa.int/web/xmm-newton/guide-to-xmm-products"
+		target="_blank"&gt;
+		&quot;Gu&#237;a de los productos del archivo cient&#237;fico de XMM-Newton&quot;
+        (en ingl&#233;s)
+        &lt;/a&gt;.
+
+		&lt;br&gt;&lt;br&gt;
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-observations#XMM-Newton-OBS"
+		target="_blank"&gt;
+		M&#225;s informaci&#243;n
+		&lt;/a&gt; </text>
+	<text key="closeableTabLayoutPanel_styleBtn">
+		Personalizar estilo
+	</text>
+	<text key="WelcomeDialog_additionalDescription">
+		Se recomienda a los usuarios interesados los datos científicos reales
+        que usen el modo científico.
+	</text>
+	<text key="WelcomeDialog_feedback">
+		Comentarios
+	</text>
+	<text key="WelcomeDialog_enterSciMode">
+		Entrar en modo científico
+	</text>
+	<text key="stylePanel_Title">
+		Estilo para $MISSION$
+	</text>
+	<text key="stylePanel_helpMessageText">
+		Utilice este panel para personalizar el estilo de los resultados
+	</text>
+	<text key="stylePanel_removeAvgCheckBox">
+		Sustraer el MP medio
+	</text>
+	<text key="stylePanel_removeMedianCheckBox">
+		Sustraer la mediana del MP
+	</text>
+	<text key="sourceLimitDescription">
+		Mostrando la(s) primeras $sourceLimit$ fuente(s),
+		ordenadas por $orderBy$
+	</text>
+	<text key="sourceLimitNumImages">
+        Mostrando la(s) $sourceLimit$ fuente(s) con m&#225;s observaciones
+        (N&#250;mero de im&#225;genes)
+	</text>
+	<text key="INTEGRAL_flux20_40">
+		Flujo&lt;sub&gt;20-40 keV&lt;/sub&gt; (mCrab)
+	</text>
+	<text key="INTEGRAL_flux40_100">
+		Flujo&lt;sub&gt;40-100 keV&lt;/sub&gt; (mCrab)
+	</text>
+	<text key="3XMM_EPIC_ep_8_flux">
+		Flujo&lt;br&gt;(erg
+		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
+	</text>
+	<text key="3XMM_EPIC_ep_8_flux_err">
+		Error del flujo&lt;br&gt;(erg
+		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
+	</text>
+	<text key="XMM_OM_uvw1_ab_flux">
+		Flujo UVW1&lt;br&gt;(erg
+		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
+	</text>
+	<text key="XMM_OM_uvw2_ab_flux">
+		Flujo UVW2&lt;br&gt;(erg
+		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
+	</text>
+	<text key="XMM_OM_uvm2_ab_flux">
+		Flujo UVM2&lt;br&gt;(erg
+		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
+	</text>
+	<text key="XMM_OM_u_ab_flux">
+		Flujo U&lt;br&gt;(erg
+		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
+	</text>
+	<text key="XMM_OM_v_ab_flux">
+		Flujo V&lt;br&gt;(erg
+		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
+	</text>
+	<text key="XMM_OM_b_ab_flux">
+		Flujo B&lt;br&gt;(erg
+		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
+	</text>
+	<text key="XMM_Slew_flux_b0">
+		Flujo (0.2-12kev)&lt;br&gt;(erg
+		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
+	</text>
+	<text key="XMM_Slew_flux_b0_err">
+		Error de flujo (0.2-12kev)&lt;br&gt;(erg
+		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
+	</text>
+	<text key="XMM_Slew_flux_b4">
+		Flujo (2-12kev)&lt;br&gt;(erg
+		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
+	</text>
+	<text key="XMM_Slew_flux_b4_err">
+		Error de flujo (2-12kev)&lt;br&gt;(erg
+		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
+	</text>
+	<text key="XMM_Slew_flux_b5">
+		Flujo (0.2-2kev)&lt;br&gt;(erg
+		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
+	</text>
+	<text key="XMM_Slew_flux_b5_err">
+		Error de flujo (0.2-2kev)&lt;br&gt;(erg
+		cm&lt;sup&gt;-2&lt;/sup&gt;s&lt;sup&gt;-1&lt;/sup&gt;)
+	</text>
+	<text key="pm_ra">
+		Movimiento propio en AR&lt;br&gt;&lt;i&gt;(mas/yr)&lt;/i&gt; </text>
+	<text key="pm_de">
+		Movimiento propio en
+		Dec&lt;br&gt;&lt;i&gt;(mas/yr)&lt;/i&gt; </text>
+	<text key="Tycho_2_bt_mag">
+		Magnitud BT&lt;br&gt;&lt;i&gt;(mag)&lt;/i&gt; </text>
+	<text key="Tycho_2_vt_mag">
+		Magnitud VT&lt;br&gt;&lt;i&gt;(mag)&lt;/i&gt; </text>
+	<text key="parallax">
+		Paralaje&lt;br&gt;&lt;i&gt;(mas)&lt;/i&gt; </text>
+	<text key="Gaia_DR1_TGAS_parallax_error">
+		Error de paralaje&lt;br&gt;&lt;i&gt;(mas)&lt;/i&gt; </text>
+	<text key="Gaia_DR1_TGAS_pmra_error">
+		Error de MP en AR&lt;br&gt;&lt;i&gt;(mas/yr)&lt;/i&gt; </text>
+	<text key="Gaia_DR1_TGAS_pmdec_error">
+		Error de MP en Dec error&lt;br&gt;&lt;i&gt;(mas/yr)&lt;/i&gt; </text>
+	<text key="Gaia_DR1_TGAS_phot_g_mean_mag">
+		Mag G media&lt;br&gt;&lt;i&gt;(mag)&lt;/i&gt; </text>
+	<text key="mag">
+		Magnitud&lt;br&gt;&lt;i&gt;(mag)&lt;/i&gt; </text>
+	<text key="PGCC2_gau_minor_axis_sig">
+		Error en FWHM menor &lt;i&gt;(arcmin)&lt;/i&gt; </text>
+	<text key="EP_STACK_ONTIME">
+		Tiempo de exposición total (EP Ontime) &lt;i&gt;(s)&lt;/i&gt; </text>
+
+	<text key="3XMM_EPIC_ep_8_n_contrib">
+		N. Contrib
+	</text>
+	<text key="3XMM_EPIC_ep_8_n_obs">
+		N. Obs
+	</text>
+	<text key="3XMM_EPIC_ep_8_extent">
+		Extensi&#243;n
+	</text>
+	<text key="3XMM_EPIC_ep_8_extent_err">
+		Error en la extensi&#243;n
+	</text>
+	<text key="3XMM_EPIC_ep_8_flux_var">
+		Var. de flujo
+	</text>
+	<text key="3XMM_EPIC_ep_8_iau_name">
+		Nombre IAU
+	</text>
+	<text key="RA_J1991">
+		AR &lt;i&gt;(&#126;J1991)&lt;/i&gt; </text>
+	<text key="DEC_J1991">
+		Dec &lt;i&gt;(&#126;J1991)&lt;/i&gt; </text>
+	<text key="RA_J1991.25">
+		AR &lt;i&gt;(J1991.25)&lt;/i&gt; </text>
+	<text key="DEC_J1991.25">
+		Dec &lt;i&gt;(J1991.25)&lt;/i&gt; </text>
+	<text key="RA_J2015.5">
+		AR &lt;i&gt;(J2015.5)&lt;/i&gt; </text>
+	<text key="DEC_J2015.5">
+		Dec &lt;i&gt;(J2015.5)&lt;/i&gt; </text>
+	<text key="MidIR">
+		IR medio
+	</text>
+	<text key="MidInfrared">
+		Infrarrojo medio
+	</text>
+
 	<text key="GalaxyClusters">
-		Galaxy clusters
+		C&#250;mulos de galaxias
 	</text>
 	<text key="GlobularClusters">
-		Globular clusters
+		C&#250;mulos globulares
 	</text>
 	<text key="SpiralGalaxies">
-		Spiral galaxies
+		Galaxias espirales
 	</text>
 	<text key="StarFormationRegions">
-		Star formation regions
+		Regiones de formaci&#243;n estelar
 	</text>
 	<text key="SupernovaRemnants">
-		Supernova remnants
+		Remanentes de supernova
 	</text>
 	<text key="GammaRayBursts">
-		Gamma ray bursts
+		Estallidos de rayos gamma
 	</text>
 	<text key="BrownDwarfs">
-		Brown dwarfs
+		Enanas marrones
 	</text>
 	<text key="X-rayPulsars">
-		X-ray pulsars
+		P&#250;lsares de rayos X
 	</text>
 	<text key="BrightNebulae">
-		Bright nebulae
+		Nebulosas brillantes
 	</text>
 	<text key="DarkNebulae">
-		Dark nebulae
+		Nebulosas oscuras
 	</text>
 	<text key="PotentiallyHabitableExoplanets">
-		Potentially habitable exoplanets
+		Exoplanetas potencialmente habitables
 	</text>
 	<text key="ClosestExoplanetCandidatesByDistance">
-		Closest exoplanet candidates ordered by distance
+		Exoplanetas m&#225;s pr&#243;ximos en orden de distancia
 	</text>
 
 	<text key="2MASS_J_Mag">
-		J mag
+		ßJ mag
 	</text>
 	<text key="2MASS_J_Mag_err">
 		&amp;Delta;J mag
@@ -1258,7 +2125,7 @@
 	<text key="2MASS_KS_Mag_err">
 		&amp;Delta;Ks mag
 	</text>
-	
+
 	<text key="AllWise_ra_err">
 		&amp;Delta;RA
 	</text>
@@ -1289,7 +2156,7 @@
 	<text key="AllWise_w4mpro_error">
 		&amp;Delta;W4 mag
 	</text>
-	
+
 	<text key="Gaia_DR1_ra_error">
 		&amp;Delta;RA
 	</text>
@@ -1297,23 +2164,19 @@
 		&amp;Delta;Dec
 	</text>
 	<text key="Gaia_DR2_parallax">
-		Parallax &lt;br&gt;&lt;i&gt;(mas)&lt;/i&gt;
-	</text>
+		Paralaje &lt;br&gt;&lt;i&gt;(mas)&lt;/i&gt; </text>
 	<text key="Gaia_DR2_parallax_error">
-		&amp;Delta;Parallax&lt;br&gt;&lt;i&gt;(mas)&lt;/i&gt;
-	</text>
+		&amp;Delta;Paralaje&lt;br&gt;&lt;i&gt;(mas)&lt;/i&gt; </text>
 	<text key="Gaia_DR2_pmra">
-		Proper Motion in RA&lt;br&gt;&lt;i&gt;(mas/yr)&lt;/i&gt;
-	</text>
+		Movimiento propio en AR&lt;br&gt;&lt;i&gt;(mas/yr)&lt;/i&gt; </text>
 	<text key="Gaia_DR2_pmra_error">
-		&amp;Delta;PM in RA&lt;br&gt;&lt;i&gt;(mas/yr)&lt;/i&gt;
-	</text>
+		&amp;Delta;MP en AR&lt;br&gt;&lt;i&gt;(mas/yr)&lt;/i&gt; </text>
 	<text key="Gaia_DR2_pmdec">
-		Proper Motion in Dec&lt;br&gt;&lt;i&gt;(mas/yr)&lt;/i&gt;
-	</text>
+		Movimiento propio en
+		Dec&lt;br&gt;&lt;i&gt;(mas/yr)&lt;/i&gt; </text>
 	<text key="Gaia_DR2_pmdec_error">
-		&amp;Delta;PM in Dec&lt;br&gt;&lt;i&gt;(mas/yr)&lt;/i&gt;
-	</text>
+		&amp;Delta;MP en
+		Dec&lt;br&gt;&lt;i&gt;(mas/yr)&lt;/i&gt; </text>
 	<text key="Gaia_DR2_phot_g_mean_mag">
 		G mag
 	</text>
@@ -1321,114 +2184,233 @@
 		(BP - RP) mag
 	</text>
 	<text key="Gaia_DR2_radial_velocity">
-		Radial Velocity&lt;br&gt;&lt;i&gt;(km/s)&lt;/i&gt;
-	</text>
+		Velocidad Radial&lt;br&gt;&lt;i&gt;(km/s)&lt;/i&gt; </text>
 	<text key="Gaia_DR2_radial_velocity_error">
-		&amp;Delta;Radial Velocity
+		&amp;Delta;Velocidad Radial
 	</text>
 	<text key="Gaia_DR2_phot_variable_flag">
-		Variable flag
+		Indicador de variabilidad
 	</text>
 	<text key="Gaia_DR2_teff_val">
-		T_{eff}&lt;br&gt;&lt;i&gt;(K)&lt;/i&gt;
-	</text>
+		T_{eff}&lt;br&gt;&lt;i&gt;(K)&lt;/i&gt; </text>
 	<text key="Gaia_DR2_a_g_val">
 		A_{G} mag
 	</text>
-			
 	<text key="treeMapContainer_help_ASTRO_IMAGING">
-		$ES$
-		To search for imaging, catalogues or spectral data (and to open the data panel) click on the respective imaging, catalogue and spectra icons in the left menu. 
-		The numbers correspond to the number of imaging data, catalogue sources and spectral data that are available for the region of the sky displayed in the browser (not just for the searched target).
+        A fin de buscar datos de imagen, cat&#225;logos o espectros
+        (y abrir el panel de datos),
+        pincha en el icono correspondiente en el men&#250; de la izquierda.
+        Los n&#250;meros corresponden al n&#250;mero de datos de cada tipo
+        disponibles en la regi&#243;n del cielo que est&#225; siendo visualizada
+        (no s&#243;lo para el objeto buscado).
 		&lt;br&gt;&lt;br&gt;
-		Clicking on one of the menus brings up a treemap which shows the imaging catalogues or spectral data for each mission. 
-		The size of the boxes within the treemap are proportional to the number of observations available, with the largest box always appearing in the top left. 
-		The wavelength regions are included with the mission names and the missions, the majority of the time, are colour coded by wavelength, with Gamma, X-ray &amp; UV appearing blue or purple; Optical appearing green; and IR to Radio appearing orange and red. 
-		As said above, these results are for the entire area being displayed, not just for the source. 
-		The results being shown are the highest level science observations only.
+        Haciendo clic en uno de los men&#250;s se abre un diagrama
+        que muestra los datos de imagen, cat&#225;logos o espectros de cada misi&#243;n.
+        El tama&#241;o de los recuadros es proporcional al n&#250;mero de observaciones disponibles.
+        El recuadro m&#225;s grande aparece siempre en la parte superior izquierda.
+        Los rangos de longitud de onda se indican junto a los nombres de las misiones,
+        cuyos colores se corresponden, la mayor parte de las veces, con la longitud de onda:
+        rayos gamma, rayos X y ultravioleta se muestran en azul o morado;
+        el rango &#243;ptico aparece en verde; e infrarrojo y radio, naranja y rojo.
+        Como se explica m&#225;s arriba,
+        estos resultados corresponden a toda el &#225;rea mostrada,
+        no s&#243;lo al objeto.
+        Se muestran tan sólo las observaciones científicas de mayor nivel.
 		&lt;br&gt;&lt;br&gt;
-		The treemaps are interactive, scroll over the bars to view a summary of the number of images, catalogue sources or spectra in the region, or click on the All Data button to view a summary of all the data available (images, catalogues and spectra). 
-		Click on each mission to query the archives and load either the images, catalogues or spectra for the region, depending on the treemap selected.
+        Los diagramas son interactivos.
+        Pasando el rat&#243;n por encima de los recuadros,
+        aparece un resumen del n&#250;mero de im&#225;genes,
+        entradas de cat&#225;logos y espectros en la regi&#243;n;
+        pinchando en el bot&#243;n &quot;Todos los datos&quot; (All Data)
+        puede verse un resumen de todos los datos disponibles
+        (im&#225;genes, cat&#225;logos y espectros).
+        Pincha en cada misi&#243;n para consultar los archivos
+        y cargar las im&#225;genes, entradas de cat&#225;logo o espectros en la regi&#243;n,
+        en funci&#243;n del diagrama seleccionado.
 		&lt;br&gt;&lt;br&gt;
-		&lt;a href="https://www.cosmos.esa.int/web/esdc/esasky-interface#datapanel" target="_blank"
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-interface#datapanel"
+		target="_blank"
 		&gt;
-		Full documentation of this feature.
-		&lt;/a&gt;
-	</text>
+		Documentaci&#243;n completa de esta funcionalidad.
+		&lt;/a&gt; </text>
 	<text key="treeMapContainer_help_ASTRO_SPECTRA">
-		$ES$
-		To search for imaging, catalogues or spectral data (and to open the data panel) click on the respective imaging, catalogue and spectra icons in the left menu. 
-		The numbers correspond to the number of imaging data, catalogue sources and spectral data that are available for the region of the sky displayed in the browser (not just for the searched target).
+        A fin de buscar datos de imagen, cat&#225;logos o espectros
+        (y abrir el panel de datos),
+        pincha en el icono correspondiente en el men&#250; de la izquierda.
+        Los n&#250;meros corresponden al n&#250;mero de datos de cada tipo
+        disponibles en la regi&#243;n del cielo que est&#225; siendo visualizada
+        (no s&#243;lo para el objeto buscado).
+        &lt;br&gt;&lt;br&gt;
+        Haciendo clic en uno de los men&#250;s se abre un diagrama
+        que muestra los datos de imagen, cat&#225;logos o espectros de cada misi&#243;n.
+        El tama&#241;o de los recuadros es proporcional al n&#250;mero de observaciones disponibles.
+        El recuadro m&#225;s grande aparece siempre en la parte superior izquierda.
+        Los rangos de longitud de onda se indican junto a los nombres de las misiones,
+        cuyos colores se corresponden, la mayor parte de las veces, con la longitud de onda:
+        rayos gamma, rayos X y ultravioleta se muestran en azul o morado;
+        el rango &#243;ptico aparece en verde; e infrarrojo y radio, naranja y rojo.
+        Como se explica m&#225;s arriba,
+        estos resultados corresponden a toda el &#225;rea mostrada,
+        no s&#243;lo al objeto.
+        Se muestran tan sólo las observaciones científicas de mayor nivel.
+        &lt;br&gt;&lt;br&gt;
+        Los diagramas son interactivos.
+        Pasando el rat&#243;n por encima de los recuadros,
+        aparece un resumen del n&#250;mero de im&#225;genes,
+        entradas de cat&#225;logos y espectros en la regi&#243;n;
+        pinchando en el bot&#243;n &quot;Todos los datos&quot; (All Data)
+        puede verse un resumen de todos los datos disponibles
+        (im&#225;genes, cat&#225;logos y espectros).
+        Pincha en cada misi&#243;n para consultar los archivos
+        y cargar las im&#225;genes, entradas de cat&#225;logo o espectros en la regi&#243;n,
+        en funci&#243;n del diagrama seleccionado.
 		&lt;br&gt;&lt;br&gt;
-		Clicking on one of the menus brings up a treemap which shows the imaging catalogues or spectral data for each mission. 
-		The size of the boxes within the treemap are proportional to the number of observations available, with the largest box always appearing in the top left. 
-		The wavelength regions are included with the mission names and the missions, the majority of the time, are colour coded by wavelength, with Gamma, X-ray &amp; UV appearing blue or purple; Optical appearing green; and IR to Radio appearing orange and red. 
-		As said above, these results are for the entire area being displayed, not just for the source. 
-		The results being shown are the highest level science observations only.
-		&lt;br&gt;&lt;br&gt;
-		The treemaps are interactive, scroll over the bars to view a summary of the number of images, catalogue sources or spectra in the region, or click on the All Data button to view a summary of all the data available (images, catalogues and spectra). 
-		Click on each mission to query the archives and load either the images, catalogues or spectra for the region, depending on the treemap selected.
-		&lt;br&gt;&lt;br&gt;
-		&lt;a href="https://www.cosmos.esa.int/web/esdc/esasky-interface#datapanel" target="_blank"
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-interface#datapanel"
+		target="_blank"
 		&gt;
-		Full documentation of this feature.
-		&lt;/a&gt;
-	</text>
+		Documentaci&#243;n completa de esta funcionalidad.
+		&lt;/a&gt; </text>
 	<text key="treeMapContainer_help_ASTRO_CATALOGUE">
-		$ES$
-		To search for imaging, catalogues or spectral data (and to open the data panel) click on the respective imaging, catalogue and spectra icons in the left menu. 
-		The numbers correspond to the number of imaging data, catalogue sources and spectral data that are available for the region of the sky displayed in the browser (not just for the searched target).
+        A fin de buscar datos de imagen, cat&#225;logos o espectros
+        (y abrir el panel de datos),
+        pincha en el icono correspondiente en el men&#250; de la izquierda.
+        Los n&#250;meros corresponden al n&#250;mero de datos de cada tipo
+        disponibles en la regi&#243;n del cielo que est&#225; siendo visualizada
+        (no s&#243;lo para el objeto buscado).
+        &lt;br&gt;&lt;br&gt;
+        Haciendo clic en uno de los men&#250;s se abre un diagrama
+        que muestra los datos de imagen, cat&#225;logos o espectros de cada misi&#243;n.
+        El tama&#241;o de los recuadros es proporcional al n&#250;mero de observaciones disponibles.
+        El recuadro m&#225;s grande aparece siempre en la parte superior izquierda.
+        Los rangos de longitud de onda se indican junto a los nombres de las misiones,
+        cuyos colores se corresponden, la mayor parte de las veces, con la longitud de onda:
+        rayos gamma, rayos X y ultravioleta se muestran en azul o morado;
+        el rango &#243;ptico aparece en verde; e infrarrojo y radio, naranja y rojo.
+        Como se explica m&#225;s arriba,
+        estos resultados corresponden a toda el &#225;rea mostrada,
+        no s&#243;lo al objeto.
+        Se muestran tan sólo las observaciones científicas de mayor nivel.
+        &lt;br&gt;&lt;br&gt;
+        Los diagramas son interactivos.
+        Pasando el rat&#243;n por encima de los recuadros,
+        aparece un resumen del n&#250;mero de im&#225;genes,
+        entradas de cat&#225;logos y espectros en la regi&#243;n;
+        pinchando en el bot&#243;n &quot;Todos los datos&quot; (All Data)
+        puede verse un resumen de todos los datos disponibles
+        (im&#225;genes, cat&#225;logos y espectros).
+        Pincha en cada misi&#243;n para consultar los archivos
+        y cargar las im&#225;genes, entradas de cat&#225;logo o espectros en la regi&#243;n,
+        en funci&#243;n del diagrama seleccionado.
 		&lt;br&gt;&lt;br&gt;
-		Clicking on one of the menus brings up a treemap which shows the imaging catalogues or spectral data for each mission. 
-		The size of the boxes within the treemap are proportional to the number of observations available, with the largest box always appearing in the top left. 
-		The wavelength regions are included with the mission names and the missions, the majority of the time, are colour coded by wavelength, with Gamma, X-ray &amp; UV appearing blue or purple; Optical appearing green; and IR to Radio appearing orange and red. 
-		As said above, these results are for the entire area being displayed, not just for the source. 
-		The results being shown are the highest level science observations only.
-		&lt;br&gt;&lt;br&gt;
-		The treemaps are interactive, scroll over the bars to view a summary of the number of images, catalogue sources or spectra in the region, or click on the All Data button to view a summary of all the data available (images, catalogues and spectra). 
-		Click on each mission to query the archives and load either the images, catalogues or spectra for the region, depending on the treemap selected.
-		&lt;br&gt;&lt;br&gt;
-		&lt;a href="https://www.cosmos.esa.int/web/esdc/esasky-interface#datapanel" target="_blank"
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-interface#datapanel"
+		target="_blank"
 		&gt;
-		Full documentation of this feature.
-		&lt;/a&gt;
-	</text>
+		Documentaci&#243;n completa de esta funcionalidad.
+		&lt;/a&gt; </text>
 	<text key="treeMapContainer_help_SSO">
-		$ES$
-		In ESASky, you can now search for any planet, satellite or comet observed by HST, Herschel and XMM-Newton (targeted or serendipitous images). 
-		Type the name or ID number of the object in the search box and a selection of suggested targets will be given.
+        En ESASky es posible buscar cualquier planeta, sat&#233;lite o cometa
+        observado por el HST, Herschel o XMM-Newton (im&#225;genes planificadas o casuales).
+        Introduzca el nombre o n&#250;mero de identificaci&#243;n del objeto
+        en el campo de b&#250;squeda y aparecer&#225; una selecci&#243;n de posibles objetos.
 		&lt;br&gt;&lt;br&gt;
-		Choose the t and the solar system icon will be activated with the number of available imaging observations and the treemap will open.
+        Elija uno, y el icono del Sistema Solar se activar&#225;,
+        mostrando el n&#250;mero de im&#225;genes disponibles
+        y abriendo el diagrama de resultados.
 		&lt;br&gt;&lt;br&gt;
-		Select the mission and all available imaging observations will load in the data panel and the footprints will be drawn on the sky. 
-		Additionally, the orbit of the solar system object for the entire duration of the mission will be plotted.
+        Seleccione una misi&#243;n;
+        todas las im&#225;genes disponibles se cargar&#225;n en el panel de datos,
+        y las huellas de las observaciones se dibujar&#225;n en el cielo,
+        junto la &#243;rbita del objeto
+        en todo el per&#237;odo de tiempo de duraci&#243;n de la misi&#243;n.
 		&lt;br&gt;&lt;br&gt;
-		For this feature, the ESASky team has created a pipeline that takes the ephemeris information of each SSO with respect to the position of each spacecraft using software by the IMCCE (Institute of Celestial Mechanica and Ephemeris Calculations, Paris) and performs a crossmatch on the SSO orbits against the entire mission archives to find observations in which the SSO fell within the imaging instrument's field of view during the time the images were being taken.
+        Para esta funcionalidad, el equipo de ESASky ha creado un programa
+        que toma la informaci&#243;n de efem&#233;rides del objeto
+        respecto a la posici&#243;n de cada sat&#233;lite,
+        usando software del IMCCE
+        (Institute of Celestial Mechanics and Ephemeris Calculations, Paris)
+        y la cruza con las &#243;rbitas del objeto respecto a cada misi&#243;n,
+        con la finalidad de identificar las observaciones
+        en las que el objeto se encontraba en el campo de visi&#243;n del instrumento
+        en el tiempo en que se tomaron las im&#225;genes.
 		&lt;br&gt;&lt;br&gt;
-		Asteroids and other solar system objects will be added in the next minor version of ESASky, and imaging observations from other missions will also be added soon. 
+        En posteriores versiones de ESASky se ir&#225;n a&#241;adiendo asteroides
+        y otros objetos del Sistema Solar,
+        as&#237; como observaciones de otras misiones.
 		&lt;br&gt;&lt;br&gt;
-		&lt;a href="https://www.cosmos.esa.int/web/esdc/esasky-interface#SSO" target="_blank"
+		&lt;a href="//www.cosmos.esa.int/web/esdc/esasky-interface#SSO"
+		target="_blank"
 		&gt;
-		Full documentation of this feature.
-		&lt;/a&gt;
-	</text>
+		Documentaci&#243;n completa de esta funcionalidad.
+		&lt;/a&gt; </text>
 	<text key="treeMapContainer_help_">
-		$ES$
-		To search for imaging, catalogues or spectral data (and to open the data panel) click on the respective imaging, catalogue and spectra icons in the left menu. 
-		The numbers correspond to the number of imaging data, catalogue sources and spectral data that are available for the region of the sky displayed in the browser (not just for the searched target).
+        A fin de buscar datos de imagen, cat&#225;logos o espectros
+        (y abrir el panel de datos),
+        pincha en el icono correspondiente en el men&#250; de la izquierda.
+        Los n&#250;meros corresponden al n&#250;mero de datos de cada tipo
+        disponibles en la regi&#243;n del cielo que est&#225; siendo visualizada
+        (no s&#243;lo para el objeto buscado).
+        &lt;br&gt;&lt;br&gt;
+        Haciendo clic en uno de los men&#250;s se abre un diagrama
+        que muestra los datos de imagen, cat&#225;logos o espectros de cada misi&#243;n.
+        El tama&#241;o de los recuadros es proporcional al n&#250;mero de observaciones disponibles.
+        El recuadro m&#225;s grande aparece siempre en la parte superior izquierda.
+        Los rangos de longitud de onda se indican junto a los nombres de las misiones,
+        cuyos colores se corresponden, la mayor parte de las veces, con la longitud de onda:
+        rayos gamma, rayos X y ultravioleta se muestran en azul o morado;
+        el rango &#243;ptico aparece en verde; e infrarrojo y radio, naranja y rojo.
+        Como se explica m&#225;s arriba,
+        estos resultados corresponden a toda el &#225;rea mostrada,
+        no s&#243;lo al objeto.
+        Se muestran tan sólo las observaciones científicas de mayor nivel.
+        &lt;br&gt;&lt;br&gt;
+        Los diagramas son interactivos.
+        Pasando el rat&#243;n por encima de los recuadros,
+        aparece un resumen del n&#250;mero de im&#225;genes,
+        entradas de cat&#225;logos y espectros en la regi&#243;n;
+        pinchando en el bot&#243;n &quot;Todos los datos&quot; (All Data)
+        puede verse un resumen de todos los datos disponibles
+        (im&#225;genes, cat&#225;logos y espectros).
+        Pincha en cada misi&#243;n para consultar los archivos
+        y cargar las im&#225;genes, entradas de cat&#225;logo o espectros en la regi&#243;n,
+        en funci&#243;n del diagrama seleccionado.
 		&lt;br&gt;&lt;br&gt;
-		Clicking on one of the menus brings up a treemap which shows the imaging catalogues or spectral data for each mission. 
-		The size of the boxes within the treemap are proportional to the number of observations available, with the largest box always appearing in the top left. 
-		The wavelength regions are included with the mission names and the missions, the majority of the time, are colour coded by wavelength, with Gamma, X-ray &amp; UV appearing blue or purple; Optical appearing green; and IR to Radio appearing orange and red. 
-		As said above, these results are for the entire area being displayed, not just for the source. 
-		The results being shown are the highest level science observations only.
-		&lt;br&gt;&lt;br&gt;
-		The treemaps are interactive, scroll over the bars to view a summary of the number of images, catalogue sources or spectra in the region, or click on the All Data button to view a summary of all the data available (images, catalogues and spectra). 
-		Click on each mission to query the archives and load either the images, catalogues or spectra for the region, depending on the treemap selected.
-		&lt;br&gt;&lt;br&gt;
-		&lt;a href="https://www.cosmos.esa.int/web/esdc/esasky-interface#datapanel" target="_blank"
+		&lt;a
+		href="//www.cosmos.esa.int/web/esdc/esasky-interface#datapanel"
+		target="_blank"
 		&gt;
-		Full documentation of this feature.
-		&lt;/a&gt;
+		Documentaci&#243;n completa de esta funcionalidad.
+		&lt;/a&gt; </text>
+	<text key="ResizingDataPanel">
+		Re-escalando el Panel de Datos
 	</text>
+    <text key="uploadTargetList_removeTargetList">
+        Borrar lista de objetos
+    </text>
+    <text key="uploadTargetList_resolvingTargetList">
+        Resolviendo lista de objetos
+    </text>
+    <text key="ctrlToolBarPresenter_showingCountSources">
+        Mostrando $COUNT$ fuentes
+    </text>
+    <text key="AllSkyFocusPanel_searchInSimbad">
+        Buscando coordenadas en SIMBAD, radio de 2 arcmin
+    </text>
+    <text key="AllSkyFocusPanel_searchInNed">
+        Buscando coordenadas en NED, radio de 2 arcmin
+    </text>
+    <text key="AllSkyFocusPanel_searchInVizierPhotometry">
+        Representando fotometr&#237;a en VizieR Photometry Viewer, radio de 5 arcsec
+    </text>
+    <text key="AllSkyFocusPanel_searchInVizier">
+        Buscando cat&#225;logos en VizieR, radio de 2 arcmin
+    </text>
+    <text key="resultsPresenter_showingGlobalSkyCoverage">
+        Mostrando la cobertura global de la misi&#243;n.
+        &lt;br&gt;
+        Ac&#233;rquese y refresque la tabla
+        para obtener las huellas de las observaciones individuales.
+    </text>
 </Internationalization>

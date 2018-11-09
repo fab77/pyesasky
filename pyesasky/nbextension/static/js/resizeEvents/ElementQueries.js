@@ -1,7 +1,7 @@
 /**
  * Copyright Marc J. Schmidt. See the LICENSE file at the top-level
  * directory of this distribution and at
- * https://github.com/marcj/css-element-queries/blob/master/LICENSE.
+ * //github.com/marcj/css-element-queries/blob/master/LICENSE.
  */
 ;
 (function (root, factory) {
@@ -40,7 +40,7 @@
 
         /**
          *
-         * @copyright https://github.com/Mr0grog/element-query/blob/master/LICENSE
+         * @copyright //github.com/Mr0grog/element-query/blob/master/LICENSE
          *
          * @param {HTMLElement} element
          * @param {*} value
@@ -58,7 +58,7 @@
                 case "rem":
                     return value * getEmSize();
                 // Viewport units!
-                // According to http://quirksmode.org/mobile/tableViewport.html
+                // According to //quirksmode.org/mobile/tableViewport.html
                 // documentElement.clientWidth/Height gets us the most reliable info
                 case "vw":
                     return value * document.documentElement.clientWidth / 100;
