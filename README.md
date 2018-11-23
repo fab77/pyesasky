@@ -6,6 +6,8 @@ ESASky Jupyter widget - some Jupyter Notebook sample files in jupyter_samples fo
 - pyESASky-astroquery.ipynb (integration and overlay of Gaia DR2 data)
 
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fab77/pyesasky/master)
+
 
 # Installation
 
